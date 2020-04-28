@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - ExcelSheetOne</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb3374d2-409b-498f-9c52-7ecd7bc63ec3</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e51b5c43-5c25-4e2e-a285-b776026a08b2</id>
+      <masked>false</masked>
+      <name>varone</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bbda9f7b-fcf0-420d-812a-4e26c5dda591</id>
+      <masked>false</masked>
+      <name>vartwo</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ca2be61b-da3f-4873-87d5-d90ff282f666</id>
+      <masked>false</masked>
+      <name>a</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0ec5e4cd-6e64-405e-9eab-beff68d4165c</id>
+      <masked>false</masked>
+      <name>b</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC- ToolTipText</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b17cb64d-46a3-4f16-b996-1134aa02588a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ccc7b772-cb8f-4aed-8a2f-602c8078537f</id>
+      <masked>false</masked>
+      <name>tooTiptext</name>
+   </variable>
+</TestCaseEntity>

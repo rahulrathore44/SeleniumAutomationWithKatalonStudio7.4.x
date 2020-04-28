@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - ExcelSheetTwo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f87d9347-7033-4dfd-b90e-db36ffa885e9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>060dea14-c8f1-4bad-8dca-4670ff908e62</id>
+      <masked>false</masked>
+      <name>varthree</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b0897728-9dc4-4500-a1d4-dfad32a1d74d</id>
+      <masked>false</masked>
+      <name>varfour</name>
+   </variable>
+</TestCaseEntity>
