@@ -2,6 +2,7 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -11,39 +12,22 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import internal.GlobalVariable as GlobalVariable
 
-try {
-    WebUI.openBrowser('https://www.amazon.com/s?k=basketball&crid=318457I4LR7LS&sprefix=baske%2Caps%2C399&ref=nb_sb_ss_i_1_5')
+WebUI.openBrowser('http://localhost/')
 
-    WebUI.maximizeWindow()
+WebUI.waitForPageLoad(60)
 
-    WebUI.waitForPageLoad(GlobalVariable.TimeOut)
+WebUI.maximizeWindow()
 
-    for (def index : (1..5)) {
-        atext = WebUI.getText(findTestObject('Parameterized/Search_Grid', [('index') : index_1, ('component') : searchresults]))
+CucumberKW.comment('Call the custom keyword')
 
-        println(atext)
+'Pass the location of Test Object as string in the cutom keyword. The location should be same as of findTestObject method takes'
+CustomKeywords.'com.question.VerifyMultipleElement.verifyElement'(((['Object Repository/WebElement/Page_Bugzilla Main Page/input_quicksearch'
+            , 'Object Repository/BugzillaWebElement/Page_Bugzilla Main Page/span_File a Bug']) as String[]))
 
-        index_1 += 1
-    }
-    
-    not_run: while (true) {
-        if (!(WebUI.verifyElementPresent(findTestObject('Parameterized/Search_Grid', [('index') : index_1, ('component') : searchresults]), 
-            10))) {
-            break
-        }
-        
-        atext = WebUI.getText(findTestObject('Parameterized/Search_Grid', [('index') : index_1, ('component') : searchresults]))
+WebUI.delay(2)
 
-        println(atext)
-
-        index_1 += 1
-    }
-}
-finally { 
-    WebUI.closeBrowser()
-}
+WebUI.closeBrowser()
 

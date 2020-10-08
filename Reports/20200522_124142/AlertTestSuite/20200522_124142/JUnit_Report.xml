@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AlertTestSuite" time="64.467" tests="2" failures="1" errors="0">
+   <testsuite name="AlertTestSuite" tests="2" failures="1" errors="0" time="64.467" timestamp="2020-05-22 12:41:45" hostname="rathr1 - L33986WUS.rpega.com" id="Test Suites/AlertTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Data\\GitHub\\SeleniumAutomationWithKatalonStudio7.4.x\\Reports\\20200522_124142\\AlertTestSuite\\20200522_124142"/>
+         <property name="logFiles" value="C:\\Data\\GitHub\\SeleniumAutomationWithKatalonStudio7.4.x\\Reports\\20200522_124142\\AlertTestSuite\\20200522_124142\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rathr1 - L33986WUS.rpega.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.4.0.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="10.92.202.72"/>
+         <property name="sessionId" value="a9c1a21ae96c2379ac42da0f31f958d5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Alert/TC-HandleAlert - Copy" time="37.374" classname="Test Cases/Alert/TC-HandleAlert - Copy" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Alert/TC-HandleAlert - Copy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1518)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at TC-HandleAlert - Copy.run(TC-HandleAlert - Copy:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590176502615.run(TempTestSuite1590176502615.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'L33986WUS', ip: '10.92.202.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:865)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getAlert(DriverFactory.java:878)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-22 12:41:56 - [TEST_CASE][FAILED] - Test Cases/Alert/TC-HandleAlert - Copy: Test Cases/Alert/TC-HandleAlert - Copy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1518)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at TC-HandleAlert - Copy.run(TC-HandleAlert - Copy:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590176502615.run(TempTestSuite1590176502615.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'L33986WUS', ip: '10.92.202.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:865)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getAlert(DriverFactory.java:878)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-22 12:41:56 - [TEST_STEP][PASSED] - openBrowser("https://www.w3schools.com/js/js_popup.asp"): Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2020-05-22 12:41:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-22 12:41:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-22 12:41:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-22 12:42:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2020-05-22 12:42:02 - [TEST_STEP][PASSED] - openBrowser("https://www.w3schools.com/js/js_popup.asp"): Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2020-05-22 12:42:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-22 12:42:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-22 12:42:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-22 12:42:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2020-05-22 12:42:13 - [TEST_STEP][PASSED] - openBrowser("https://www.w3schools.com/js/js_popup.asp"): Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2020-05-22 12:42:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-22 12:42:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-22 12:42:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-22 12:42:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2020-05-22 12:42:19 - [TEST_STEP][PASSED] - openBrowser("https://www.w3schools.com/js/js_popup.asp"): Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2020-05-22 12:42:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-22 12:42:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-22 12:42:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-22 12:42:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2020-05-22 12:42:26 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2020-05-22 12:42:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-22 12:42:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-22 12:42:27 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-22 12:42:27 - [TEST_STEP][PASSED] - click(findTestObject("W3School/TryItBtn")): Object: 'Object Repository/W3School/TryItBtn' is clicked on
+
+2020-05-22 12:42:30 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryItBtn' is clicked on
+
+2020-05-22 12:42:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-05-22 12:42:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-05-22 12:42:31 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2020-05-22 12:42:31 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2020-05-22 12:42:31 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("W3School/TryItButtonFrame"), TimeOut): null
+
+2020-05-22 12:42:32 - [TEST_STEP][PASSED] - click(findTestObject("W3School/TryButton")): Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2020-05-22 12:42:33 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2020-05-22 12:42:33 - [TEST_STEP][PASSED] - switchToDefaultContent(): Switching to default content failed because an alert is presented on page. Please switch to default content after dealing with the alert.
+
+2020-05-22 12:42:33 - [MESSAGE][WARNING] - Switching to default content failed because an alert is presented on page. Please switch to default content after dealing with the alert.
+
+2020-05-22 12:42:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-22 12:42:33 - [MESSAGE][PASSED] - Browser is closed
+
+2020-05-22 12:42:33 - [TEST_STEP][FAILED] - acceptAlert(): Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1518)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at TC-HandleAlert - Copy.run(TC-HandleAlert - Copy:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590176502615.run(TempTestSuite1590176502615.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'L33986WUS', ip: '10.92.202.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:865)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getAlert(DriverFactory.java:878)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1518)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at Script1506755939881.run(Script1506755939881.groovy:48)
+	... 13 more
+)
+
+2020-05-22 12:42:33 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2020-05-22 12:42:33 - [MESSAGE][FAILED] - Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1518)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at TC-HandleAlert - Copy.run(TC-HandleAlert - Copy:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590176502615.run(TempTestSuite1590176502615.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'L33986WUS', ip: '10.92.202.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:865)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getAlert(DriverFactory.java:878)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1518)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at Script1506755939881.run(Script1506755939881.groovy:48)
+	... 13 more
+)]]></system-out>
+         <system-err><![CDATA[2020-05-22 12:41:56 - [TEST_CASE][FAILED] - Test Cases/Alert/TC-HandleAlert - Copy: Test Cases/Alert/TC-HandleAlert - Copy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1518)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at TC-HandleAlert - Copy.run(TC-HandleAlert - Copy:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590176502615.run(TempTestSuite1590176502615.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'L33986WUS', ip: '10.92.202.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:865)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getAlert(DriverFactory.java:878)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert/TC-HandleAlert" time="15.332" classname="Test Cases/Alert/TC-HandleAlert" status="PASSED">
+         <system-out><![CDATA[2020-05-22 12:42:33 - [TEST_CASE][PASSED] - Test Cases/Alert/TC-HandleAlert: Test Cases/Alert/TC-HandleAlert
+
+2020-05-22 12:42:34 - [TEST_STEP][PASSED] - openBrowser(null): Browser is opened with url: 'null'
+
+2020-05-22 12:42:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-22 12:42:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-22 12:42:36 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+2020-05-22 12:42:36 - [TEST_STEP][PASSED] - navigateToUrl("https://www.w3schools.com/js/js_popup.asp"): Navigate to 'https://www.w3schools.com/js/js_popup.asp' successfully
+
+2020-05-22 12:42:39 - [MESSAGE][PASSED] - Navigate to 'https://www.w3schools.com/js/js_popup.asp' successfully
+
+2020-05-22 12:42:39 - [TEST_STEP][PASSED] - obj = new com.kms.katalon.core.testobject.TestObject(test): null
+
+2020-05-22 12:42:39 - [TEST_STEP][PASSED] - obj.addProperty("xpath", EQUALS, "//table[@id='nav']//tr//td[3]//a"): null
+
+2020-05-22 12:42:39 - [TEST_STEP][PASSED] - j = 4: null
+
+2020-05-22 12:42:39 - [TEST_STEP][PASSED] - while (waitForElementPresent(obj, 1)): Object 'test' is not present after 1 second(s)
+
+2020-05-22 12:42:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //table[@id='nav']//tr//td[3]//a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-05-22 12:42:42 - [MESSAGE][WARNING] - Object 'test' is not present after 1 second(s)
+
+2020-05-22 12:42:42 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2020-05-22 12:42:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-22 12:42:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-22 12:42:43 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-22 12:42:43 - [TEST_STEP][PASSED] - click(findTestObject("W3School/TryItBtn")): Object: 'Object Repository/W3School/TryItBtn' is clicked on
+
+2020-05-22 12:42:45 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryItBtn' is clicked on
+
+2020-05-22 12:42:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-05-22 12:42:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-05-22 12:42:46 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2020-05-22 12:42:46 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2020-05-22 12:42:46 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("W3School/TryItButtonFrame"), TimeOut): null
+
+2020-05-22 12:42:48 - [TEST_STEP][PASSED] - click(findTestObject("W3School/TryButton")): Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2020-05-22 12:42:48 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2020-05-22 12:42:48 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2020-05-22 12:42:48 - [MESSAGE][PASSED] - Alert accepted
+
+2020-05-22 12:42:48 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2020-05-22 12:42:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-22 12:42:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-22 12:41:45 - [TEST_SUITE][FAILED] - AlertTestSuite: Test Cases/Alert/TC-HandleAlert - Copy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1518)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at TC-HandleAlert - Copy.run(TC-HandleAlert - Copy:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590176502615.run(TempTestSuite1590176502615.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'L33986WUS', ip: '10.92.202.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:865)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getAlert(DriverFactory.java:878)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-22 12:41:45 - [TEST_SUITE][FAILED] - AlertTestSuite: Test Cases/Alert/TC-HandleAlert - Copy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1518)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at TC-HandleAlert - Copy.run(TC-HandleAlert - Copy:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590176502615.run(TempTestSuite1590176502615.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'L33986WUS', ip: '10.92.202.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:865)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getAlert(DriverFactory.java:878)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

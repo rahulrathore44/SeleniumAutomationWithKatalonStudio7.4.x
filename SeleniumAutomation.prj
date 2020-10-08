@@ -6,6 +6,7 @@
    <UUID>8768badd-1129-4c98-b183-5ecc37b057d6</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Data\GitHub\SeleniumAutomationWithKatalonStudio7.4.x\SeleniumAutomation.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
