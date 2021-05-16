@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AlertTestSuite,Chrome 90.0.4430.212,,,2021-05-16 12:57:49,2021-05-16 12:58:11,21.634s,FAILED
+,,,,,,,
+Test Cases/Alert/TC-HandleAlert - Copy,Chrome 90.0.4430.212,,,2021-05-16 12:57:53,2021-05-16 12:58:01,7.858s,FAILED
+"openBrowser(""https://www.w3schools.com/js/js_popup.asp"")",Chrome 90.0.4430.212,,,2021-05-16 12:57:53,2021-05-16 12:57:55,1.509s,PASSED
+"openBrowser(""https://www.w3schools.com/js/js_popup.asp"")",Chrome 90.0.4430.212,,,2021-05-16 12:57:55,2021-05-16 12:57:56,1.503s,PASSED
+"openBrowser(""https://www.w3schools.com/js/js_popup.asp"")",Chrome 90.0.4430.212,,,2021-05-16 12:57:56,2021-05-16 12:57:58,1.618s,PASSED
+"openBrowser(""https://www.w3schools.com/js/js_popup.asp"")",Chrome 90.0.4430.212,,,2021-05-16 12:57:58,2021-05-16 12:57:59,1.229s,PASSED
+waitForPageLoad(TimeOut),Chrome 90.0.4430.212,,,2021-05-16 12:57:59,2021-05-16 12:57:59,0.016s,PASSED
+maximizeWindow(),Chrome 90.0.4430.212,,,2021-05-16 12:57:59,2021-05-16 12:57:59,0.124s,PASSED
+"click(findTestObject(""W3School/TryItBtn""))",Chrome 90.0.4430.212,,,2021-05-16 12:57:59,2021-05-16 12:57:59,0.147s,PASSED
+delay(1),Chrome 90.0.4430.212,,,2021-05-16 12:57:59,2021-05-16 12:58:01,1.022s,PASSED
+switchToWindowIndex(1),Chrome 90.0.4430.212,,,2021-05-16 12:58:01,2021-05-16 12:58:01,0.073s,PASSED
+"switchToFrame(findTestObject(""W3School/TryItButtonFrame""), TimeOut)",Chrome 90.0.4430.212,,,2021-05-16 12:58:01,2021-05-16 12:58:01,0.090s,PASSED
+"click(findTestObject(""W3School/TryButton""))",Chrome 90.0.4430.212,,,2021-05-16 12:58:01,2021-05-16 12:58:01,0.112s,PASSED
+switchToDefaultContent(),Chrome 90.0.4430.212,,,2021-05-16 12:58:01,2021-05-16 12:58:01,0.101s,PASSED
+closeBrowser(),Chrome 90.0.4430.212,,,2021-05-16 12:58:01,2021-05-16 12:58:01,0.065s,PASSED
+acceptAlert(),Chrome 90.0.4430.212,,,2021-05-16 12:58:01,2021-05-16 12:58:01,0.024s,FAILED
+,,,,,,,
+Test Cases/Alert/TC-HandleAlert,Chrome 90.0.4430.212,,,2021-05-16 12:58:01,2021-05-16 12:58:11,9.890s,PASSED
+openBrowser(null),Chrome 90.0.4430.212,,,2021-05-16 12:58:01,2021-05-16 12:58:01,0.292s,PASSED
+"navigateToUrl(""https://www.w3schools.com/js/js_popup.asp"")",Chrome 90.0.4430.212,,,2021-05-16 12:58:01,2021-05-16 12:58:03,1.079s,PASSED
+obj = new com.kms.katalon.core.testobject.TestObject(test),Chrome 90.0.4430.212,,,2021-05-16 12:58:03,2021-05-16 12:58:03,0.003s,PASSED
+"obj.addProperty(""xpath"", EQUALS, ""//table[@id='nav']//tr//td[3]//a"")",Chrome 90.0.4430.212,,,2021-05-16 12:58:03,2021-05-16 12:58:03,0.004s,PASSED
+j = 4,Chrome 90.0.4430.212,,,2021-05-16 12:58:03,2021-05-16 12:58:03,0.000s,PASSED
+"while (waitForElementPresent(obj, 1))",Chrome 90.0.4430.212,,,2021-05-16 12:58:03,2021-05-16 12:58:05,2.056s,PASSED
+waitForPageLoad(TimeOut),Chrome 90.0.4430.212,,,2021-05-16 12:58:05,2021-05-16 12:58:05,0.110s,PASSED
+maximizeWindow(),Chrome 90.0.4430.212,,,2021-05-16 12:58:05,2021-05-16 12:58:05,0.277s,PASSED
+"click(findTestObject(""W3School/TryItBtn""))",Chrome 90.0.4430.212,,,2021-05-16 12:58:05,2021-05-16 12:58:06,0.568s,PASSED
+delay(1),Chrome 90.0.4430.212,,,2021-05-16 12:58:06,2021-05-16 12:58:07,1.002s,PASSED
+switchToWindowIndex(1),Chrome 90.0.4430.212,,,2021-05-16 12:58:07,2021-05-16 12:58:07,0.044s,PASSED
+"switchToFrame(findTestObject(""W3School/TryItButtonFrame""), TimeOut)",Chrome 90.0.4430.212,,,2021-05-16 12:58:07,2021-05-16 12:58:08,0.981s,PASSED
+"click(findTestObject(""W3School/TryButton""))",Chrome 90.0.4430.212,,,2021-05-16 12:58:08,2021-05-16 12:58:11,3.114s,PASSED
+acceptAlert(),Chrome 90.0.4430.212,,,2021-05-16 12:58:11,2021-05-16 12:58:11,0.047s,PASSED
+switchToDefaultContent(),Chrome 90.0.4430.212,,,2021-05-16 12:58:11,2021-05-16 12:58:11,0.065s,PASSED
+closeBrowser(),Chrome 90.0.4430.212,,,2021-05-16 12:58:11,2021-05-16 12:58:11,0.083s,PASSED

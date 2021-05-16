@@ -19,11 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('https://www.w3schools.com/js/js_popup.asp')
-
-WebUI.openBrowser('https://www.w3schools.com/js/js_popup.asp')
-
-WebUI.openBrowser('https://www.w3schools.com/js/js_popup.asp')
 
 WebUI.openBrowser('https://www.w3schools.com/js/js_popup.asp')
 
@@ -41,31 +36,11 @@ WebUI.switchToFrame(findTestObject('W3School/TryItButtonFrame'), GlobalVariable.
 
 WebUI.click(findTestObject('W3School/TryButton'))
 
-WebUI.switchToDefaultContent()
-
-WebUI.closeBrowser()
-
 WebUI.acceptAlert()
-
-WebUI.waitForPageLoad(GlobalVariable.TimeOut)
-
-WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('W3School/TryItBtn'))
-
-WebUI.delay(1)
-
-WebUI.switchToWindowIndex(1)
-
-WebUI.switchToFrame(findTestObject('W3School/TryItButtonFrame'), GlobalVariable.TimeOut)
-
-WebUI.click(findTestObject('W3School/TryButton'))
 
 WebUI.switchToDefaultContent()
 
 WebUI.closeBrowser()
-
-WebUI.acceptAlert()
 
 WebUI.openBrowser('https://www.w3schools.com/js/js_popup.asp')
 
@@ -83,33 +58,11 @@ WebUI.switchToFrame(findTestObject('W3School/TryItButtonFrame'), GlobalVariable.
 
 WebUI.click(findTestObject('W3School/TryButton'))
 
-WebUI.switchToDefaultContent()
-
-WebUI.closeBrowser()
-
 WebUI.acceptAlert()
-
-WebUI.waitForPageLoad(GlobalVariable.TimeOut)
-
-WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('W3School/TryItBtn'))
-
-WebUI.delay(1)
-
-WebUI.switchToWindowIndex(1)
-
-WebUI.switchToFrame(findTestObject('W3School/TryItButtonFrame'), GlobalVariable.TimeOut)
-
-WebUI.click(findTestObject('W3School/TryButton'))
 
 WebUI.switchToDefaultContent()
 
 WebUI.closeBrowser()
-
-WebUI.acceptAlert()
-
-WebUI.openBrowser('https://www.w3schools.com/js/js_popup.asp')
 
 WebUI.openBrowser('https://www.w3schools.com/js/js_popup.asp')
 
@@ -127,31 +80,11 @@ WebUI.switchToFrame(findTestObject('W3School/TryItButtonFrame'), GlobalVariable.
 
 WebUI.click(findTestObject('W3School/TryButton'))
 
-WebUI.switchToDefaultContent()
-
-WebUI.closeBrowser()
-
 WebUI.acceptAlert()
-
-WebUI.waitForPageLoad(GlobalVariable.TimeOut)
-
-WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('W3School/TryItBtn'))
-
-WebUI.delay(1)
-
-WebUI.switchToWindowIndex(1)
-
-WebUI.switchToFrame(findTestObject('W3School/TryItButtonFrame'), GlobalVariable.TimeOut)
-
-WebUI.click(findTestObject('W3School/TryButton'))
 
 WebUI.switchToDefaultContent()
 
 WebUI.closeBrowser()
-
-WebUI.acceptAlert()
 
 WebUI.openBrowser('https://www.w3schools.com/js/js_popup.asp')
 
@@ -169,11 +102,13 @@ WebUI.switchToFrame(findTestObject('W3School/TryItButtonFrame'), GlobalVariable.
 
 WebUI.click(findTestObject('W3School/TryButton'))
 
+WebUI.acceptAlert()
+
 WebUI.switchToDefaultContent()
 
 WebUI.closeBrowser()
 
-WebUI.acceptAlert()
+WebUI.openBrowser('https://www.w3schools.com/js/js_popup.asp')
 
 WebUI.waitForPageLoad(GlobalVariable.TimeOut)
 
@@ -189,9 +124,74 @@ WebUI.switchToFrame(findTestObject('W3School/TryItButtonFrame'), GlobalVariable.
 
 WebUI.click(findTestObject('W3School/TryButton'))
 
+WebUI.acceptAlert()
+
 WebUI.switchToDefaultContent()
 
 WebUI.closeBrowser()
 
+WebUI.openBrowser('https://www.w3schools.com/js/js_popup.asp')
+
+WebUI.waitForPageLoad(GlobalVariable.TimeOut)
+
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('W3School/TryItBtn'))
+
+WebUI.delay(1)
+
+WebUI.switchToWindowIndex(1)
+
+WebUI.switchToFrame(findTestObject('W3School/TryItButtonFrame'), GlobalVariable.TimeOut)
+
+WebUI.click(findTestObject('W3School/TryButton'))
+
 WebUI.acceptAlert()
 
+WebUI.switchToDefaultContent()
+
+WebUI.closeBrowser()
+
+WebUI.openBrowser('https://www.w3schools.com/js/js_popup.asp')
+
+WebUI.waitForPageLoad(GlobalVariable.TimeOut)
+
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('W3School/TryItBtn'))
+
+WebUI.delay(1)
+
+WebUI.switchToWindowIndex(1)
+
+WebUI.switchToFrame(findTestObject('W3School/TryItButtonFrame'), GlobalVariable.TimeOut)
+
+WebUI.click(findTestObject('W3School/TryButton'))
+
+WebUI.acceptAlert()
+
+WebUI.switchToDefaultContent()
+
+WebUI.closeBrowser()
+
+WebUI.openBrowser('https://www.w3schools.com/js/js_popup.asp')
+
+WebUI.waitForPageLoad(GlobalVariable.TimeOut)
+
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('W3School/TryItBtn'))
+
+WebUI.delay(1)
+
+WebUI.switchToWindowIndex(1)
+
+WebUI.switchToFrame(findTestObject('W3School/TryItButtonFrame'), GlobalVariable.TimeOut)
+
+WebUI.click(findTestObject('W3School/TryButton'))
+
+WebUI.acceptAlert()
+
+WebUI.switchToDefaultContent()
+
+WebUI.closeBrowser()

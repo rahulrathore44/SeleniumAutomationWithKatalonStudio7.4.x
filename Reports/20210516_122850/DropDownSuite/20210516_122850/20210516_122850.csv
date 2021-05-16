@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DropDownSuite,Chrome 90.0.4430.212,,,2021-05-16 12:29:00,2021-05-16 12:29:37,37.285s,PASSED
+,,,,,,,
+Test Cases/DropDown/DropdownFunctionScriptMode,Chrome 90.0.4430.212,DropdownFunctionScriptMode,DropDown,2021-05-16 12:29:04,2021-05-16 12:29:12,7.755s,PASSED
+openBrowser(ApplicationUrl),Chrome 90.0.4430.212,,,2021-05-16 12:29:05,2021-05-16 12:29:08,2.981s,PASSED
+"click(findTestObject(""Object Repository/Bugzilla/HomePage/FlieBugLink""))",Chrome 90.0.4430.212,,,2021-05-16 12:29:08,2021-05-16 12:29:09,0.816s,PASSED
+"sendKeys(findTestObject(""Object Repository/Bugzilla/LoginPage/UsernameTxtBox""), Username)",Chrome 90.0.4430.212,,,2021-05-16 12:29:09,2021-05-16 12:29:09,0.097s,PASSED
+"sendKeys(findTestObject(""Object Repository/Bugzilla/LoginPage/PasswordTxtBox""), Password)",Chrome 90.0.4430.212,,,2021-05-16 12:29:09,2021-05-16 12:29:09,0.095s,PASSED
+"click(findTestObject(""Object Repository/Bugzilla/LoginPage/LoginBtn""))",Chrome 90.0.4430.212,,,2021-05-16 12:29:09,2021-05-16 12:29:10,0.802s,PASSED
+"click(findTestObject(""Object Repository/Bugzilla/EnterBug/TestProductLink""))",Chrome 90.0.4430.212,,,2021-05-16 12:29:10,2021-05-16 12:29:10,0.900s,PASSED
+"selectOptionByIndex(findTestObject(""Object Repository/Bugzilla/EnterBugDetailScreen/Hardware""), 3)",Chrome 90.0.4430.212,,,2021-05-16 12:29:10,2021-05-16 12:29:11,0.241s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Bugzilla/EnterBugDetailScreen/Component""), ""Primary Component"", false)",Chrome 90.0.4430.212,,,2021-05-16 12:29:11,2021-05-16 12:29:11,0.141s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Bugzilla/EnterBugDetailScreen/Severity""), ""normal"", false)",Chrome 90.0.4430.212,,,2021-05-16 12:29:11,2021-05-16 12:29:11,0.153s,PASSED
+"a = getNumberOfTotalOption(findTestObject(""Object Repository/Bugzilla/EnterBugDetailScreen/Severity""))",Chrome 90.0.4430.212,,,2021-05-16 12:29:11,2021-05-16 12:29:11,0.095s,PASSED
+path = takeScreenshot(),Chrome 90.0.4430.212,,,2021-05-16 12:29:11,2021-05-16 12:29:11,0.134s,PASSED
+"takeScreenshot(""C:\download\test.png"")",Chrome 90.0.4430.212,,,2021-05-16 12:29:11,2021-05-16 12:29:11,0.137s,PASSED
+"click(findTestObject(""Object Repository/Bugzilla/HomePage/LogoutBtn""))",Chrome 90.0.4430.212,,,2021-05-16 12:29:11,2021-05-16 12:29:12,0.776s,PASSED
+closeBrowser(),Chrome 90.0.4430.212,,,2021-05-16 12:29:12,2021-05-16 12:29:12,0.043s,PASSED
+,,,,,,,
+Test Cases/DropDown/DropDownManualMode,Chrome 90.0.4430.212,DropDownManualMode,DropDown,2021-05-16 12:29:12,2021-05-16 12:29:37,24.671s,PASSED
+openBrowser(ApplicationUrl),Chrome 90.0.4430.212,,,2021-05-16 12:29:12,2021-05-16 12:29:15,2.271s,PASSED
+delay(DelayTime),Chrome 90.0.4430.212,,,2021-05-16 12:29:15,2021-05-16 12:29:18,3.018s,PASSED
+"click(findTestObject(""Bugzilla/HomePage/FlieBugLink""))",Chrome 90.0.4430.212,,,2021-05-16 12:29:18,2021-05-16 12:29:18,0.764s,PASSED
+delay(DelayTime),Chrome 90.0.4430.212,,,2021-05-16 12:29:18,2021-05-16 12:29:21,3.004s,PASSED
+"sendKeys(findTestObject(""Bugzilla/LoginPage/UsernameTxtBox""), Username)",Chrome 90.0.4430.212,,,2021-05-16 12:29:21,2021-05-16 12:29:22,0.087s,PASSED
+"sendKeys(findTestObject(""Bugzilla/LoginPage/PasswordTxtBox""), Password)",Chrome 90.0.4430.212,,,2021-05-16 12:29:22,2021-05-16 12:29:22,0.090s,PASSED
+"click(findTestObject(""Bugzilla/LoginPage/LoginBtn""))",Chrome 90.0.4430.212,,,2021-05-16 12:29:22,2021-05-16 12:29:22,0.786s,PASSED
+delay(DelayTime),Chrome 90.0.4430.212,,,2021-05-16 12:29:22,2021-05-16 12:29:25,3.002s,PASSED
+"click(findTestObject(""Bugzilla/EnterBug/TestProductLink""))",Chrome 90.0.4430.212,,,2021-05-16 12:29:25,2021-05-16 12:29:26,0.946s,PASSED
+delay(DelayTime),Chrome 90.0.4430.212,,,2021-05-16 12:29:26,2021-05-16 12:29:29,3.002s,PASSED
+"selectOptionByIndex(findTestObject(""Bugzilla/EnterBugDetailScreen/Severity""), 5)",Chrome 90.0.4430.212,,,2021-05-16 12:29:29,2021-05-16 12:29:30,0.233s,PASSED
+"selectOptionByLabel(findTestObject(""Bugzilla/EnterBugDetailScreen/Component""), ""Basic Component"", false)",Chrome 90.0.4430.212,,,2021-05-16 12:29:30,2021-05-16 12:29:30,0.124s,PASSED
+"selectOptionByValue(findTestObject(""Bugzilla/EnterBugDetailScreen/Hardware""), ""Macintosh"", false)",Chrome 90.0.4430.212,,,2021-05-16 12:29:30,2021-05-16 12:29:30,0.148s,PASSED
+delay(DelayTime),Chrome 90.0.4430.212,,,2021-05-16 12:29:30,2021-05-16 12:29:33,3.001s,PASSED
+path = takeScreenshot(),Chrome 90.0.4430.212,,,2021-05-16 12:29:33,2021-05-16 12:29:33,0.110s,PASSED
+"click(findTestObject(""Bugzilla/HomePage/LogoutBtn""))",Chrome 90.0.4430.212,,,2021-05-16 12:29:33,2021-05-16 12:29:34,0.777s,PASSED
+delay(DelayTime),Chrome 90.0.4430.212,,,2021-05-16 12:29:34,2021-05-16 12:29:37,3.001s,PASSED
+closeBrowser(),Chrome 90.0.4430.212,,,2021-05-16 12:29:37,2021-05-16 12:29:37,0.047s,PASSED

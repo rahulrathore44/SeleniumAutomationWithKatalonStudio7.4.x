@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+JavaScriptTestSuite,Chrome 90.0.4430.212,Test suite for java script popup,,2021-05-16 12:56:43,2021-05-16 12:57:13,29.132s,FAILED
+,,,,,,,
+Test Cases/JavaScriptPopup/TC-HandlingJavaScriptAlertScriptMode,Chrome 90.0.4430.212,,,2021-05-16 12:56:47,2021-05-16 12:56:50,2.875s,PASSED
+"openBrowser(""https://www.w3schools.com/js/js_popup.asp"")",Chrome 90.0.4430.212,,,2021-05-16 12:56:48,2021-05-16 12:56:48,0.001s,NOT_RUN
+waitForPageLoad(TimeOut),Chrome 90.0.4430.212,,,2021-05-16 12:56:48,2021-05-16 12:56:48,0.001s,NOT_RUN
+maximizeWindow(),Chrome 90.0.4430.212,,,2021-05-16 12:56:48,2021-05-16 12:56:48,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/W3School/TryItBtn""))",Chrome 90.0.4430.212,,,2021-05-16 12:56:48,2021-05-16 12:56:48,0.299s,PASSED
+delay(2),Chrome 90.0.4430.212,,,2021-05-16 12:56:48,2021-05-16 12:56:50,2.020s,PASSED
+switchToWindowIndex(1),Chrome 90.0.4430.212,,,2021-05-16 12:56:50,2021-05-16 12:56:50,0.037s,PASSED
+"switchToFrame(findTestObject(""Object Repository/W3School/TryItButtonFrame""), TimeOut)",Chrome 90.0.4430.212,,,2021-05-16 12:56:50,2021-05-16 12:56:50,0.113s,PASSED
+"click(findTestObject(""Object Repository/W3School/TryButton""))",Chrome 90.0.4430.212,,,2021-05-16 12:56:50,2021-05-16 12:56:50,0.128s,PASSED
+waitForAlert(TimeOut),Chrome 90.0.4430.212,,,2021-05-16 12:56:50,2021-05-16 12:56:50,0.024s,PASSED
+acceptAlert(),Chrome 90.0.4430.212,,,2021-05-16 12:56:50,2021-05-16 12:56:50,0.033s,PASSED
+switchToDefaultContent(),Chrome 90.0.4430.212,,,2021-05-16 12:56:50,2021-05-16 12:56:50,0.001s,NOT_RUN
+closeWindowIndex(1),Chrome 90.0.4430.212,,,2021-05-16 12:56:50,2021-05-16 12:56:50,0.001s,NOT_RUN
+switchToWindowIndex(0),Chrome 90.0.4430.212,,,2021-05-16 12:56:50,2021-05-16 12:56:50,0.001s,NOT_RUN
+closeBrowser(),Chrome 90.0.4430.212,,,2021-05-16 12:56:50,2021-05-16 12:56:50,0.001s,NOT_RUN
+,,,,,,,
+Test Cases/JavaScriptPopup/TC-HandlingJavaScriptAlertScriptMode,Chrome 90.0.4430.212,,,2021-05-16 12:56:50,2021-05-16 12:57:05,14.743s,FAILED
+"openBrowser(""https://www.w3schools.com/js/js_popup.asp"")",Chrome 90.0.4430.212,,,2021-05-16 12:56:50,2021-05-16 12:56:50,0.001s,NOT_RUN
+waitForPageLoad(TimeOut),Chrome 90.0.4430.212,,,2021-05-16 12:56:50,2021-05-16 12:56:50,0.000s,NOT_RUN
+maximizeWindow(),Chrome 90.0.4430.212,,,2021-05-16 12:56:50,2021-05-16 12:56:50,0.000s,NOT_RUN
+"click(findTestObject(""Object Repository/W3School/TryItBtn""))",Chrome 90.0.4430.212,,,2021-05-16 12:56:50,2021-05-16 12:57:05,14.730s,FAILED
+,,,,,,,
+Test Cases/JavaScriptPopup/TC-HandlingJavaScriptConfirmation,Chrome 90.0.4430.212,,,2021-05-16 12:57:05,2021-05-16 12:57:13,7.486s,FAILED
+"openBrowser(""https://www.w3schools.com/js/js_popup.asp"")",Chrome 90.0.4430.212,,,2021-05-16 12:57:05,2021-05-16 12:57:05,0.001s,NOT_RUN
+waitForPageLoad(TimeOut),Chrome 90.0.4430.212,,,2021-05-16 12:57:05,2021-05-16 12:57:05,0.001s,NOT_RUN
+maximizeWindow(),Chrome 90.0.4430.212,,,2021-05-16 12:57:05,2021-05-16 12:57:05,0.001s,NOT_RUN
+"click(findTestObject(""W3School/ConfirmationPopup""))",Chrome 90.0.4430.212,,,2021-05-16 12:57:05,2021-05-16 12:57:13,7.315s,FAILED

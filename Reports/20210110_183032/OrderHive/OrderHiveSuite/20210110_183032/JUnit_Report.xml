@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="OrderHiveSuite" time="23.707" tests="1" failures="0" skips="0" errors="0">
+   <testsuite name="OrderHiveSuite" tests="1" failures="0" errors="0" time="23.707" skips="0" timestamp="2021-01-10 18:30:39" hostname="rathr1 - L41992WUS.rpega.com" id="Test Suites/OrderHive/OrderHiveSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Data\\GitHub\\SeleniumAutomationWithKatalonStudio7.4.x\\Reports\\20210110_183032\\OrderHive\\OrderHiveSuite\\20210110_183032"/>
+         <property name="logFiles" value="C:\\Data\\GitHub\\SeleniumAutomationWithKatalonStudio7.4.x\\Reports\\20210110_183032\\OrderHive\\OrderHiveSuite\\20210110_183032\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rathr1 - L41992WUS.rpega.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="null.null"/>
+         <property name="browser" value="Chrome 87.0.4280.88"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="5f2ba79d57c867acec24479bac2e804c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Question/TC - OrderHive_Dropdown" time="14.675" classname="Test Cases/Question/TC - OrderHive_Dropdown" status="PASSED">
+         <system-out><![CDATA[2021-01-10 18:30:48 - [TEST_CASE][PASSED] - Test Cases/Question/TC - OrderHive_Dropdown: Test Cases/Question/TC - OrderHive_Dropdown
+
+2021-01-10 18:30:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-01-10 18:30:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-01-10 18:30:48 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2021-01-10 18:30:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-10 18:30:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-10 18:30:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-01-10 18:30:54 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-10 18:30:54 - [TEST_STEP][PASSED] - navigateToUrl("https://my.orderhive.com/signup"): Navigate to 'https://my.orderhive.com/signup' successfully
+
+2021-01-10 18:30:59 - [MESSAGE][ERROR] - no such element: Unable to locate element: {"method":"css selector","selector":"#katalon_only_element"}
+  (Session info: headless chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'L41992WUS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\RATHR1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58572}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5f2ba79d57c867acec24479bac2e804c
+*** Element info: {Using=id, value=katalon_only_element}
+
+2021-01-10 18:30:59 - [MESSAGE][PASSED] - Navigate to 'https://my.orderhive.com/signup' successfully
+
+2021-01-10 18:30:59 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+2021-01-10 18:30:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-10 18:30:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrderHive/country_drop_down")): Object: 'Object Repository/OrderHive/country_drop_down' is clicked on
+
+2021-01-10 18:30:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OrderHive/country_drop_down' is clicked on
+
+2021-01-10 18:30:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/OrderHive/option_us"), 10): Object 'Object Repository/OrderHive/option_us' is visible
+
+2021-01-10 18:30:59 - [MESSAGE][PASSED] - Object 'Object Repository/OrderHive/option_us' is visible
+
+2021-01-10 18:30:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrderHive/option_us")): Object: 'Object Repository/OrderHive/option_us' is clicked on
+
+2021-01-10 18:31:00 - [MESSAGE][PASSED] - Object: 'Object Repository/OrderHive/option_us' is clicked on
+
+2021-01-10 18:31:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-01-10 18:31:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-01-10 18:31:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-01-10 18:31:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-10 18:30:39 - [TEST_SUITE][INCOMPLETE] - OrderHiveSuite: null]]></system-out>
+      <system-err><![CDATA[2021-01-10 18:30:39 - [TEST_SUITE][INCOMPLETE] - OrderHiveSuite: null]]></system-err>
+   </testsuite>
+</testsuites>

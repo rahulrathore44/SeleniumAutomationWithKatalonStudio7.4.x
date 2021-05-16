@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+OrderHiveSuite,Chrome 87.0.4280.88,,,2021-01-10 18:26:54,2021-01-10 18:27:24,30.539s,FAILED
+,,,,,,,
+Test Cases/Question/TC - OrderHive_Dropdown,Chrome 87.0.4280.88,,,2021-01-10 18:27:03,2021-01-10 18:27:24,21.720s,FAILED
+"openBrowser("""")",Chrome 87.0.4280.88,,,2021-01-10 18:27:03,2021-01-10 18:27:07,3.911s,PASSED
+maximizeWindow(),Chrome 87.0.4280.88,,,2021-01-10 18:27:07,2021-01-10 18:27:09,2.153s,PASSED
+"navigateToUrl(""https://my.orderhive.com/signup"")",Chrome 87.0.4280.88,,,2021-01-10 18:27:09,2021-01-10 18:27:14,5.088s,PASSED
+waitForPageLoad(60),Chrome 87.0.4280.88,,,2021-01-10 18:27:14,2021-01-10 18:27:14,0.028s,PASSED
+"click(findTestObject(""DropDown/DropDown""))",Chrome 87.0.4280.88,,,2021-01-10 18:27:14,2021-01-10 18:27:15,0.372s,FAILED

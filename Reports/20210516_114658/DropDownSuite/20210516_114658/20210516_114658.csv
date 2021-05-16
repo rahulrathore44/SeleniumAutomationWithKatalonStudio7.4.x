@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DropDownSuite,Chrome 90.0.4430.212,,,2021-05-16 11:47:07,2021-05-16 11:47:58,50.949s,FAILED
+,,,,,,,
+Test Cases/DropDown/DropdownFunctionScriptMode,Chrome 90.0.4430.212,DropdownFunctionScriptMode,DropDown,2021-05-16 11:47:12,2021-05-16 11:47:48,36.241s,FAILED
+openBrowser(ApplicationUrl),Chrome 90.0.4430.212,,,2021-05-16 11:47:12,2021-05-16 11:47:15,2.906s,PASSED
+"click(findTestObject(""Object Repository/Bugzilla/HomePage/FlieBugLink""))",Chrome 90.0.4430.212,,,2021-05-16 11:47:15,2021-05-16 11:47:16,0.798s,PASSED
+"sendKeys(findTestObject(""Object Repository/Bugzilla/LoginPage/UsernameTxtBox""), Username)",Chrome 90.0.4430.212,,,2021-05-16 11:47:16,2021-05-16 11:47:16,0.098s,PASSED
+"sendKeys(findTestObject(""Object Repository/Bugzilla/LoginPage/PasswordTxtBox""), Password)",Chrome 90.0.4430.212,,,2021-05-16 11:47:16,2021-05-16 11:47:16,0.084s,PASSED
+"click(findTestObject(""Object Repository/Bugzilla/LoginPage/LoginBtn""))",Chrome 90.0.4430.212,,,2021-05-16 11:47:16,2021-05-16 11:47:17,0.989s,PASSED
+"click(findTestObject(""Object Repository/Bugzilla/EnterBug/TestProductLink""))",Chrome 90.0.4430.212,,,2021-05-16 11:47:17,2021-05-16 11:47:48,31.172s,FAILED
+,,,,,,,
+Test Cases/DropDown/DropDownManualMode,Chrome 90.0.4430.212,DropDownManualMode,DropDown,2021-05-16 11:47:48,2021-05-16 11:47:58,10.117s,FAILED
+openBrowser(ApplicationUrl),Chrome 90.0.4430.212,,,2021-05-16 11:47:48,2021-05-16 11:47:58,9.947s,FAILED

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DropDownSuite" time="23.357" tests="1" failures="0" skips="0" errors="0">
+   <testsuite name="DropDownSuite" tests="1" failures="0" errors="0" time="23.357" skips="0" timestamp="2021-05-16 12:38:41" hostname="rathr1 - L41992WUS.rpega.com" id="Test Suites/DropDownSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Data\\GitHub\\SeleniumAutomationWithKatalonStudio7.4.x\\Reports\\20210516_123832\\DropDownSuite\\20210516_123832"/>
+         <property name="logFiles" value="C:\\Data\\GitHub\\SeleniumAutomationWithKatalonStudio7.4.x\\Reports\\20210516_123832\\DropDownSuite\\20210516_123832\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rathr1 - L41992WUS.rpega.com"/>
+         <property name="hostAddress" value="55.55.55.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.0.208"/>
+      </properties>
+      <testcase name="Test Cases/DropDown/DropdownFunctionScriptMode" time="0.283" classname="Test Cases/DropDown/DropdownFunctionScriptMode" status="INCOMPLETE">
+         <system-out><![CDATA[2021-05-16 12:39:04 - [TEST_CASE][INCOMPLETE] - Test Cases/DropDown/DropdownFunctionScriptMode: null
+
+2021-05-16 12:39:04 - [TEST_STEP][INCOMPLETE] - openBrowser(ApplicationUrl): Action delay is set to 0 milliseconds
+
+2021-05-16 12:39:04 - [MESSAGE][INFO] - Connecting to remote web server 'http://localhost:4444/wd/hub' with type 'Selenium'
+
+2021-05-16 12:39:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds]]></system-out>
+         <system-err><![CDATA[2021-05-16 12:39:04 - [TEST_CASE][INCOMPLETE] - Test Cases/DropDown/DropdownFunctionScriptMode: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-05-16 12:38:41 - [TEST_SUITE][INCOMPLETE] - DropDownSuite: null]]></system-out>
+      <system-err><![CDATA[2021-05-16 12:38:41 - [TEST_SUITE][INCOMPLETE] - DropDownSuite: null]]></system-err>
+   </testsuite>
+</testsuites>

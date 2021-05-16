@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DropDownSuite" time="36.947" tests="2" failures="0" skips="0" errors="0">
+   <testsuite name="DropDownSuite" tests="2" failures="0" errors="0" time="36.947" skips="0" timestamp="2021-05-16 12:36:36" hostname="rathr1 - L41992WUS.rpega.com" id="Test Suites/DropDownSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Data\\GitHub\\SeleniumAutomationWithKatalonStudio7.4.x\\Reports\\20210516_123626\\DropDownSuite\\20210516_123626"/>
+         <property name="logFiles" value="C:\\Data\\GitHub\\SeleniumAutomationWithKatalonStudio7.4.x\\Reports\\20210516_123626\\DropDownSuite\\20210516_123626\\execution0.log"/>
+         <property name="attachments" value="C:\\Data\\GitHub\\SeleniumAutomationWithKatalonStudio7.4.x\\Reports\\20210516_123626\\DropDownSuite\\20210516_123626\\1621193808041.png, C:\download\test.png, C:\\Data\\GitHub\\SeleniumAutomationWithKatalonStudio7.4.x\\Reports\\20210516_123626\\DropDownSuite\\20210516_123626\\1621193829922.png"/>
+         <property name="hostName" value="rathr1 - L41992WUS.rpega.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.0.208"/>
+         <property name="browser" value="Chrome 90.0.4430.212"/>
+         <property name="hostAddress" value="55.55.55.1"/>
+         <property name="sessionId" value="da6c66ee29f87e988a4563bb3416a799"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/DropDown/DropdownFunctionScriptMode" time="7.588" classname="Test Cases/DropDown/DropdownFunctionScriptMode" status="PASSED">
+         <system-out><![CDATA[2021-05-16 12:36:41 - [TEST_CASE][PASSED] - Test Cases/DropDown/DropdownFunctionScriptMode: Test Cases/DropDown/DropdownFunctionScriptMode
+
+2021-05-16 12:36:41 - [TEST_STEP][PASSED] - openBrowser(ApplicationUrl): Browser is opened with url: 'http://localhost:80/'
+
+2021-05-16 12:36:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-05-16 12:36:41 - [MESSAGE][INFO] - Connecting to remote web server 'http://localhost:4444/wd/hub' with type 'Selenium'
+
+2021-05-16 12:36:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-16 12:36:44 - [MESSAGE][ERROR] - no such element: Unable to locate element: {"method":"css selector","selector":"#katalon_only_element"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'L41992WUS', ip: '55.55.55.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\RATHR1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53843}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 66bf0cf60eb52686718e8a984b039655
+*** Element info: {Using=id, value=katalon_only_element}
+
+2021-05-16 12:36:44 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:80/'
+
+2021-05-16 12:36:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Bugzilla/HomePage/FlieBugLink")): Object: 'Object Repository/Bugzilla/HomePage/FlieBugLink' is clicked on
+
+2021-05-16 12:36:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Bugzilla/HomePage/FlieBugLink' is clicked on
+
+2021-05-16 12:36:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Bugzilla/LoginPage/UsernameTxtBox"), Username): Keys 'rahul@bugzila.com' sent to object: 'Object Repository/Bugzilla/LoginPage/UsernameTxtBox'
+
+2021-05-16 12:36:45 - [MESSAGE][PASSED] - Keys 'rahul@bugzila.com' sent to object: 'Object Repository/Bugzilla/LoginPage/UsernameTxtBox'
+
+2021-05-16 12:36:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Bugzilla/LoginPage/PasswordTxtBox"), Password): Keys 'welcome' sent to object: 'Object Repository/Bugzilla/LoginPage/PasswordTxtBox'
+
+2021-05-16 12:36:45 - [MESSAGE][PASSED] - Keys 'welcome' sent to object: 'Object Repository/Bugzilla/LoginPage/PasswordTxtBox'
+
+2021-05-16 12:36:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Bugzilla/LoginPage/LoginBtn")): Object: 'Object Repository/Bugzilla/LoginPage/LoginBtn' is clicked on
+
+2021-05-16 12:36:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Bugzilla/LoginPage/LoginBtn' is clicked on
+
+2021-05-16 12:36:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Bugzilla/EnterBug/TestProductLink")): Object: 'Object Repository/Bugzilla/EnterBug/TestProductLink' is clicked on
+
+2021-05-16 12:36:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Bugzilla/EnterBug/TestProductLink' is clicked on
+
+2021-05-16 12:36:47 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Object Repository/Bugzilla/EnterBugDetailScreen/Hardware"), 3): All options with index in [3] are selected on object 'Object Repository/Bugzilla/EnterBugDetailScreen/Hardware'
+
+2021-05-16 12:36:47 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/Bugzilla/EnterBugDetailScreen/Hardware'
+
+2021-05-16 12:36:47 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Bugzilla/EnterBugDetailScreen/Component"), "Primary Component", false): All options with label 'Primary Component' are selected in object 'Object Repository/Bugzilla/EnterBugDetailScreen/Component' 
+
+2021-05-16 12:36:47 - [MESSAGE][PASSED] - All options with label 'Primary Component' are selected in object 'Object Repository/Bugzilla/EnterBugDetailScreen/Component' 
+
+2021-05-16 12:36:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Bugzilla/EnterBugDetailScreen/Severity"), "normal", false): All options with value 'normal' are selected in object 'Object Repository/Bugzilla/EnterBugDetailScreen/Severity' 
+
+2021-05-16 12:36:47 - [MESSAGE][PASSED] - All options with value 'normal' are selected in object 'Object Repository/Bugzilla/EnterBugDetailScreen/Severity' 
+
+2021-05-16 12:36:47 - [TEST_STEP][PASSED] - a = getNumberOfTotalOption(findTestObject("Object Repository/Bugzilla/EnterBugDetailScreen/Severity")): 7 options of object 'Object Repository/Bugzilla/EnterBugDetailScreen/Severity' counted
+
+2021-05-16 12:36:48 - [MESSAGE][PASSED] - 7 options of object 'Object Repository/Bugzilla/EnterBugDetailScreen/Severity' counted
+
+2021-05-16 12:36:48 - [TEST_STEP][PASSED] - path = takeScreenshot(): Taking screenshot successfully
+
+2021-05-16 12:36:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Data\\GitHub\\SeleniumAutomationWithKatalonStudio7.4.x\\Reports\\20210516_123626\\DropDownSuite\\20210516_123626\\1621193808041.png]]
+
+2021-05-16 12:36:48 - [TEST_STEP][PASSED] - takeScreenshot("C:\download\test.png"): Taking screenshot successfully
+
+2021-05-16 12:36:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\download\test.png]]
+
+2021-05-16 12:36:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Bugzilla/HomePage/LogoutBtn")): Object: 'Object Repository/Bugzilla/HomePage/LogoutBtn' is clicked on
+
+2021-05-16 12:36:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Bugzilla/HomePage/LogoutBtn' is clicked on
+
+2021-05-16 12:36:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-16 12:36:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DropDown/DropDownManualMode" time="24.694" classname="Test Cases/DropDown/DropDownManualMode" status="PASSED">
+         <system-out><![CDATA[2021-05-16 12:36:49 - [TEST_CASE][PASSED] - Test Cases/DropDown/DropDownManualMode: Test Cases/DropDown/DropDownManualMode
+
+2021-05-16 12:36:49 - [TEST_STEP][PASSED] - openBrowser(ApplicationUrl): Browser is opened with url: 'http://localhost:80/'
+
+2021-05-16 12:36:49 - [MESSAGE][INFO] - Connecting to remote web server 'http://localhost:4444/wd/hub' with type 'Selenium'
+
+2021-05-16 12:36:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-16 12:36:51 - [MESSAGE][ERROR] - no such element: Unable to locate element: {"method":"css selector","selector":"#katalon_only_element"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'L41992WUS', ip: '55.55.55.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\RATHR1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53935}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: da6c66ee29f87e988a4563bb3416a799
+*** Element info: {Using=id, value=katalon_only_element}
+
+2021-05-16 12:36:51 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:80/'
+
+2021-05-16 12:36:51 - [TEST_STEP][PASSED] - delay(DelayTime): Delayed 3 second(s)
+
+2021-05-16 12:36:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-16 12:36:54 - [TEST_STEP][PASSED] - click(findTestObject("Bugzilla/HomePage/FlieBugLink")): Object: 'Object Repository/Bugzilla/HomePage/FlieBugLink' is clicked on
+
+2021-05-16 12:36:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Bugzilla/HomePage/FlieBugLink' is clicked on
+
+2021-05-16 12:36:55 - [TEST_STEP][PASSED] - delay(DelayTime): Delayed 3 second(s)
+
+2021-05-16 12:36:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-16 12:36:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Bugzilla/LoginPage/UsernameTxtBox"), Username): Keys 'rahul@bugzila.com' sent to object: 'Object Repository/Bugzilla/LoginPage/UsernameTxtBox'
+
+2021-05-16 12:36:58 - [MESSAGE][PASSED] - Keys 'rahul@bugzila.com' sent to object: 'Object Repository/Bugzilla/LoginPage/UsernameTxtBox'
+
+2021-05-16 12:36:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Bugzilla/LoginPage/PasswordTxtBox"), Password): Keys 'welcome' sent to object: 'Object Repository/Bugzilla/LoginPage/PasswordTxtBox'
+
+2021-05-16 12:36:58 - [MESSAGE][PASSED] - Keys 'welcome' sent to object: 'Object Repository/Bugzilla/LoginPage/PasswordTxtBox'
+
+2021-05-16 12:36:58 - [TEST_STEP][PASSED] - click(findTestObject("Bugzilla/LoginPage/LoginBtn")): Object: 'Object Repository/Bugzilla/LoginPage/LoginBtn' is clicked on
+
+2021-05-16 12:36:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Bugzilla/LoginPage/LoginBtn' is clicked on
+
+2021-05-16 12:36:59 - [TEST_STEP][PASSED] - delay(DelayTime): Delayed 3 second(s)
+
+2021-05-16 12:37:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-16 12:37:02 - [TEST_STEP][PASSED] - click(findTestObject("Bugzilla/EnterBug/TestProductLink")): Object: 'Object Repository/Bugzilla/EnterBug/TestProductLink' is clicked on
+
+2021-05-16 12:37:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Bugzilla/EnterBug/TestProductLink' is clicked on
+
+2021-05-16 12:37:03 - [TEST_STEP][PASSED] - delay(DelayTime): Delayed 3 second(s)
+
+2021-05-16 12:37:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-16 12:37:06 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Bugzilla/EnterBugDetailScreen/Severity"), 5): All options with index in [5] are selected on object 'Object Repository/Bugzilla/EnterBugDetailScreen/Severity'
+
+2021-05-16 12:37:06 - [MESSAGE][PASSED] - All options with index in [5] are selected on object 'Object Repository/Bugzilla/EnterBugDetailScreen/Severity'
+
+2021-05-16 12:37:06 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Bugzilla/EnterBugDetailScreen/Component"), "Basic Component", false): All options with label 'Basic Component' are selected in object 'Object Repository/Bugzilla/EnterBugDetailScreen/Component' 
+
+2021-05-16 12:37:06 - [MESSAGE][PASSED] - All options with label 'Basic Component' are selected in object 'Object Repository/Bugzilla/EnterBugDetailScreen/Component' 
+
+2021-05-16 12:37:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Bugzilla/EnterBugDetailScreen/Hardware"), "Macintosh", false): All options with value 'Macintosh' are selected in object 'Object Repository/Bugzilla/EnterBugDetailScreen/Hardware' 
+
+2021-05-16 12:37:06 - [MESSAGE][PASSED] - All options with value 'Macintosh' are selected in object 'Object Repository/Bugzilla/EnterBugDetailScreen/Hardware' 
+
+2021-05-16 12:37:06 - [TEST_STEP][PASSED] - delay(DelayTime): Delayed 3 second(s)
+
+2021-05-16 12:37:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-16 12:37:09 - [TEST_STEP][PASSED] - path = takeScreenshot(): Taking screenshot successfully
+
+2021-05-16 12:37:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Data\\GitHub\\SeleniumAutomationWithKatalonStudio7.4.x\\Reports\\20210516_123626\\DropDownSuite\\20210516_123626\\1621193829922.png]]
+
+2021-05-16 12:37:10 - [TEST_STEP][PASSED] - click(findTestObject("Bugzilla/HomePage/LogoutBtn")): Object: 'Object Repository/Bugzilla/HomePage/LogoutBtn' is clicked on
+
+2021-05-16 12:37:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Bugzilla/HomePage/LogoutBtn' is clicked on
+
+2021-05-16 12:37:10 - [TEST_STEP][PASSED] - delay(DelayTime): Delayed 3 second(s)
+
+2021-05-16 12:37:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-16 12:37:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-16 12:37:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-05-16 12:36:36 - [TEST_SUITE][INCOMPLETE] - DropDownSuite: null]]></system-out>
+      <system-err><![CDATA[2021-05-16 12:36:36 - [TEST_SUITE][INCOMPLETE] - DropDownSuite: null]]></system-err>
+   </testsuite>
+</testsuites>

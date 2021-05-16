@@ -1,0 +1,2281 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://localhost/enter_bug.cgi
+Subject: Enter Bug: TestProduct
+Date: Sun, 16 May 2021 18:51:07 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--4BJhA9q9l85YvQxnzV0UJalukumw6mIAf4s4QvUStD----"
+
+
+------MultipartBoundary--4BJhA9q9l85YvQxnzV0UJalukumw6mIAf4s4QvUStD----
+Content-Type: text/html
+Content-ID: <frame-5BDCD969DF4CA8266519FC7CF020B2A2@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://localhost/enter_bug.cgi
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd"><html lang=3D"en"><head><meta http-equiv=3D"Cont=
+ent-Type" content=3D"text/html; charset=3DUTF-8">
+    <title>Enter Bug: TestProduct</title>
+
+     =20
+
+
+<link rel=3D"Top" href=3D"http://localhost/enter_bug.cgi">
+
+ =20
+
+
+ =20
+
+
+ =20
+    <link rel=3D"Saved&nbsp;Searches" title=3D"My Bugs" href=3D"http://loca=
+lhost/buglist.cgi?resolution=3D---&amp;emailassigned_to1=3D1&amp;emailrepor=
+ter1=3D1&amp;emailtype1=3Dexact&amp;email1=3Drahul%40bugzila.com">
+
+
+   <link rel=3D"Administration" title=3D"Parameters" href=3D"http://localho=
+st/editparams.cgi"><link rel=3D"Administration" title=3D"Users" href=3D"htt=
+p://localhost/editusers.cgi"><link rel=3D"Administration" title=3D"Products=
+" href=3D"http://localhost/editproducts.cgi"><link rel=3D"Administration" t=
+itle=3D"Flag Types" href=3D"http://localhost/editflagtypes.cgi"><link rel=
+=3D"Administration" title=3D"Groups" href=3D"http://localhost/editgroups.cg=
+i"><link rel=3D"Administration" title=3D"Keywords" href=3D"http://localhost=
+/editkeywords.cgi"><link rel=3D"Administration" title=3D"Whining" href=3D"h=
+ttp://localhost/editwhines.cgi"><link rel=3D"Administration" title=3D"Sanit=
+y Check" href=3D"http://localhost/sanitycheck.cgi">
+
+
+
+   =20
+   =20
+    <link href=3D"http://localhost/skins/standard/global.css" rel=3D"altern=
+ate stylesheet" title=3D"Classic"><link href=3D"http://localhost/js/yui/ass=
+ets/skins/sam/autocomplete.css" rel=3D"stylesheet" type=3D"text/css"><link =
+href=3D"http://localhost/js/yui/assets/skins/sam/calendar.css" rel=3D"style=
+sheet" type=3D"text/css"><link href=3D"http://localhost/js/yui/assets/skins=
+/sam/datatable.css" rel=3D"stylesheet" type=3D"text/css"><link href=3D"http=
+://localhost/js/yui/assets/skins/sam/button.css" rel=3D"stylesheet" type=3D=
+"text/css"><link href=3D"http://localhost/skins/standard/global.css" rel=3D=
+"stylesheet" type=3D"text/css"><link href=3D"http://localhost/skins/standar=
+d/attachment.css" rel=3D"stylesheet" type=3D"text/css"><link href=3D"http:/=
+/localhost/skins/standard/enter_bug.css" rel=3D"stylesheet" type=3D"text/cs=
+s"><!--[if lte IE 7]>
+     =20
+
+
+
+  <link href=3D"skins/standard/IE-fixes.css" rel=3D"stylesheet"
+        type=3D"text/css" >
+<![endif]-->
+
+    <link href=3D"http://localhost/skins/contrib/Dusk/global.css" rel=3D"st=
+ylesheet" type=3D"text/css" title=3D"Dusk">
+
+
+   =20
+
+   =20
+
+   =20
+
+
+   =20
+
+
+   =20
+
+   =20
+    <link rel=3D"search" type=3D"application/opensearchdescription+xml" tit=
+le=3D"Bugzilla" href=3D"http://localhost/search_plugin.cgi">
+    <link rel=3D"shortcut icon" href=3D"http://localhost/images/favicon.ico=
+"><link href=3D"http://localhost/extensions/Testopia/css/testopia.css" rel=
+=3D"stylesheet" type=3D"text/css">
+    <link href=3D"http://localhost/extensions/Testopia/extjs/examples/ux/cs=
+s/RowEditor.css" rel=3D"stylesheet" type=3D"text/css">
+   =20
+  </head>
+
+
+
+  <body class=3D" yui-skin-sam">
+
+
+
+<div id=3D"header">
+<div id=3D"banner">
+  </div>
+
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" id=3D"titles">
+<tbody><tr>
+    <td id=3D"title">
+      <p>Bugzilla =E2=80=93 Enter Bug: TestProduct</p>
+    </td>
+
+
+</tr>
+</tbody></table>
+
+<table id=3D"lang_links_container" cellpadding=3D"0" cellspacing=3D"0"><tbo=
+dy><tr><td>
+</td></tr></tbody></table>
+<ul class=3D"links">
+  <li><a href=3D"http://localhost/">Home</a></li>
+  <li><span class=3D"separator">| </span><a href=3D"http://localhost/enter_=
+bug.cgi">New</a></li>
+  <li><span class=3D"separator">| </span><a href=3D"http://localhost/descri=
+becomponents.cgi">Browse</a></li>
+  <li><span class=3D"separator">| </span><a href=3D"http://localhost/query.=
+cgi">Search</a></li>
+
+  <li class=3D"form">
+    <span class=3D"separator">| </span>
+    <form action=3D"http://localhost/buglist.cgi" method=3D"get">
+    <input class=3D"txt" type=3D"text" id=3D"quicksearch_top" name=3D"quick=
+search" title=3D"Quick Search" value=3D"">
+    <input class=3D"btn" type=3D"submit" value=3D"Search" id=3D"find_top"><=
+/form>
+  <a href=3D"http://localhost/page.cgi?id=3Dquicksearch.html" title=3D"Quic=
+ksearch Help">[?]</a></li>
+
+  <li><span class=3D"separator">| </span><a href=3D"http://localhost/report=
+.cgi">Reports</a></li>
+
+  <li></li>
+
+    <li><span class=3D"separator">| </span><a href=3D"http://localhost/user=
+prefs.cgi">Preferences</a></li>
+      <li><span class=3D"separator">| </span><a href=3D"http://localhost/ad=
+min.cgi">Administration</a></li>
+<li>
+        <span class=3D"separator">| </span>
+        <a href=3D"http://localhost/docs/en/html/bugreports.html" target=3D=
+"_blank">Help</a>
+      </li>
+
+    <li>
+      <span class=3D"separator">| </span>
+        <a href=3D"http://localhost/index.cgi?logout=3D1">Log&nbsp;out</a>
+        rahul@bugzila.com</li>
+</ul>
+
+<ul class=3D"links testopia_links">
+  <li><a href=3D"http://localhost/tr_show_product.cgi">Product Dashboard</a=
+></li>
+  <li><span class=3D"separator">| </span><a href=3D"http://localhost/tr_new=
+_case.cgi?plan_id=3D">New Case</a></li>
+  <li><span class=3D"separator">| </span><a href=3D"http://localhost/tr_new=
+_run.cgi?plan_id=3D&amp;case_status_id=3D2">New Run</a></li>
+  <li><span class=3D"separator">| </span><a href=3D"http://localhost/tr_que=
+ry.cgi">Search</a></li>
+
+  <li><span class=3D"separator">| </span><a href=3D"http://localhost/tr_adm=
+in.cgi">Admin</a></li>
+  <li><span class=3D"separator">| </span><a href=3D"http://localhost/extens=
+ions/Testopia/doc/Manual.pdf" target=3D"_blank">Help</a></li>
+
+  <li class=3D"tr_saved_search">
+  <span class=3D"separator">| </span>
+  <select class=3D"dropdown">
+    <option>--Testopia--</option>
+    <option value=3D"tr_list_runs.cgi?current_tab=3Drun&amp;run_status=3D0&=
+amp;distinct=3D1">Current Runs</option>
+    <option value=3D"tr_list_plans.cgi?current_tab=3Dplan&amp;report_type=
+=3Dmyplans">My Plans</option>
+    <option value=3D"tr_list_cases.cgi?current_tab=3Dcase&amp;summary_type=
+=3Dallwordssubstr&amp;summary=3D&amp;tcaction_type=3Dallwordssubstr&amp;tca=
+ction=3D&amp;tceffect_type=3Dallwordssubstr&amp;tceffect=3D&amp;script_type=
+=3Dallwordssubstr&amp;script=3D&amp;requirement_type=3Dallwordssubstr&amp;r=
+equirement=3D&amp;tag_type=3Dallwords&amp;tags=3D&amp;author_type=3Dexact&a=
+mp;author=3D&amp;default_tester_type=3Dsubstring&amp;default_tester=3Drahul=
+%40bugzila.com&amp;case_id=3D&amp;plan_id=3D&amp;distinct=3D1">My Cases</op=
+tion>
+    <option value=3D"tr_list_runs.cgi?current_tab=3Drun&amp;summary_type=3D=
+allwordssubstr&amp;summary=3D&amp;notes_type=3Dallwordssubstr&amp;notes=3D&=
+amp;environment_type=3Dallwordssubstr&amp;environment=3D&amp;tag_type=3Dall=
+words&amp;tag=3D&amp;manager_type=3Dsubstring&amp;manager=3Drahul%40bugzila=
+.com&amp;run_id=3D&amp;plan_id=3D&amp;assignee_type=3Dsubstr&amp;assignee=
+=3Drahul%40bugzila.com&amp;distinct=3D1&amp;order=3Drun_id&amp;dir=3DDESC">=
+My Runs</option>       =20
+  </select>
+  </li>
+  <li class=3D"form tr_find">
+  <form action=3D"http://localhost/tr_quicksearch.cgi">
+    <input class=3D"txt" type=3D"text" name=3D"searchstr" id=3D"tr_quicksea=
+rch">
+    <input class=3D"btn testopia_btn" type=3D"submit" value=3D"Find">
+  </form>
+  </li>
+</ul>
+</div>=20
+
+<div id=3D"bugzilla-body">
+
+
+
+<form name=3D"Create" id=3D"Create" method=3D"post" action=3D"http://localh=
+ost/post_bug.cgi" class=3D"enter_bug_form" enctype=3D"multipart/form-data">
+
+
+
+<table>
+<tbody>
+  <tr>
+    <td colspan=3D"4">
+    Before reporting a bug, please read the=20
+<a href=3D"http://localhost/page.cgi?id=3Dbug-writing.html">bug writing gui=
+delines</a>, please look at the list of
+<a href=3D"http://localhost/duplicates.cgi">most frequently reported bugs</=
+a>, and please
+<a href=3D"http://localhost/query.cgi">search</a> for the bug.
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan=3D"2">
+      <a id=3D"expert_fields_controller" class=3D"controller">Show Advanced=
+ Fields</a>
+     =20
+     =20
+    </td>
+    <td colspan=3D"2">
+      (<span class=3D"required_star">*</span> =3D
+      <span class=3D"required_explanation">Required Field</span>)
+   </td>
+  </tr>
+
+  <tr><th class=3D"field_label  required" id=3D"field_label_product">
+
+
+  <a title=3D"Bugs are categorised into Products and Components." class=3D"=
+field_help_link" href=3D"http://localhost/page.cgi?id=3Dfields.html#product=
+">Product:</a>
+
+</th>
+  <td class=3D"field_value " id=3D"field_container_product">TestProduct</td=
+><th class=3D"field_label " id=3D"field_label_reporter">
+
+
+  <a title=3D"The person who filed this bug." class=3D"field_help_link" hre=
+f=3D"http://localhost/page.cgi?id=3Dfields.html#reporter">Reporter:</a>
+
+</th>
+  <td class=3D"field_value " id=3D"field_container_reporter">rahul@bugzila.=
+com</td>
+  </tr>
+
+ =20
+  <tr><th class=3D"field_label  required" id=3D"field_label_component">
+
+    <label for=3D"component">
+
+  <a title=3D"Components are second-level categories; each belongs to a par=
+ticular Product. Select a Product to narrow down this list." class=3D"field=
+_help_link" href=3D"http://localhost/describecomponents.cgi?product=3DTestP=
+roduct">Component:</a>
+</label>
+</th>     =20
+    <td id=3D"field_container_component">
+      <select name=3D"component" id=3D"component" size=3D"7" aria-required=
+=3D"true" class=3D"required">
+       =20
+
+          <option value=3D"TestComponent" id=3D"v1_component" selected=3D"s=
+elected">TestComponent          </option>
+      </select>
+
+     =20
+    </td>
+
+    <td colspan=3D"2" id=3D"comp_desc_container">
+     =20
+      <table>
+        <tbody><tr>
+          <td>
+            <fieldset>
+              <legend>Component Description</legend>
+              <div id=3D"comp_desc" class=3D"comment">This is a test compon=
+ent in the test product database. This ought to be blown away and replaced =
+with real stuff in a finished installation of Bugzilla.</div>
+            </fieldset>
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+
+  <tr><th class=3D"field_label  required" id=3D"field_label_version" rowspa=
+n=3D"3">
+
+    <label for=3D"version">
+
+  <a title=3D"The version field defines the version of the software the bug=
+ was found in." class=3D"field_help_link" href=3D"http://localhost/page.cgi=
+?id=3Dfields.html#version">Version:</a>
+</label>
+</th>
+    <td rowspan=3D"3">
+      <select name=3D"version" id=3D"version" size=3D"5">
+          <option value=3D"unspecified" selected=3D"selected">unspecified  =
+        </option>
+      </select>
+    </td>
+<th class=3D"field_label " id=3D"field_label_bug_severity">
+
+    <label for=3D"bug_severity">
+
+  <a title=3D"How severe the bug is, or whether it's an enhancement." class=
+=3D"field_help_link" href=3D"http://localhost/page.cgi?id=3Dfields.html#bug=
+_severity">Severity:</a>
+</label>
+</th>
+  <td class=3D"field_value " id=3D"field_container_bug_severity">
+        <select id=3D"bug_severity" name=3D"bug_severity">
+            <option value=3D"blocker" id=3D"v1_bug_severity">blocker</optio=
+n>
+            <option value=3D"critical" id=3D"v2_bug_severity">critical</opt=
+ion>
+            <option value=3D"major" id=3D"v3_bug_severity">major</option>
+            <option value=3D"normal" id=3D"v4_bug_severity">normal</option>
+            <option value=3D"minor" id=3D"v5_bug_severity">minor</option>
+            <option value=3D"trivial" id=3D"v6_bug_severity">trivial</optio=
+n>
+            <option value=3D"enhancement" id=3D"v7_bug_severity" selected=
+=3D"selected">enhancement</option>
+        </select>
+       =20
+
+       =20
+</td>
+  </tr>
+
+  <tr><th class=3D"field_label " id=3D"field_label_rep_platform">
+
+    <label for=3D"rep_platform">
+
+  <a title=3D"The hardware platform the bug was observed on. Note: When sea=
+rching, selecting the option &quot;All&quot; only finds bugs whose value fo=
+r this field is literally the word &quot;All&quot;." class=3D"field_help_li=
+nk" href=3D"http://localhost/page.cgi?id=3Dfields.html#rep_platform">Hardwa=
+re:</a>
+</label>
+</th>
+  <td class=3D"field_value " id=3D"field_container_rep_platform">
+        <select id=3D"rep_platform" name=3D"rep_platform">
+            <option value=3D"All" id=3D"v1_rep_platform">All</option>
+            <option value=3D"PC" id=3D"v2_rep_platform" selected=3D"selecte=
+d">PC</option>
+            <option value=3D"Macintosh" id=3D"v3_rep_platform">Macintosh</o=
+ption>
+            <option value=3D"Other" id=3D"v4_rep_platform">Other</option>
+        </select>
+       =20
+
+       =20
+</td>
+  </tr>
+
+  <tr><th class=3D"field_label " id=3D"field_label_op_sys">
+
+    <label for=3D"op_sys">
+
+  <a title=3D"The operating system the bug was observed on. Note: When sear=
+ching, selecting the option &quot;All&quot; only finds bugs whose value for=
+ this field is literally the word &quot;All&quot;." class=3D"field_help_lin=
+k" href=3D"http://localhost/page.cgi?id=3Dfields.html#op_sys">OS:</a>
+</label>
+</th>
+  <td class=3D"field_value " id=3D"field_container_op_sys">
+        <select id=3D"op_sys" name=3D"op_sys">
+            <option value=3D"All" id=3D"v1_op_sys">All</option>
+            <option value=3D"Windows" id=3D"v2_op_sys" selected=3D"selected=
+">Windows</option>
+            <option value=3D"Mac OS" id=3D"v3_op_sys">Mac OS</option>
+            <option value=3D"Linux" id=3D"v4_op_sys">Linux</option>
+            <option value=3D"Other" id=3D"v5_op_sys">Other</option>
+        </select>
+       =20
+
+       =20
+</td>
+  </tr>
+    <tr>
+      <th colspan=3D"3">&nbsp;</th>
+      <td id=3D"os_guess_note" class=3D"comment">
+        <div>We've made a guess at your
+          operating system and platform. Please check them
+        and make any corrections if necessary.</div>
+      </td>
+    </tr>
+</tbody>
+
+<tbody class=3D"expert_fields bz_tui_hidden">
+  <tr>
+      <td colspan=3D"2">&nbsp;</td>
+<th class=3D"field_label " id=3D"field_label_priority">
+
+    <label for=3D"priority">
+
+  <a title=3D"Engineers prioritize their bugs using this field." class=3D"f=
+ield_help_link" href=3D"http://localhost/page.cgi?id=3Dfields.html#priority=
+">Priority:</a>
+</label>
+</th>
+  <td class=3D"field_value " id=3D"field_container_priority">
+        <select id=3D"priority" name=3D"priority">
+            <option value=3D"Highest" id=3D"v1_priority">Highest</option>
+            <option value=3D"High" id=3D"v2_priority">High</option>
+            <option value=3D"Normal" id=3D"v3_priority">Normal</option>
+            <option value=3D"Low" id=3D"v4_priority">Low</option>
+            <option value=3D"Lowest" id=3D"v5_priority">Lowest</option>
+            <option value=3D"---" id=3D"v6_priority" selected=3D"selected">=
+---</option>
+        </select>
+       =20
+
+       =20
+</td>
+  </tr>
+</tbody>
+
+<tbody class=3D"expert_fields bz_tui_hidden">
+  <tr>
+    <td colspan=3D"4">&nbsp;</td>
+  </tr>
+
+  <tr><th class=3D"field_label " id=3D"field_label_bug_status">
+
+    <label for=3D"bug_status">
+
+  <a title=3D"A bug may be in any of a number of states." class=3D"field_he=
+lp_link" href=3D"http://localhost/page.cgi?id=3Dfields.html#bug_status">Sta=
+tus:</a>
+</label>
+</th>
+  <td class=3D"field_value " id=3D"field_container_bug_status">
+        <select id=3D"bug_status" name=3D"bug_status">
+            <option value=3D"UNCONFIRMED" id=3D"v1_bug_status">UNCONFIRMED<=
+/option>
+            <option value=3D"CONFIRMED" id=3D"v2_bug_status" selected=3D"se=
+lected">CONFIRMED</option>
+            <option value=3D"IN_PROGRESS" id=3D"v3_bug_status">IN_PROGRESS<=
+/option>
+        </select>
+       =20
+
+       =20
+</td>
+
+    <td>&nbsp;</td>
+   =20
+
+    <td rowspan=3D"9">
+    </td>
+  </tr>
+
+  <tr><th class=3D"field_label " id=3D"field_label_assigned_to">
+
+    <label for=3D"assigned_to">
+
+  <a title=3D"The person in charge of resolving the bug." class=3D"field_he=
+lp_link" href=3D"http://localhost/page.cgi?id=3Dfields.html#assigned_to">As=
+signee:</a>
+</label>
+</th>
+    <td colspan=3D"2"><input name=3D"assigned_to" value=3D"" size=3D"30" id=
+=3D"assigned_to">
+     =20
+    </td>
+  </tr>
+ =20
+
+  <tr><th class=3D"field_label " id=3D"field_label_cc">
+
+    <label for=3D"cc">
+
+  <a title=3D"Users who may not have a direct role to play on this bug, but=
+ who are interested in its progress." class=3D"field_help_link" href=3D"htt=
+p://localhost/page.cgi?id=3Dfields.html#cc">CC:</a>
+</label>
+</th>
+    <td colspan=3D"2"><input name=3D"cc" value=3D"" size=3D"30" id=3D"cc">
+    </td>
+  </tr>
+
+  <tr>
+    <th>Default CC:</th>
+    <td colspan=3D"2">
+      <div id=3D"initial_cc"></div>
+   </td>
+  </tr>
+ =20
+  <tr>
+    <td colspan=3D"3">&nbsp;</td>
+  </tr>
+
+  <tr><th class=3D"field_label " id=3D"field_label_estimated_time">
+
+    <label for=3D"estimated_time">
+
+  <a title=3D"The amount of time that has been estimated it will take to re=
+solve this bug." class=3D"field_help_link" href=3D"http://localhost/page.cg=
+i?id=3Dfields.html#estimated_time">Orig. Est.:</a>
+</label>
+</th>
+    <td colspan=3D"2">
+      <input name=3D"estimated_time" size=3D"6" maxlength=3D"6" value=3D"">
+    </td>
+  </tr>
+  <tr><th class=3D"field_label " id=3D"field_label_deadline">
+
+    <label for=3D"deadline">
+
+  <a title=3D"The date that this bug must be resolved by, entered in YYYY-M=
+M-DD format." class=3D"field_help_link" href=3D"http://localhost/page.cgi?i=
+d=3Dfields.html#deadline">Deadline:</a>
+</label>
+</th>
+  <td class=3D"field_value " id=3D"field_container_deadline" colspan=3D"2">
+      <input name=3D"deadline" size=3D"20" id=3D"deadline" value=3D"">
+      <button type=3D"button" class=3D"calendar_button" id=3D"button_calend=
+ar_deadline">
+        <span>Calendar</span>
+      </button>
+
+      <div id=3D"con_calendar_deadline" class=3D"yui-calcontainer single"><=
+table cellspacing=3D"0" class=3D"yui-calendar y2021" id=3D"calendar_deadlin=
+e">
+<thead>
+<tr>
+<th colspan=3D"7" class=3D"calhead">
+<div class=3D"calheader">
+<a class=3D"calnavleft" href=3D"http://localhost/enter_bug.cgi#">Previous M=
+onth (April 2021)</a>
+May 2021
+<a class=3D"calnavright" href=3D"http://localhost/enter_bug.cgi#">Next Mont=
+h (June 2021)</a>
+</div>
+</th>
+</tr>
+<tr class=3D"calweekdayrow">
+<th class=3D"calweekdaycell">Su</th>
+<th class=3D"calweekdaycell">Mo</th>
+<th class=3D"calweekdaycell">Tu</th>
+<th class=3D"calweekdaycell">We</th>
+<th class=3D"calweekdaycell">Th</th>
+<th class=3D"calweekdaycell">Fr</th>
+<th class=3D"calweekdaycell">Sa</th>
+</tr>
+</thead>
+<tbody class=3D"m5 calbody">
+<tr class=3D"w18">
+<td class=3D"calcell oom calcelltop calcellleft" id=3D"calendar_deadline_ce=
+ll0">25</td>
+<td class=3D"calcell oom calcelltop" id=3D"calendar_deadline_cell1">26</td>
+<td class=3D"calcell oom calcelltop" id=3D"calendar_deadline_cell2">27</td>
+<td class=3D"calcell oom calcelltop" id=3D"calendar_deadline_cell3">28</td>
+<td class=3D"calcell oom calcelltop" id=3D"calendar_deadline_cell4">29</td>
+<td class=3D"calcell oom calcelltop" id=3D"calendar_deadline_cell5">30</td>
+<td class=3D"calcell wd6 d1 selectable calcelltop calcellright" id=3D"calen=
+dar_deadline_cell6"><a href=3D"http://localhost/enter_bug.cgi#" class=3D"se=
+lector">1</a></td>
+</tr>
+<tr class=3D"w19">
+<td class=3D"calcell wd0 d2 selectable calcellleft" id=3D"calendar_deadline=
+_cell7"><a href=3D"http://localhost/enter_bug.cgi#" class=3D"selector">2</a=
+></td>
+<td class=3D"calcell wd1 d3 selectable" id=3D"calendar_deadline_cell8"><a h=
+ref=3D"http://localhost/enter_bug.cgi#" class=3D"selector">3</a></td>
+<td class=3D"calcell wd2 d4 selectable" id=3D"calendar_deadline_cell9"><a h=
+ref=3D"http://localhost/enter_bug.cgi#" class=3D"selector">4</a></td>
+<td class=3D"calcell wd3 d5 selectable" id=3D"calendar_deadline_cell10"><a =
+href=3D"http://localhost/enter_bug.cgi#" class=3D"selector">5</a></td>
+<td class=3D"calcell wd4 d6 selectable" id=3D"calendar_deadline_cell11"><a =
+href=3D"http://localhost/enter_bug.cgi#" class=3D"selector">6</a></td>
+<td class=3D"calcell wd5 d7 selectable" id=3D"calendar_deadline_cell12"><a =
+href=3D"http://localhost/enter_bug.cgi#" class=3D"selector">7</a></td>
+<td class=3D"calcell wd6 d8 selectable calcellright" id=3D"calendar_deadlin=
+e_cell13"><a href=3D"http://localhost/enter_bug.cgi#" class=3D"selector">8<=
+/a></td>
+</tr>
+<tr class=3D"w20">
+<td class=3D"calcell wd0 d9 selectable calcellleft" id=3D"calendar_deadline=
+_cell14"><a href=3D"http://localhost/enter_bug.cgi#" class=3D"selector">9</=
+a></td>
+<td class=3D"calcell wd1 d10 selectable" id=3D"calendar_deadline_cell15"><a=
+ href=3D"http://localhost/enter_bug.cgi#" class=3D"selector">10</a></td>
+<td class=3D"calcell wd2 d11 selectable" id=3D"calendar_deadline_cell16"><a=
+ href=3D"http://localhost/enter_bug.cgi#" class=3D"selector">11</a></td>
+<td class=3D"calcell wd3 d12 selectable" id=3D"calendar_deadline_cell17"><a=
+ href=3D"http://localhost/enter_bug.cgi#" class=3D"selector">12</a></td>
+<td class=3D"calcell wd4 d13 selectable" id=3D"calendar_deadline_cell18"><a=
+ href=3D"http://localhost/enter_bug.cgi#" class=3D"selector">13</a></td>
+<td class=3D"calcell wd5 d14 selectable" id=3D"calendar_deadline_cell19"><a=
+ href=3D"http://localhost/enter_bug.cgi#" class=3D"selector">14</a></td>
+<td class=3D"calcell wd6 d15 selectable calcellright" id=3D"calendar_deadli=
+ne_cell20"><a href=3D"http://localhost/enter_bug.cgi#" class=3D"selector">1=
+5</a></td>
+</tr>
+<tr class=3D"w21">
+<td class=3D"calcell wd0 d16 today selectable calcellleft" id=3D"calendar_d=
+eadline_cell21"><a href=3D"http://localhost/enter_bug.cgi#" class=3D"select=
+or">16</a></td>
+<td class=3D"calcell wd1 d17 selectable" id=3D"calendar_deadline_cell22"><a=
+ href=3D"http://localhost/enter_bug.cgi#" class=3D"selector">17</a></td>
+<td class=3D"calcell wd2 d18 selectable" id=3D"calendar_deadline_cell23"><a=
+ href=3D"http://localhost/enter_bug.cgi#" class=3D"selector">18</a></td>
+<td class=3D"calcell wd3 d19 selectable" id=3D"calendar_deadline_cell24"><a=
+ href=3D"http://localhost/enter_bug.cgi#" class=3D"selector">19</a></td>
+<td class=3D"calcell wd4 d20 selectable" id=3D"calendar_deadline_cell25"><a=
+ href=3D"http://localhost/enter_bug.cgi#" class=3D"selector">20</a></td>
+<td class=3D"calcell wd5 d21 selectable" id=3D"calendar_deadline_cell26"><a=
+ href=3D"http://localhost/enter_bug.cgi#" class=3D"selector">21</a></td>
+<td class=3D"calcell wd6 d22 selectable calcellright" id=3D"calendar_deadli=
+ne_cell27"><a href=3D"http://localhost/enter_bug.cgi#" class=3D"selector">2=
+2</a></td>
+</tr>
+<tr class=3D"w22">
+<td class=3D"calcell wd0 d23 selectable calcellleft" id=3D"calendar_deadlin=
+e_cell28"><a href=3D"http://localhost/enter_bug.cgi#" class=3D"selector">23=
+</a></td>
+<td class=3D"calcell wd1 d24 selectable" id=3D"calendar_deadline_cell29"><a=
+ href=3D"http://localhost/enter_bug.cgi#" class=3D"selector">24</a></td>
+<td class=3D"calcell wd2 d25 selectable" id=3D"calendar_deadline_cell30"><a=
+ href=3D"http://localhost/enter_bug.cgi#" class=3D"selector">25</a></td>
+<td class=3D"calcell wd3 d26 selectable" id=3D"calendar_deadline_cell31"><a=
+ href=3D"http://localhost/enter_bug.cgi#" class=3D"selector">26</a></td>
+<td class=3D"calcell wd4 d27 selectable" id=3D"calendar_deadline_cell32"><a=
+ href=3D"http://localhost/enter_bug.cgi#" class=3D"selector">27</a></td>
+<td class=3D"calcell wd5 d28 selectable" id=3D"calendar_deadline_cell33"><a=
+ href=3D"http://localhost/enter_bug.cgi#" class=3D"selector">28</a></td>
+<td class=3D"calcell wd6 d29 selectable calcellright" id=3D"calendar_deadli=
+ne_cell34"><a href=3D"http://localhost/enter_bug.cgi#" class=3D"selector">2=
+9</a></td>
+</tr>
+<tr class=3D"w23">
+<td class=3D"calcell wd0 d30 selectable calcellleft calcellbottom" id=3D"ca=
+lendar_deadline_cell35"><a href=3D"http://localhost/enter_bug.cgi#" class=
+=3D"selector">30</a></td>
+<td class=3D"calcell wd1 d31 selectable calcellbottom" id=3D"calendar_deadl=
+ine_cell36"><a href=3D"http://localhost/enter_bug.cgi#" class=3D"selector">=
+31</a></td>
+<td class=3D"calcell oom calcellbottom" id=3D"calendar_deadline_cell37">1</=
+td>
+<td class=3D"calcell oom calcellbottom" id=3D"calendar_deadline_cell38">2</=
+td>
+<td class=3D"calcell oom calcellbottom" id=3D"calendar_deadline_cell39">3</=
+td>
+<td class=3D"calcell oom calcellbottom" id=3D"calendar_deadline_cell40">4</=
+td>
+<td class=3D"calcell oom calcellright calcellbottom" id=3D"calendar_deadlin=
+e_cell41">5</td>
+</tr>
+</tbody>
+</table></div>
+
+      </td>=20
+  </tr>
+
+  <tr>
+    <td colspan=3D"3">&nbsp;</td>
+  </tr>
+
+
+  <tr><th class=3D"field_label " id=3D"field_label_bug_file_loc">
+
+    <label for=3D"bug_file_loc">
+
+  <a title=3D"Bugs can have a URL associated with them - for example, a poi=
+nter to a web site where the problem is seen." class=3D"field_help_link" hr=
+ef=3D"http://localhost/page.cgi?id=3Dfields.html#bug_file_loc">URL:</a>
+</label>
+</th>
+    <td colspan=3D"2" class=3D"field_value">
+      <input name=3D"bug_file_loc" id=3D"bug_file_loc" class=3D"text_input"=
+ size=3D"40" value=3D"http://">
+    </td>
+  </tr>
+</tbody>
+
+<tbody>
+
+</tbody>
+
+<tbody>
+
+  <tr><th class=3D"field_label  required" id=3D"field_label_short_desc">
+
+    <label for=3D"short_desc">
+
+  <a title=3D"The bug summary is a short sentence which succinctly describe=
+s what the bug is about." class=3D"field_help_link" href=3D"http://localhos=
+t/page.cgi?id=3Dfields.html#short_desc">Summary:</a>
+</label>
+</th>
+    <td colspan=3D"3" class=3D"field_value">
+      <input name=3D"short_desc" size=3D"70" value=3D"" maxlength=3D"255" s=
+pellcheck=3D"true" aria-required=3D"true" class=3D"required text_input" id=
+=3D"short_desc">
+    </td>
+  </tr>
+
+
+  <tr>
+    <th>Description:</th>
+    <td colspan=3D"3">
+<textarea name=3D"comment" id=3D"comment" rows=3D"10" cols=3D"80"></textare=
+a>
+      <br>
+    </td>
+  </tr>
+
+
+  <tr>
+    <th>Attachment:</th>
+    <td colspan=3D"3">
+      <div id=3D"attachment_false">
+        <input type=3D"button" value=3D"Add an attachment">
+      </div>
+
+      <div id=3D"attachment_true" class=3D"bz_default_hidden">
+        <input type=3D"button" id=3D"btn_no_attachment" value=3D"Don't add =
+an attachment">
+        <fieldset>
+          <legend>Add an attachment</legend>
+          <table class=3D"attachment_entry"><tbody><tr class=3D"attachment_=
+data">
+  <th><label for=3D"data">File</label>:</th>
+  <td>
+    <em>Enter the path to the file on your computer</em> (or
+    <a id=3D"attachment_data_controller">paste text as attachment</a>).<br>
+    <input type=3D"file" id=3D"data" name=3D"data" size=3D"50">
+  </td>
+</tr>
+<tr class=3D"attachment_text_field bz_tui_hidden">
+  <th><label for=3D"attach_text">File</label>:</th>
+  <td>
+    <em>Paste the text to be added as an attachment</em> (or
+    <a id=3D"attachment_text_field_controller">undefined</a>).<br>
+    <textarea id=3D"attach_text" name=3D"attach_text" cols=3D"80" rows=3D"1=
+5"></textarea>
+  </td>
+</tr>
+<tr>
+  <th class=3D"required"><label for=3D"description">Description</label>:</t=
+h>
+  <td>
+    <em>Describe the attachment briefly.</em><br>
+    <input type=3D"text" id=3D"description" name=3D"description" class=3D"r=
+equired" size=3D"60" maxlength=3D"200">
+  </td>
+</tr>
+<tr class=3D"expert_fields bz_tui_hidden">
+  <th>Content Type:</th>
+  <td>
+    <em>If the attachment is a patch, check the box below.</em><br>
+    <input type=3D"checkbox" id=3D"ispatch" name=3D"ispatch" value=3D"1">
+    <label for=3D"ispatch">patch</label><br><br>
+   =20
+   =20
+
+    <em>Otherwise, choose a method for determining the content type.</em><b=
+r>
+    <input type=3D"radio" id=3D"autodetect" name=3D"contenttypemethod" valu=
+e=3D"autodetect" checked=3D"checked">
+      <label for=3D"autodetect">auto-detect</label><br>
+    <input type=3D"radio" id=3D"list" name=3D"contenttypemethod" value=3D"l=
+ist">
+      <label for=3D"list">select from list</label>:
+      <select name=3D"contenttypeselection" id=3D"contenttypeselection"><op=
+tion value=3D"text/plain">plain text (text/plain)</option>
+    <option value=3D"text/html">HTML source (text/html)</option>
+    <option value=3D"application/xml">XML source (application/xml)</option>
+    <option value=3D"image/gif">GIF image (image/gif)</option>
+    <option value=3D"image/jpeg">JPEG image (image/jpeg)</option>
+    <option value=3D"image/png">PNG image (image/png)</option>
+    <option value=3D"application/octet-stream">binary file (application/oct=
+et-stream)</option>
+      </select><br>
+    <input type=3D"radio" id=3D"manual" name=3D"contenttypemethod" value=3D=
+"manual">
+      <label for=3D"manual">enter manually</label>:
+      <input type=3D"text" name=3D"contenttypeentry" id=3D"contenttypeentry=
+" size=3D"30" maxlength=3D"200">
+  </td>
+</tr>
+<tr class=3D"expert_fields bz_tui_hidden">
+  <td> </td>
+  <td>
+  </td>
+</tr>
+          </tbody></table>
+        </fieldset>
+      </div>
+    </td>
+  </tr>
+</tbody>
+
+<tbody class=3D"expert_fields bz_tui_hidden">
+
+    <tr><th class=3D"field_label " id=3D"field_label_dependson">
+
+    <label for=3D"dependson">
+
+  <a title=3D"The bugs listed here must be resolved before this bug can be =
+resolved." class=3D"field_help_link" href=3D"http://localhost/page.cgi?id=
+=3Dfields.html#dependson">Depends on:</a>
+</label>
+</th>
+      <td colspan=3D"3">
+        <input name=3D"dependson" accesskey=3D"d" value=3D"">
+      </td>
+    </tr>
+    <tr><th class=3D"field_label " id=3D"field_label_blocked">
+
+    <label for=3D"blocked">
+
+  <a title=3D"This bug must be resolved before the bugs listed in this fiel=
+d can be resolved." class=3D"field_help_link" href=3D"http://localhost/page=
+.cgi?id=3Dfields.html#blocked">Blocks:</a>
+</label>
+</th>
+      <td colspan=3D"3">
+        <input name=3D"blocked" accesskey=3D"b" value=3D"">
+      </td>
+    </tr>
+</tbody>
+
+<tbody class=3D"expert_fields bz_tui_hidden">
+</tbody>
+
+<tbody>
+ =20
+
+  <tr>
+    <th>&nbsp;</th>
+    <td colspan=3D"3">
+      <input type=3D"submit" id=3D"commit" value=3D"Submit Bug">
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <input type=3D"submit" name=3D"maketemplate" id=3D"maketemplate" valu=
+e=3D"Remember values as bookmarkable template" class=3D"expert_fields bz_tu=
+i_hidden">
+    </td>
+  </tr>
+</tbody>
+  </table>
+ =20
+</form>
+
+
+</div>
+
+
+
+<div id=3D"footer">
+  <div class=3D"intro"></div>
+
+
+
+
+<ul id=3D"useful-links">
+  <li id=3D"links-actions"><ul class=3D"links">
+  <li><a href=3D"http://localhost/">Home</a></li>
+  <li><span class=3D"separator">| </span><a href=3D"http://localhost/enter_=
+bug.cgi">New</a></li>
+  <li><span class=3D"separator">| </span><a href=3D"http://localhost/descri=
+becomponents.cgi">Browse</a></li>
+  <li><span class=3D"separator">| </span><a href=3D"http://localhost/query.=
+cgi">Search</a></li>
+
+  <li class=3D"form">
+    <span class=3D"separator">| </span>
+    <form action=3D"http://localhost/buglist.cgi" method=3D"get">
+    <input class=3D"txt" type=3D"text" id=3D"quicksearch_bottom" name=3D"qu=
+icksearch" title=3D"Quick Search" value=3D"">
+    <input class=3D"btn" type=3D"submit" value=3D"Search" id=3D"find_bottom=
+"></form>
+  <a href=3D"http://localhost/page.cgi?id=3Dquicksearch.html" title=3D"Quic=
+ksearch Help">[?]</a></li>
+
+  <li><span class=3D"separator">| </span><a href=3D"http://localhost/report=
+.cgi">Reports</a></li>
+
+  <li></li>
+
+    <li><span class=3D"separator">| </span><a href=3D"http://localhost/user=
+prefs.cgi">Preferences</a></li>
+      <li><span class=3D"separator">| </span><a href=3D"http://localhost/ad=
+min.cgi">Administration</a></li>
+<li>
+        <span class=3D"separator">| </span>
+        <a href=3D"http://localhost/docs/en/html/bugreports.html" target=3D=
+"_blank">Help</a>
+      </li>
+
+    <li>
+      <span class=3D"separator">| </span>
+        <a href=3D"http://localhost/index.cgi?logout=3D1">Log&nbsp;out</a>
+        rahul@bugzila.com</li>
+</ul>
+</li></ul>
+<ul class=3D"links testopia_links">
+  <li><a href=3D"http://localhost/tr_show_product.cgi">Product Dashboard</a=
+></li>
+  <li><span class=3D"separator">| </span><a href=3D"http://localhost/tr_new=
+_case.cgi?plan_id=3D">New Case</a></li>
+  <li><span class=3D"separator">| </span><a href=3D"http://localhost/tr_new=
+_run.cgi?plan_id=3D&amp;case_status_id=3D2">New Run</a></li>
+  <li><span class=3D"separator">| </span><a href=3D"http://localhost/tr_que=
+ry.cgi">Search</a></li>
+
+  <li><span class=3D"separator">| </span><a href=3D"http://localhost/tr_adm=
+in.cgi">Admin</a></li>
+  <li><span class=3D"separator">| </span><a href=3D"http://localhost/extens=
+ions/Testopia/doc/Manual.pdf" target=3D"_blank">Help</a></li>
+
+  <li class=3D"tr_saved_search">
+  <span class=3D"separator">| </span>
+  <select class=3D"dropdown">
+    <option>--Testopia--</option>
+    <option value=3D"tr_list_runs.cgi?current_tab=3Drun&amp;run_status=3D0&=
+amp;distinct=3D1">Current Runs</option>
+    <option value=3D"tr_list_plans.cgi?current_tab=3Dplan&amp;report_type=
+=3Dmyplans">My Plans</option>
+    <option value=3D"tr_list_cases.cgi?current_tab=3Dcase&amp;summary_type=
+=3Dallwordssubstr&amp;summary=3D&amp;tcaction_type=3Dallwordssubstr&amp;tca=
+ction=3D&amp;tceffect_type=3Dallwordssubstr&amp;tceffect=3D&amp;script_type=
+=3Dallwordssubstr&amp;script=3D&amp;requirement_type=3Dallwordssubstr&amp;r=
+equirement=3D&amp;tag_type=3Dallwords&amp;tags=3D&amp;author_type=3Dexact&a=
+mp;author=3D&amp;default_tester_type=3Dsubstring&amp;default_tester=3Drahul=
+%40bugzila.com&amp;case_id=3D&amp;plan_id=3D&amp;distinct=3D1">My Cases</op=
+tion>
+    <option value=3D"tr_list_runs.cgi?current_tab=3Drun&amp;summary_type=3D=
+allwordssubstr&amp;summary=3D&amp;notes_type=3Dallwordssubstr&amp;notes=3D&=
+amp;environment_type=3Dallwordssubstr&amp;environment=3D&amp;tag_type=3Dall=
+words&amp;tag=3D&amp;manager_type=3Dsubstring&amp;manager=3Drahul%40bugzila=
+.com&amp;run_id=3D&amp;plan_id=3D&amp;assignee_type=3Dsubstr&amp;assignee=
+=3Drahul%40bugzila.com&amp;distinct=3D1&amp;order=3Drun_id&amp;dir=3DDESC">=
+My Runs</option>       =20
+  </select>
+  </li>
+  <li class=3D"form tr_find">
+  <form action=3D"http://localhost/tr_quicksearch.cgi">
+    <input class=3D"txt" type=3D"text" name=3D"searchstr" id=3D"tr_quicksea=
+rch">
+    <input class=3D"btn testopia_btn" type=3D"submit" value=3D"Find">
+  </form>
+  </li>
+</ul>
+ =20
+
+ =20
+   =20
+    <li id=3D"links-saved">
+      <ul class=3D"links">
+          <li><a href=3D"http://localhost/buglist.cgi?resolution=3D---&amp;=
+emailassigned_to1=3D1&amp;emailreporter1=3D1&amp;emailtype1=3Dexact&amp;ema=
+il1=3Drahul%40bugzila.com">My Bugs</a></li>
+
+      </ul>
+    </li>
+
+ =20
+
+
+  <div id=3D"tr-links-saved">
+  <ul class=3D"links">
+    <li><a href=3D"http://localhost/tr_list_runs.cgi?current_tab=3Drun&amp;=
+run_status=3D0&amp;distinct=3D1">Current Runs</a></li>
+    <li><span class=3D"separator">| </span><a href=3D"http://localhost/tr_l=
+ist_plans.cgi?current_tab=3Dplan&amp;report_type=3Dmyplans">My Plans</a></l=
+i>
+    <li><span class=3D"separator">| </span><a href=3D"http://localhost/tr_l=
+ist_cases.cgi?current_tab=3Dcase&amp;summary_type=3Dallwordssubstr&amp;summ=
+ary=3D&amp;tcaction_type=3Dallwordssubstr&amp;tcaction=3D&amp;tceffect_type=
+=3Dallwordssubstr&amp;tceffect=3D&amp;script_type=3Dallwordssubstr&amp;scri=
+pt=3D&amp;requirement_type=3Dallwordssubstr&amp;requirement=3D&amp;tag_type=
+=3Dallwords&amp;tags=3D&amp;author_type=3Dexact&amp;author=3D&amp;default_t=
+ester_type=3Dsubstring&amp;default_tester=3Drahul%40bugzila.com&amp;case_id=
+=3D&amp;plan_id=3D&amp;distinct=3D1">My Cases</a></li>
+    <li><span class=3D"separator">| </span><a href=3D"http://localhost/tr_l=
+ist_runs.cgi?current_tab=3Drun&amp;summary_type=3Dallwordssubstr&amp;summar=
+y=3D&amp;notes_type=3Dallwordssubstr&amp;notes=3D&amp;environment_type=3Dal=
+lwordssubstr&amp;environment=3D&amp;tag_type=3Dallwords&amp;tag=3D&amp;mana=
+ger_type=3Dsubstring&amp;manager=3Drahul%40bugzila.com&amp;run_id=3D&amp;pl=
+an_id=3D&amp;assignee_type=3Dsubstr&amp;assignee=3Drahul%40bugzila.com&amp;=
+distinct=3D1&amp;order=3Drun_id&amp;dir=3DDESC">My Runs</a></li>
+  </ul>
+  <form id=3D"testopia_helper_frm"></form>
+
+
+  <div class=3D"outro"></div>
+</div>
+
+
+
+</div><div id=3D"katalon_only_element"></div></body></html>
+------MultipartBoundary--4BJhA9q9l85YvQxnzV0UJalukumw6mIAf4s4QvUStD----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://localhost/skins/standard/global.css
+
+@charset "utf-8";
+
+body { font-family: sans-serif; color: rgb(0, 0, 0); background: url("globa=
+l/body-back.gif") repeat-x rgb(255, 255, 255); }
+
+body, td, th, input { font-family: Verdana, sans-serif; font-size: small; }
+
+pre, code, kbd { font-size: medium; }
+
+#header { margin-bottom: 1em; }
+
+#header form, #header form input, #footer form, #footer form input { font-s=
+ize: 95%; display: inline; }
+
+#header .links { border-left: 1px solid rgb(116, 126, 147); border-right: 1=
+px solid rgb(116, 126, 147); border-bottom: 1px solid rgb(116, 126, 147); b=
+order-bottom-left-radius: 5px; border-bottom-right-radius: 5px; padding: 0.=
+5em; }
+
+#lang_links_container { float: right; }
+
+#lang_links_container .links { border: none; padding: 0.5em; }
+
+.lang_current { font-weight: bold; }
+
+#message { border: 1px solid red; margin: 0.3em 0em; padding: 0.3em; color:=
+ green; }
+
+form.mini_login input.bz_login { width: 10em; }
+
+form.mini_login input.bz_password { width: 6em; }
+
+form.mini_login input.bz_remember { margin: 0px; }
+
+.bz_mini_login_help { color: rgb(119, 119, 119); }
+
+#banner { }
+
+#titles { width: 100%; background-color: rgb(64, 77, 108); color: rgb(255, =
+255, 255); border-top-left-radius: 5px; border-top-right-radius: 5px; font-=
+size: 110%; margin: 0px; padding: 0.5em; vertical-align: bottom; }
+
+#titles a { color: rgb(255, 255, 255); }
+
+#titles p { margin: 0px; padding: 0px; }
+
+#titles #title { font-weight: bold; white-space: nowrap; }
+
+#titles #subtitle { font-weight: normal; width: 100%; text-align: center; }
+
+#titles #information { font-weight: normal; text-align: right; font-size: 9=
+0%; white-space: nowrap; }
+
+#footer { clear: both; margin-top: 1em; width: 100%; background: rgb(237, 2=
+42, 242); border-top: 1px solid rgb(221, 221, 221); border-bottom: 1px soli=
+d rgb(221, 221, 221); }
+
+#footer #useful-links { padding-left: 1ex; padding-right: 1ex; }
+
+#footer ul { list-style-type: none; }
+
+#links-saved ul { display: inline; }
+
+#links-saved th { vertical-align: top; }
+
+#footer .label { white-space: nowrap; vertical-align: top; }
+
+#footer .links { vertical-align: top; }
+
+ul.links { margin: 0px; padding: 0px; list-style-type: none; }
+
+ul.links li { display: inline; white-space: nowrap; }
+
+.tabs td { background: rgb(238, 238, 238); text-align: center; border-style=
+: solid; border-color: black; border-width: 0px 0px 2px; }
+
+.tabs td.selected { background: white; border-width: 2px 2px 0px; }
+
+.tabs td.spacer { background: white; }
+
+a { color: rgb(0, 51, 153); }
+
+a:visited { color: rgb(102, 51, 102); }
+
+a:hover { color: rgb(51, 51, 51); }
+
+a:active { color: rgb(0, 0, 0); }
+
+.clickable_area { cursor: pointer; }
+
+textarea { font-family: monospace; }
+
+a.controller { font-size: 115%; }
+
+div#docslinks { float: right; border: 1px solid black; padding: 1ex; font-s=
+ize: 80%; }
+
+#docslinks h2 { margin: 0px; }
+
+.bz_bug_link { }
+
+.bz_bug_link .bz_status_UNCONFIRMED { font-style: italic; }
+
+.bz_obsolete { text-decoration: line-through; }
+
+.bz_inactive { text-decoration: line-through; }
+
+.bz_closed, .bz_CLOSED td { text-decoration: line-through; }
+
+.bz_private { color: darkred; background: rgb(243, 238, 238); }
+
+.bz_disabled { color: rgb(160, 160, 160); }
+
+.bz_comment_table td { vertical-align: top; }
+
+.bz_comment { margin-bottom: 2em; }
+
+.bz_comment_text, .uneditable_textarea, tbody.file pre { font-family: monos=
+pace; white-space: pre-wrap; }
+
+.bz_comment_text { width: 50em; }
+
+.bz_comment_user, .bz_comment_time, .bz_comment_number, .bz_private_checkbo=
+x, .bz_comment_actions { margin: 0px 0.5em; }
+
+.bz_comment_actions, .bz_comment_number, .bz_private_checkbox { float: righ=
+t; }
+
+.bz_collapse_expand_comments { padding: 0px; margin: 0px 0px 0px 1em; list-=
+style-type: none; }
+
+.bz_collapse_expand_comments li { margin-bottom: 0.5em; }
+
+.bz_collapse_comment { text-decoration: none; }
+
+.bz_private_checkbox input { margin: 0px; vertical-align: middle; }
+
+.bz_comment_head, .bz_first_comment_head { padding-top: 0.1em; padding-bott=
+om: 0.1em; padding-left: 0.5em; background-color: rgb(224, 224, 224); }
+
+.bz_comment_user_images img { vertical-align: bottom; }
+
+.bz_comment_hilite pre { background-color: lightgreen; margin: 0px; padding=
+: 1em 0px; }
+
+.bz_default_hidden, .bz_tui_hidden, .bz_hidden_field, .bz_hidden_option { d=
+isplay: none !important; }
+
+.bz_comment_text span.quote { color: rgb(101, 55, 156); white-space: pre; }
+
+table#flags th, table#flags td { vertical-align: middle; text-align: left; =
+}
+
+.flag_select { min-width: 3em; }
+
+input.requestee { width: 15em; }
+
+#error_msg { font-size: x-large; }
+
+.warning { color: red; }
+
+.throw_error { background-color: rgb(255, 0, 0); color: black; font-size: 1=
+20%; margin: 1em; padding: 0.5em 1em; }
+
+dt { font-weight: bold; }
+
+body > dl > dt { border-top: thin dotted gray; }
+
+dl dl > dt { border-top: none; }
+
+#admin_table th { white-space: normal !important; }
+
+.arrow_button { font-size: 150%; }
+
+#attachment_table { border-collapse: collapse; border: 1px solid rgb(51, 51=
+, 51); }
+
+#attachment_table th, .bz_attach_footer, .bz_time_tracking_table th { backg=
+round-color: rgb(224, 224, 224); color: black; }
+
+#attachment_table td, .bz_time_tracking_table th, .bz_time_tracking_table t=
+d { border: 1px solid rgb(51, 51, 51); }
+
+.bz_attach_extra_info { font-size: smaller; }
+
+.bz_attach_flags, .bz_attach_footer { white-space: nowrap; }
+
+.bz_attach_view_hide { float: right; padding-left: 1em; }
+
+div.user_match { margin-bottom: 1em; }
+
+.box { border: 1px solid black; color: black; background-color: rgb(255, 25=
+5, 204); margin: 1em; padding: 0.5em 1em; }
+
+.collapsed { display: none; }
+
+@media print {
+  #header, #footer { display: none; }
+  div.bz_query_buttons { display: none; }
+  body { background-image: none; background-color: rgb(255, 255, 255); }
+}
+
+.field_label { text-align: right; vertical-align: top; font-weight: bold; }
+
+.field_help_link { cursor: help; }
+
+.field_value, form#Create th, form#Create td { vertical-align: top; }
+
+.field_value .text_input { width: 100%; min-width: 25em; }
+
+.uneditable_textarea { width: 30em; font-size: medium; }
+
+th.required::before { content: "* "; }
+
+th.required::before, span.required_star { color: red; }
+
+input.required, select.required, span.required_explanation { background-col=
+or: rgb(255, 247, 205); color: rgb(0, 0, 0); }
+
+.calendar_button { background: url("global/calendar.png") no-repeat transpa=
+rent; width: 20px; height: 20px; vertical-align: middle; }
+
+.calendar_button span { display: none; }
+
+.yui-calcontainer { display: none; background-color: white; padding: 10px; =
+border: 1px solid rgb(64, 77, 108); }
+
+.bug_urls { margin: 0px 0px 1em; padding: 0px; list-style-type: none; }
+
+.yui-skin-sam .yui-ac-input { position: static !important; vertical-align: =
+middle !important; }
+
+.yui-skin-sam .yui-ac-container { left: 0px !important; }
+
+.yui-skin-sam .yui-ac { display: inline-block; }
+
+#bugzilla-body .yui-ac-content { max-height: 19em; overflow: hidden auto; }
+
+#keyword_container { padding-top: 0.2em; }
+
+#keyword_container .yui-ac-content { margin-left: -1px; }
+
+.validation_error_text { font-size: 120%; color: rgb(183, 0, 0); font-weigh=
+t: bold; }
+
+.validation_error_field, input.validation_error_field { border: 2px solid r=
+gb(183, 0, 0); background-color: rgb(255, 235, 235); }
+------MultipartBoundary--4BJhA9q9l85YvQxnzV0UJalukumw6mIAf4s4QvUStD----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://localhost/js/yui/assets/skins/sam/autocomplete.css
+
+@charset "utf-8";
+
+.yui-skin-sam .yui-ac { position: relative; font-family: arial; font-size: =
+100%; }
+
+.yui-skin-sam .yui-ac-input { position: absolute; width: 100%; }
+
+.yui-skin-sam .yui-ac-container { position: absolute; top: 1.6em; width: 10=
+0%; }
+
+.yui-skin-sam .yui-ac-content { position: absolute; width: 100%; border: 1p=
+x solid rgb(128, 128, 128); background: rgb(255, 255, 255); overflow: hidde=
+n; z-index: 9050; }
+
+.yui-skin-sam .yui-ac-shadow { position: absolute; margin: 0.3em; width: 10=
+0%; background: rgb(0, 0, 0); opacity: 0.1; z-index: 9049; }
+
+.yui-skin-sam .yui-ac iframe { opacity: 0; padding-right: 0.3em; padding-bo=
+ttom: 0.3em; }
+
+.yui-skin-sam .yui-ac-content ul { margin: 0px; padding: 0px; width: 100%; =
+}
+
+.yui-skin-sam .yui-ac-content li { margin: 0px; padding: 2px 5px; cursor: d=
+efault; white-space: nowrap; list-style: none; zoom: 1; }
+
+.yui-skin-sam .yui-ac-content li.yui-ac-prehighlight { background: rgb(179,=
+ 212, 255); }
+
+.yui-skin-sam .yui-ac-content li.yui-ac-highlight { background: rgb(66, 111=
+, 217); color: rgb(255, 255, 255); }
+------MultipartBoundary--4BJhA9q9l85YvQxnzV0UJalukumw6mIAf4s4QvUStD----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://localhost/js/yui/assets/skins/sam/calendar.css
+
+@charset "utf-8";
+
+.yui-calcontainer { position: relative; float: left; }
+
+.yui-calcontainer iframe { position: absolute; border: 0px; margin: 0px; pa=
+dding: 0px; z-index: 0; width: 100%; height: 100%; left: 0px; top: 0px; }
+
+.yui-calcontainer iframe.fixedsize { width: 50em; height: 50em; top: -1px; =
+left: -1px; }
+
+.yui-calcontainer.multi .groupcal { z-index: 1; float: left; position: rela=
+tive; }
+
+.yui-calcontainer .title { position: relative; z-index: 1; }
+
+.yui-calcontainer .close-icon { position: absolute; z-index: 1; text-indent=
+: -10000em; overflow: hidden; }
+
+.yui-calendar { position: relative; }
+
+.yui-calendar .calnavleft { position: absolute; z-index: 1; text-indent: -1=
+0000em; overflow: hidden; }
+
+.yui-calendar .calnavright { position: absolute; z-index: 1; text-indent: -=
+10000em; overflow: hidden; }
+
+.yui-calendar .calheader { position: relative; width: 100%; text-align: cen=
+ter; }
+
+.yui-calcontainer .yui-cal-nav-mask { position: absolute; z-index: 2; margi=
+n: 0px; padding: 0px; width: 100%; height: 100%; left: 0px; top: 0px; displ=
+ay: none; }
+
+.yui-calcontainer .yui-cal-nav { position: absolute; z-index: 3; top: 0px; =
+display: none; }
+
+.yui-calcontainer .yui-cal-nav .yui-cal-nav-btn { display: inline-block; }
+
+.yui-calcontainer .yui-cal-nav .yui-cal-nav-btn button { display: block; bo=
+rder: 0px; background-color: transparent; cursor: pointer; }
+
+.yui-calendar .calbody a:hover { background: inherit; }
+
+p#clear { clear: left; padding-top: 10px; }
+
+.yui-skin-sam .yui-calcontainer { background-color: rgb(242, 242, 242); bor=
+der: 1px solid rgb(128, 128, 128); padding: 10px; }
+
+.yui-skin-sam .yui-calcontainer.multi { padding: 0px 5px; }
+
+.yui-skin-sam .yui-calcontainer.multi .groupcal { background-color: transpa=
+rent; border: 0px; padding: 10px 5px; margin: 0px; }
+
+.yui-skin-sam .yui-calcontainer .title { background: url("sprite.png") 0px =
+0px repeat-x; border-bottom: 1px solid rgb(204, 204, 204); font: bold 100% =
+sans-serif; color: rgb(0, 0, 0); height: auto; padding: 0.4em; margin: 0px =
+-10px 10px; top: 0px; left: 0px; text-align: left; }
+
+.yui-skin-sam .yui-calcontainer.multi .title { margin: 0px -5px; }
+
+.yui-skin-sam .yui-calcontainer.withtitle { padding-top: 0px; }
+
+.yui-skin-sam .yui-calcontainer .calclose { background: url("sprite.png") 0=
+px -300px no-repeat; width: 25px; height: 15px; top: 0.4em; right: 0.4em; c=
+ursor: pointer; }
+
+.yui-skin-sam .yui-calendar { border-spacing: 0px; border-collapse: collaps=
+e; font: 100% sans-serif; text-align: center; margin: 0px; }
+
+.yui-skin-sam .yui-calendar .calhead { background: transparent; border: 0px=
+; vertical-align: middle; padding: 0px; }
+
+.yui-skin-sam .yui-calendar .calheader { background: transparent; font-weig=
+ht: bold; padding: 0px 0px 0.6em; text-align: center; }
+
+.yui-skin-sam .yui-calendar .calheader img { border: 0px; }
+
+.yui-skin-sam .yui-calendar .calnavleft { background: url("sprite.png") 0px=
+ -450px no-repeat; width: 25px; height: 15px; top: 0px; bottom: 0px; left: =
+-10px; margin-left: 0.4em; cursor: pointer; }
+
+.yui-skin-sam .yui-calendar .calnavright { background: url("sprite.png") 0p=
+x -500px no-repeat; width: 25px; height: 15px; top: 0px; bottom: 0px; right=
+: -10px; margin-right: 0.4em; cursor: pointer; }
+
+.yui-skin-sam .yui-calendar .calweekdayrow { height: 2em; }
+
+.yui-skin-sam .yui-calendar .calweekdayrow th { padding: 0px; border: 0px; =
+}
+
+.yui-skin-sam .yui-calendar .calweekdaycell { color: rgb(0, 0, 0); font-wei=
+ght: bold; text-align: center; width: 2em; }
+
+.yui-skin-sam .yui-calendar .calfoot { background-color: rgb(242, 242, 242)=
+; }
+
+.yui-skin-sam .yui-calendar .calrowhead, .yui-skin-sam .yui-calendar .calro=
+wfoot { color: rgb(166, 166, 166); font-size: 85%; font-style: normal; font=
+-weight: normal; border: 0px; }
+
+.yui-skin-sam .yui-calendar .calrowhead { text-align: right; padding: 0px 2=
+px 0px 0px; }
+
+.yui-skin-sam .yui-calendar .calrowfoot { text-align: left; padding: 0px 0p=
+x 0px 2px; }
+
+.yui-skin-sam .yui-calendar td.calcell { border: 1px solid rgb(204, 204, 20=
+4); background: rgb(255, 255, 255); padding: 1px; height: 1.6em; line-heigh=
+t: 1.6em; text-align: center; white-space: nowrap; }
+
+.yui-skin-sam .yui-calendar td.calcell a { color: rgb(0, 102, 204); display=
+: block; height: 100%; text-decoration: none; }
+
+.yui-skin-sam .yui-calendar td.calcell.today { background-color: rgb(0, 0, =
+0); }
+
+.yui-skin-sam .yui-calendar td.calcell.today a { background-color: rgb(255,=
+ 255, 255); }
+
+.yui-skin-sam .yui-calendar td.calcell.oom { background-color: rgb(204, 204=
+, 204); color: rgb(166, 166, 166); cursor: default; }
+
+.yui-skin-sam .yui-calendar td.calcell.oom a { color: rgb(166, 166, 166); }
+
+.yui-skin-sam .yui-calendar td.calcell.selected { background-color: rgb(255=
+, 255, 255); color: rgb(0, 0, 0); }
+
+.yui-skin-sam .yui-calendar td.calcell.selected a { background-color: rgb(1=
+79, 212, 255); color: rgb(0, 0, 0); }
+
+.yui-skin-sam .yui-calendar td.calcell.calcellhover { background-color: rgb=
+(66, 111, 217); color: rgb(255, 255, 255); cursor: pointer; }
+
+.yui-skin-sam .yui-calendar td.calcell.calcellhover a { background-color: r=
+gb(66, 111, 217); color: rgb(255, 255, 255); }
+
+.yui-skin-sam .yui-calendar td.calcell.previous { color: rgb(224, 224, 224)=
+; }
+
+.yui-skin-sam .yui-calendar td.calcell.restricted { text-decoration: line-t=
+hrough; }
+
+.yui-skin-sam .yui-calendar td.calcell.highlight1 { background-color: rgb(2=
+04, 255, 153); }
+
+.yui-skin-sam .yui-calendar td.calcell.highlight2 { background-color: rgb(1=
+53, 204, 255); }
+
+.yui-skin-sam .yui-calendar td.calcell.highlight3 { background-color: rgb(2=
+55, 204, 204); }
+
+.yui-skin-sam .yui-calendar td.calcell.highlight4 { background-color: rgb(2=
+04, 255, 153); }
+
+.yui-skin-sam .yui-calendar a.calnav { border: 1px solid rgb(242, 242, 242)=
+; padding: 0px 4px; text-decoration: none; color: rgb(0, 0, 0); zoom: 1; }
+
+.yui-skin-sam .yui-calendar a.calnav:hover { background: url("sprite.png") =
+0px 0px repeat-x; border-color: rgb(160, 160, 160); cursor: pointer; }
+
+.yui-skin-sam .yui-calcontainer .yui-cal-nav-mask { background-color: rgb(0=
+, 0, 0); opacity: 0.25; }
+
+.yui-skin-sam .yui-calcontainer .yui-cal-nav { font-family: arial, helvetic=
+a, clean, sans-serif; font-size: 93%; border: 1px solid rgb(128, 128, 128);=
+ left: 50%; margin-left: -7em; width: 14em; padding: 0px; top: 2.5em; backg=
+round-color: rgb(242, 242, 242); }
+
+.yui-skin-sam .yui-calcontainer.withtitle .yui-cal-nav { top: 4.5em; }
+
+.yui-skin-sam .yui-calcontainer.multi .yui-cal-nav { width: 16em; margin-le=
+ft: -8em; }
+
+.yui-skin-sam .yui-calcontainer .yui-cal-nav-y, .yui-skin-sam .yui-calconta=
+iner .yui-cal-nav-m, .yui-skin-sam .yui-calcontainer .yui-cal-nav-b { paddi=
+ng: 5px 10px; }
+
+.yui-skin-sam .yui-calcontainer .yui-cal-nav-b { text-align: center; }
+
+.yui-skin-sam .yui-calcontainer .yui-cal-nav-e { margin-top: 5px; padding: =
+5px; background-color: rgb(237, 245, 255); border-top: 1px solid black; dis=
+play: none; }
+
+.yui-skin-sam .yui-calcontainer .yui-cal-nav label { display: block; font-w=
+eight: bold; }
+
+.yui-skin-sam .yui-calcontainer .yui-cal-nav-mc { width: 100%; }
+
+.yui-skin-sam .yui-calcontainer .yui-cal-nav-y input.yui-invalid { backgrou=
+nd-color: rgb(255, 238, 105); border: 1px solid rgb(0, 0, 0); }
+
+.yui-skin-sam .yui-calcontainer .yui-cal-nav-yc { width: 4em; }
+
+.yui-skin-sam .yui-calcontainer .yui-cal-nav .yui-cal-nav-btn { border: 1px=
+ solid rgb(128, 128, 128); background: url("sprite.png") 0px 0px repeat-x r=
+gb(204, 204, 204); margin: auto 0.15em; }
+
+.yui-skin-sam .yui-calcontainer .yui-cal-nav .yui-cal-nav-btn button { padd=
+ing: 0px 8px; font-size: 93%; line-height: 2; min-height: 2em; color: rgb(0=
+, 0, 0); }
+
+.yui-skin-sam .yui-calcontainer .yui-cal-nav .yui-cal-nav-btn.yui-default {=
+ border: 1px solid rgb(48, 67, 105); background: url("sprite.png") 0px -140=
+0px repeat-x; }
+
+.yui-skin-sam .yui-calcontainer .yui-cal-nav .yui-cal-nav-btn.yui-default b=
+utton { color: rgb(255, 255, 255); }
+------MultipartBoundary--4BJhA9q9l85YvQxnzV0UJalukumw6mIAf4s4QvUStD----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://localhost/js/yui/assets/skins/sam/datatable.css
+
+@charset "utf-8";
+
+.yui-skin-sam .yui-dt-mask { position: absolute; z-index: 9500; }
+
+.yui-dt-tmp { position: absolute; left: -9000px; }
+
+.yui-dt-scrollable .yui-dt-bd { overflow: auto; }
+
+.yui-dt-scrollable .yui-dt-hd { overflow: hidden; position: relative; }
+
+.yui-dt-scrollable .yui-dt-bd thead tr, .yui-dt-scrollable .yui-dt-bd thead=
+ th { position: absolute; left: -1500px; }
+
+.yui-dt-scrollable tbody { }
+
+.yui-skin-sam thead .yui-dt-sortable { cursor: pointer; }
+
+.yui-skin-sam thead .yui-dt-draggable { cursor: move; }
+
+.yui-dt-coltarget { position: absolute; z-index: 999; }
+
+.yui-dt-hd { zoom: 1; }
+
+th.yui-dt-resizeable .yui-dt-resizerliner { position: relative; }
+
+.yui-dt-resizer { position: absolute; right: 0px; bottom: 0px; height: 100%=
+; cursor: col-resize; background-color: rgb(204, 204, 204); opacity: 0; }
+
+.yui-dt-resizerproxy { visibility: hidden; position: absolute; z-index: 900=
+0; background-color: rgb(204, 204, 204); opacity: 0; }
+
+th.yui-dt-hidden .yui-dt-liner, td.yui-dt-hidden .yui-dt-liner, th.yui-dt-h=
+idden .yui-dt-resizer { display: none; }
+
+.yui-dt-editor, .yui-dt-editor-shim { position: absolute; z-index: 9000; }
+
+.yui-skin-sam .yui-dt table { margin: 0px; padding: 0px; font-family: arial=
+; font-size: inherit; border-collapse: separate; border-spacing: 0px; borde=
+r: 1px solid rgb(127, 127, 127); }
+
+.yui-skin-sam .yui-dt thead { border-spacing: 0px; }
+
+.yui-skin-sam .yui-dt caption { color: rgb(0, 0, 0); font-size: 85%; font-w=
+eight: normal; font-style: italic; line-height: 1; padding: 1em 0px; text-a=
+lign: center; }
+
+.yui-skin-sam .yui-dt th { background: url("sprite.png") 0px 0px repeat-x r=
+gb(216, 216, 218); }
+
+.yui-skin-sam .yui-dt th, .yui-skin-sam .yui-dt th a { font-weight: normal;=
+ text-decoration: none; color: rgb(0, 0, 0); vertical-align: bottom; }
+
+.yui-skin-sam .yui-dt th { margin: 0px; padding: 0px; border-width: 0px 1px=
+ 0px 0px; border-top-style: initial; border-bottom-style: initial; border-l=
+eft-style: initial; border-top-color: initial; border-bottom-color: initial=
+; border-left-color: initial; border-image: initial; border-right-style: so=
+lid; border-right-color: rgb(203, 203, 203); }
+
+.yui-skin-sam .yui-dt tr.yui-dt-first td { border-top: 1px solid rgb(127, 1=
+27, 127); }
+
+.yui-skin-sam .yui-dt th .yui-dt-liner { white-space: nowrap; }
+
+.yui-skin-sam .yui-dt-liner { margin: 0px; padding: 4px 10px; }
+
+.yui-skin-sam .yui-dt-coltarget { width: 5px; background-color: red; }
+
+.yui-skin-sam .yui-dt td { margin: 0px; padding: 0px; border-width: 0px 1px=
+ 0px 0px; border-top-style: initial; border-bottom-style: initial; border-l=
+eft-style: initial; border-top-color: initial; border-bottom-color: initial=
+; border-left-color: initial; border-image: initial; border-right-style: so=
+lid; border-right-color: rgb(203, 203, 203); text-align: left; }
+
+.yui-skin-sam .yui-dt-list td { border-right: 0px; }
+
+.yui-skin-sam .yui-dt-resizer { width: 6px; }
+
+.yui-skin-sam .yui-dt-mask { background-color: rgb(0, 0, 0); opacity: 0.25;=
+ }
+
+.yui-skin-sam .yui-dt-message { background-color: rgb(255, 255, 255); }
+
+.yui-skin-sam .yui-dt-scrollable table { border: 0px; }
+
+.yui-skin-sam .yui-dt-scrollable .yui-dt-hd { border-left: 1px solid rgb(12=
+7, 127, 127); border-top: 1px solid rgb(127, 127, 127); border-right: 1px s=
+olid rgb(127, 127, 127); }
+
+.yui-skin-sam .yui-dt-scrollable .yui-dt-bd { border-left: 1px solid rgb(12=
+7, 127, 127); border-bottom: 1px solid rgb(127, 127, 127); border-right: 1p=
+x solid rgb(127, 127, 127); background-color: rgb(255, 255, 255); }
+
+.yui-skin-sam .yui-dt-scrollable .yui-dt-data tr.yui-dt-last td { border-bo=
+ttom: 1px solid rgb(127, 127, 127); }
+
+.yui-skin-sam th.yui-dt-asc, .yui-skin-sam th.yui-dt-desc { background: url=
+("sprite.png") 0px -100px repeat-x; }
+
+.yui-skin-sam th.yui-dt-sortable .yui-dt-label { margin-right: 10px; }
+
+.yui-skin-sam th.yui-dt-asc .yui-dt-liner { background: url("dt-arrow-up.pn=
+g") right center no-repeat; }
+
+.yui-skin-sam th.yui-dt-desc .yui-dt-liner { background: url("dt-arrow-dn.p=
+ng") right center no-repeat; }
+
+tbody .yui-dt-editable { cursor: pointer; }
+
+.yui-dt-editor { text-align: left; background-color: rgb(242, 242, 242); bo=
+rder: 1px solid rgb(128, 128, 128); padding: 6px; }
+
+.yui-dt-editor label { padding-left: 4px; padding-right: 6px; }
+
+.yui-dt-editor .yui-dt-button { padding-top: 6px; text-align: right; }
+
+.yui-dt-editor .yui-dt-button button { background: url("sprite.png") 0px 0p=
+x repeat-x; border: 1px solid rgb(153, 153, 153); width: 4em; height: 1.8em=
+; margin-left: 6px; }
+
+.yui-dt-editor .yui-dt-button button.yui-dt-default { background: url("spri=
+te.png") 0px -1400px repeat-x rgb(85, 132, 224); border: 1px solid rgb(48, =
+67, 105); color: rgb(255, 255, 255); }
+
+.yui-dt-editor .yui-dt-button button:hover { background: url("sprite.png") =
+0px -1300px repeat-x; color: rgb(0, 0, 0); }
+
+.yui-dt-editor .yui-dt-button button:active { background: url("sprite.png")=
+ 0px -1700px repeat-x; color: rgb(0, 0, 0); }
+
+.yui-skin-sam tr.yui-dt-even { background-color: rgb(255, 255, 255); }
+
+.yui-skin-sam tr.yui-dt-odd { background-color: rgb(237, 245, 255); }
+
+.yui-skin-sam tr.yui-dt-even td.yui-dt-asc, .yui-skin-sam tr.yui-dt-even td=
+.yui-dt-desc { background-color: rgb(237, 245, 255); }
+
+.yui-skin-sam tr.yui-dt-odd td.yui-dt-asc, .yui-skin-sam tr.yui-dt-odd td.y=
+ui-dt-desc { background-color: rgb(219, 234, 255); }
+
+.yui-skin-sam .yui-dt-list tr.yui-dt-even { background-color: rgb(255, 255,=
+ 255); }
+
+.yui-skin-sam .yui-dt-list tr.yui-dt-odd { background-color: rgb(255, 255, =
+255); }
+
+.yui-skin-sam .yui-dt-list tr.yui-dt-even td.yui-dt-asc, .yui-skin-sam .yui=
+-dt-list tr.yui-dt-even td.yui-dt-desc { background-color: rgb(237, 245, 25=
+5); }
+
+.yui-skin-sam .yui-dt-list tr.yui-dt-odd td.yui-dt-asc, .yui-skin-sam .yui-=
+dt-list tr.yui-dt-odd td.yui-dt-desc { background-color: rgb(237, 245, 255)=
+; }
+
+.yui-skin-sam th.yui-dt-highlighted, .yui-skin-sam th.yui-dt-highlighted a =
+{ background-color: rgb(178, 210, 255); }
+
+.yui-skin-sam tr.yui-dt-highlighted, .yui-skin-sam tr.yui-dt-highlighted td=
+.yui-dt-asc, .yui-skin-sam tr.yui-dt-highlighted td.yui-dt-desc, .yui-skin-=
+sam tr.yui-dt-even td.yui-dt-highlighted, .yui-skin-sam tr.yui-dt-odd td.yu=
+i-dt-highlighted { cursor: pointer; background-color: rgb(178, 210, 255); }
+
+.yui-skin-sam .yui-dt-list th.yui-dt-highlighted, .yui-skin-sam .yui-dt-lis=
+t th.yui-dt-highlighted a { background-color: rgb(178, 210, 255); }
+
+.yui-skin-sam .yui-dt-list tr.yui-dt-highlighted, .yui-skin-sam .yui-dt-lis=
+t tr.yui-dt-highlighted td.yui-dt-asc, .yui-skin-sam .yui-dt-list tr.yui-dt=
+-highlighted td.yui-dt-desc, .yui-skin-sam .yui-dt-list tr.yui-dt-even td.y=
+ui-dt-highlighted, .yui-skin-sam .yui-dt-list tr.yui-dt-odd td.yui-dt-highl=
+ighted { cursor: pointer; background-color: rgb(178, 210, 255); }
+
+.yui-skin-sam th.yui-dt-selected, .yui-skin-sam th.yui-dt-selected a { back=
+ground-color: rgb(68, 108, 215); }
+
+.yui-skin-sam tr.yui-dt-selected td, .yui-skin-sam tr.yui-dt-selected td.yu=
+i-dt-asc, .yui-skin-sam tr.yui-dt-selected td.yui-dt-desc { background-colo=
+r: rgb(66, 111, 217); color: rgb(255, 255, 255); }
+
+.yui-skin-sam tr.yui-dt-even td.yui-dt-selected, .yui-skin-sam tr.yui-dt-od=
+d td.yui-dt-selected { background-color: rgb(68, 108, 215); color: rgb(255,=
+ 255, 255); }
+
+.yui-skin-sam .yui-dt-list th.yui-dt-selected, .yui-skin-sam .yui-dt-list t=
+h.yui-dt-selected a { background-color: rgb(68, 108, 215); }
+
+.yui-skin-sam .yui-dt-list tr.yui-dt-selected td, .yui-skin-sam .yui-dt-lis=
+t tr.yui-dt-selected td.yui-dt-asc, .yui-skin-sam .yui-dt-list tr.yui-dt-se=
+lected td.yui-dt-desc { background-color: rgb(66, 111, 217); color: rgb(255=
+, 255, 255); }
+
+.yui-skin-sam .yui-dt-list tr.yui-dt-even td.yui-dt-selected, .yui-skin-sam=
+ .yui-dt-list tr.yui-dt-odd td.yui-dt-selected { background-color: rgb(68, =
+108, 215); color: rgb(255, 255, 255); }
+
+.yui-skin-sam .yui-dt-paginator { display: block; margin: 6px 0px; white-sp=
+ace: nowrap; }
+
+.yui-skin-sam .yui-dt-paginator .yui-dt-first, .yui-skin-sam .yui-dt-pagina=
+tor .yui-dt-last, .yui-skin-sam .yui-dt-paginator .yui-dt-selected { paddin=
+g: 2px 6px; }
+
+.yui-skin-sam .yui-dt-paginator a.yui-dt-first, .yui-skin-sam .yui-dt-pagin=
+ator a.yui-dt-last { text-decoration: none; }
+
+.yui-skin-sam .yui-dt-paginator .yui-dt-previous, .yui-skin-sam .yui-dt-pag=
+inator .yui-dt-next { display: none; }
+
+.yui-skin-sam a.yui-dt-page { border: 1px solid rgb(203, 203, 203); padding=
+: 2px 6px; text-decoration: none; background-color: rgb(255, 255, 255); }
+
+.yui-skin-sam .yui-dt-selected { border: 1px solid rgb(255, 255, 255); back=
+ground-color: rgb(255, 255, 255); }
+------MultipartBoundary--4BJhA9q9l85YvQxnzV0UJalukumw6mIAf4s4QvUStD----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://localhost/js/yui/assets/skins/sam/button.css
+
+@charset "utf-8";
+
+.yui-button { display: inline-block; vertical-align: text-bottom; }
+
+.yui-button .first-child { display: block; }
+
+.yui-button button, .yui-button a { display: block; border: none; margin: 0=
+px; }
+
+.yui-button button { background-color: transparent; cursor: pointer; }
+
+.yui-button a { text-decoration: none; }
+
+.yui-skin-sam .yui-button { border-width: 1px 0px; border-style: solid; bor=
+der-color: rgb(128, 128, 128); background: url("sprite.png") 0px 0px repeat=
+-x; margin: auto 0.25em; }
+
+.yui-skin-sam .yui-button .first-child { border-width: 0px 1px; border-styl=
+e: solid; border-color: rgb(128, 128, 128); margin: 0px -1px; }
+
+.yui-skin-sam .yui-button button, .yui-skin-sam .yui-button a, .yui-skin-sa=
+m .yui-button a:visited { padding: 0px 10px; font-size: 93%; line-height: 2=
+; min-height: 2em; color: rgb(0, 0, 0); }
+
+.yui-skin-sam .yui-button a { }
+
+.yui-skin-sam .yui-split-button button, .yui-skin-sam .yui-menu-button butt=
+on { padding-right: 20px; background-position: right center; background-rep=
+eat: no-repeat; }
+
+.yui-skin-sam .yui-menu-button button { background-image: url("menu-button-=
+arrow.png"); }
+
+.yui-skin-sam .yui-split-button button { background-image: url("split-butto=
+n-arrow.png"); }
+
+.yui-skin-sam .yui-button-focus { border-color: rgb(125, 152, 184); backgro=
+und-position: 0px -1300px; }
+
+.yui-skin-sam .yui-button-focus .first-child { border-color: rgb(125, 152, =
+184); }
+
+.yui-skin-sam .yui-split-button-focus button { background-image: url("split=
+-button-arrow-focus.png"); }
+
+.yui-skin-sam .yui-button-hover { border-color: rgb(125, 152, 184); backgro=
+und-position: 0px -1300px; }
+
+.yui-skin-sam .yui-button-hover .first-child { border-color: rgb(125, 152, =
+184); }
+
+.yui-skin-sam .yui-split-button-hover button { background-image: url("split=
+-button-arrow-hover.png"); }
+
+.yui-skin-sam .yui-button-active { border-color: rgb(125, 152, 184); backgr=
+ound-position: 0px -1700px; }
+
+.yui-skin-sam .yui-button-active .first-child { border-color: rgb(125, 152,=
+ 184); }
+
+.yui-skin-sam .yui-split-button-activeoption { border-color: rgb(128, 128, =
+128); background-position: 0px 0px; }
+
+.yui-skin-sam .yui-split-button-activeoption .first-child { border-color: r=
+gb(128, 128, 128); }
+
+.yui-skin-sam .yui-split-button-activeoption button { background-image: url=
+("split-button-arrow-active.png"); }
+
+.yui-skin-sam .yui-radio-button-checked, .yui-skin-sam .yui-checkbox-button=
+-checked { border-color: rgb(48, 67, 105); background-position: 0px -1400px=
+; }
+
+.yui-skin-sam .yui-radio-button-checked .first-child, .yui-skin-sam .yui-ch=
+eckbox-button-checked .first-child { border-color: rgb(48, 67, 105); }
+
+.yui-skin-sam .yui-radio-button-checked button, .yui-skin-sam .yui-checkbox=
+-button-checked button { color: rgb(255, 255, 255); }
+
+.yui-skin-sam .yui-button-disabled { border-color: rgb(204, 204, 204); back=
+ground-position: 0px -1500px; }
+
+.yui-skin-sam .yui-button-disabled .first-child { border-color: rgb(204, 20=
+4, 204); }
+
+.yui-skin-sam .yui-button-disabled button, .yui-skin-sam .yui-button-disabl=
+ed a, .yui-skin-sam .yui-button-disabled a:visited { color: rgb(166, 166, 1=
+66); cursor: default; }
+
+.yui-skin-sam .yui-menu-button-disabled button { background-image: url("men=
+u-button-arrow-disabled.png"); }
+
+.yui-skin-sam .yui-split-button-disabled button { background-image: url("sp=
+lit-button-arrow-disabled.png"); }
+------MultipartBoundary--4BJhA9q9l85YvQxnzV0UJalukumw6mIAf4s4QvUStD----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://localhost/skins/standard/attachment.css
+
+@charset "utf-8";
+
+table.attachment_entry th { text-align: right; vertical-align: baseline; wh=
+ite-space: nowrap; }
+
+table.attachment_entry td { text-align: left; vertical-align: baseline; pad=
+ding-bottom: 5px; }
+
+table#flags th, table#flags td { text-align: left; vertical-align: baseline=
+; font-size: small; }
+
+.file_head { font-weight: bold; font-size: 1em; background-color: rgb(195, =
+195, 195); border: 1px solid black; }
+
+.file_head a { text-decoration: none; font-family: monospace; font-size: 1.=
+1em; }
+
+.file_collapse { display: none; }
+
+.section_head { background-color: rgb(240, 240, 240); border: 1px solid bla=
+ck; text-align: left; }
+
+table.file_table { table-layout: fixed; width: 100%; empty-cells: show; bor=
+der-spacing: 0px; border-collapse: collapse; border-bottom: 1px solid black=
+; }
+
+tbody.file pre { display: inline; font-size: 0.9em; }
+
+tbody.file pre:empty { display: block; }
+
+.changed { background-color: lightblue; }
+
+.added { background-color: lightgreen; }
+
+.removed { background-color: rgb(255, 204, 153); }
+
+.num { background-color: rgb(255, 233, 174); text-align: right; padding: 0p=
+x 0.3em; width: 3em; }
+
+table.attachment_info th { text-align: right; vertical-align: top; }
+
+table.attachment_info td { text-align: left; vertical-align: top; }
+
+#noview { text-align: left; vertical-align: middle; }
+
+#attachment_attributes div { padding-bottom: 0.4em; }
+
+#attachment_attributes label, #attachment_attributes span.label, #attachmen=
+t_actions span.label { font-weight: bold; }
+
+#attachment_attributes .block { display: block; }
+
+#smallCommentFrame, #attachment_flags { float: left; }
+
+#smallCommentFrame { margin-right: 1.5em; }
+
+#attachment_comments_and_flags, #attachment_actions { clear: both; margin-b=
+ottom: 1ex; }
+
+#attachment_information_read_only .title { font-weight: bold; font-size: 1.=
+5em; padding: 0px; margin: 0px; }
+
+#attachment_information_read_only .title #bz_edit { font-size: 0.7em; }
+
+#attachment_information_read_only .details { font-size: 90%; }
+
+#attachment_info.read #attachment_information_edit { display: none; }
+
+#attachment_info.edit #attachment_information_read_only { display: none; }
+
+#attachment_info.edit #attachment_view_window { float: left; width: 80%; }
+
+#attachment_info.edit #attachment_information_edit { width: 20%; }
+
+#attachment_info.edit #attachment_information_edit input.text, #attachment_=
+info.edit #attachment_information_edit textarea { width: 90%; }
+
+#attachment_isobsolete { padding-right: 1em; }
+
+#attachment_information_edit { float: left; }
+
+#smallCommentFrame textarea { display: block; }
+
+textarea.bz_private { border: 1px solid rgb(248, 200, 186); }
+
+#update { clear: both; display: block; }
+
+div#update_container { clear: both; padding: 1.5em 0px; }
+
+#attachment_flags { margin-bottom: 1em; }
+
+#attachment_flags p { padding-bottom: 0px; margin-bottom: 0px; }
+
+#editFrame, #viewDiffFrame, #viewFrame { height: 400px; width: 95%; margin-=
+left: 2%; }
+
+.viewall_frame { width: 75%; height: 350px; }
+
+.details span.bz_private { border-left: 1px solid darkred; padding-left: 0.=
+5em; }
+
+.no_javascript .bz_hide, .no_javascript .bz_edit { display: none; }
+
+#hidden_obsolete_message { text-align: left; width: 75%; margin: 0px auto; =
+font-weight: bold; }
+
+#description { resize: vertical; }
+------MultipartBoundary--4BJhA9q9l85YvQxnzV0UJalukumw6mIAf4s4QvUStD----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://localhost/skins/standard/enter_bug.css
+
+@charset "utf-8";
+
+.enter_bug_form table { border-spacing: 0px; border-width: 0px; }
+
+.enter_bug_form td, .enter_bug_form th { padding: 0.25em; }
+
+.enter_bug_form th { text-align: right; }
+
+#Create #field_container_component { width: 1px; }
+
+#Create #field_container_reporter { width: 100%; }
+
+#Create .comment { vertical-align: top; overflow: auto; color: green; }
+
+#Create #comp_desc_container td { padding: 0px; }
+
+#Create #comp_desc { height: 11ex; }
+
+#Create #os_guess_note { padding-top: 0px; }
+
+#Create #os_guess_note div { max-width: 35em; }
+
+#Create .field_value .text_input { max-width: 50em; }
+
+#possible_duplicates th { text-align: center; background: none; border-coll=
+apse: collapse; }
+
+#possible_duplicates .yui-dt-col-update_token { white-space: nowrap; }
+
+form#Create #possible_duplicates td { vertical-align: middle; }
+------MultipartBoundary--4BJhA9q9l85YvQxnzV0UJalukumw6mIAf4s4QvUStD----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://localhost/skins/contrib/Dusk/global.css
+
+@charset "utf-8";
+
+body { background: rgb(200, 200, 200); font-family: Helvetica, Arial, Genev=
+a; padding-left: 1em; padding-right: 1em; }
+
+#titles { border-top-left-radius: 5px; border-top-right-radius: 5px; }
+
+#header .links, #footer { background-color: rgb(146, 155, 177); color: rgb(=
+221, 221, 221); }
+
+#header { border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; =
+border: none; }
+
+#header a, #footer a { color: white; text-decoration: none; }
+
+#header a:hover, #footer a:hover { text-decoration: underline; }
+
+#bugzilla-body { background: rgb(240, 240, 240); color: black; border: 1px =
+solid rgb(116, 126, 147); padding: 10px; font-size: 10pt; border-radius: 5p=
+x; }
+
+a { color: rgb(96, 112, 207); }
+
+a:hover { color: rgb(128, 144, 239); }
+
+hr { border-color: rgb(150, 150, 150); border-style: dashed; border-width: =
+1px; margin-top: 10px; }
+
+#bugzilla-body th { font-weight: bold; vertical-align: top; white-space: no=
+wrap; }
+
+#bug-form td { padding-top: 2px; }
+
+#attachment-list { border: 2px solid rgb(200, 200, 186); font-size: 9pt; }
+
+#attachment-list th { background-color: rgb(230, 230, 216); border-top: non=
+e; border-right: none; border-left: none; border-image: initial; border-bot=
+tom: 1px solid rgb(200, 200, 186); text-align: left; }
+
+#attachment-list th a { color: rgb(100, 100, 86); }
+
+#attachment-list td { border: none; }
+
+#attachment-list-actions td { border-top: 1px solid rgb(200, 200, 186); }
+
+#comments th { font-size: 9pt; font-weight: bold; padding-top: 5px; padding=
+-right: 5px; padding-bottom: 10px; text-align: right; vertical-align: top; =
+white-space: nowrap; }
+
+#comments td { padding-top: 2px; }
+
+.reply-button a { padding-left: 2px; padding-right: 2px; }
+
+.bz_comment { background-color: rgb(232, 232, 232); margin: 1px 1px 10px; b=
+order-width: 1px; border-style: solid; border-color: rgb(200, 200, 186); pa=
+dding: 5px; font-size: 9pt; }
+
+.bz_comment_head, .bz_first_comment_head { margin: 0px; padding: 0px; backg=
+round-color: transparent; font-weight: bold; }
+
+.bz_comment_user { margin-left: 0px; }
+
+.bz_comment.bz_private { background-color: rgb(240, 232, 232); border-color=
+: rgb(248, 200, 186); }
+
+.comment_rule { display: none; }
+
+#footer { border: 1px solid rgb(116, 126, 147); width: 100%; border-radius:=
+ 5px; }
+
+#footer #links-actions, #footer #links-edit, #footer #links-saved, #footer =
+#links-special { margin-top: 2ex; }
+
+#footer .links { border-spacing: 30px; margin-bottom: 2ex; }
+
+.separator { color: rgb(204, 204, 204); }
+
+.tabbed .tabbody { background: rgb(248, 248, 248); padding: 1em; border-sty=
+le: solid; border-color: rgb(0, 0, 0); border-width: 0px 3px 3px 1px; }
+
+.tabs { margin: 0px; padding: 0px; border-collapse: collapse; }
+
+.tabs td { background: rgb(200, 200, 200); border-width: 1px; }
+
+.tabs td.selected { background: rgb(248, 248, 248); border-width: 1px 3px 0=
+px 1px; }
+
+.tabs td.spacer { background: transparent; border-top: none; border-left: n=
+one; border-right: none; }
+
+.bz_row_odd { background-color: rgb(240, 240, 240); }
+
+@media print {
+  #header, #footer, .navigation { display: none; }
+  body { background-image: none; background-color: rgb(255, 255, 255); }
+  #bugzilla-body { border: none; margin: 0px; padding: 0px; }
+}
+------MultipartBoundary--4BJhA9q9l85YvQxnzV0UJalukumw6mIAf4s4QvUStD----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://localhost/extensions/Testopia/css/testopia.css
+
+@charset "utf-8";
+
+#header .label { display: none; }
+
+#header li.tr_find { }
+
+#header li.tr_saved_search { }
+
+#header .testopia_btn { background-color: rgb(84, 98, 146); color: rgb(255,=
+ 255, 255); font-weight: bold; font-size: 100%; border: none; }
+
+#footer li.tr_find { }
+
+#footer li.tr_saved_search { }
+
+#footer .tr_btn { background-color: rgb(128, 130, 133); color: rgb(255, 255=
+, 255); font-size: 100%; border: none; }
+
+#footer .testopia_links { padding-left: 1ex; }
+
+#footer #links-saved { padding-left: 1em; }
+
+#footer #tr-links-saved { padding: 1em; }
+
+textarea { border: 1px solid rgb(153, 153, 153); }
+
+.resultsTable { border-collapse: collapse; border-spacing: 0px; }
+
+.resultsTable td { padding: 4px; }
+
+.resultsTable td a:hover { text-decoration: underline overline; }
+
+.resultsTable th { border-color: rgb(255, 255, 255); background-color: rgb(=
+192, 255, 192); border-style: solid; border-width: 2px; padding: 4px; }
+
+.dlgTable { border-collapse: collapse; border-spacing: 0px; }
+
+.dlgTable td { padding: 4px; background-color: rgb(238, 238, 238); }
+
+.spacerTable { border-collapse: collapse; border-spacing: 0px; }
+
+.spacerTable td { padding: 16px; background-color: rgb(255, 255, 255); }
+
+.menuTable { border-collapse: collapse; border-spacing: 0px; }
+
+.menuTable td { padding: 4px; background-color: rgb(238, 238, 238); border-=
+style: solid; border-width: 3px; border-color: rgb(255, 255, 255); }
+
+.evenRow_first { background-color: rgb(255, 255, 255); }
+
+.evenRow { background-color: rgb(255, 255, 255); }
+
+.evenRow td { background-color: rgb(255, 255, 255); border-top: 1px solid r=
+gb(204, 204, 204); }
+
+.oddRow_first { background-color: rgb(238, 238, 238); }
+
+.oddRow { background-color: rgb(238, 238, 238); }
+
+.oddRow td { background-color: rgb(238, 238, 238); border-top: 1px solid rg=
+b(204, 204, 204); }
+
+.highlightedCell { border-width: 1px; border-style: solid; background-color=
+: lightyellow; }
+
+.short_body { border-bottom: 1px solid rgb(0, 0, 0); border-left: 1px solid=
+ rgb(0, 0, 0); border-right: 1px solid rgb(0, 0, 0); }
+
+.short_head { border-top: 1px solid rgb(0, 0, 0); border-left: 1px solid rg=
+b(0, 0, 0); border-right: 1px solid rgb(0, 0, 0); }
+
+.ae_dv { display: none; margin-left: 15px; border-width: 0px; }
+
+.ae_tb { width: 100%; border: 0px; margin: 0px 30px 10px 0px; border-collap=
+se: collapse; border-spacing: 0px; }
+
+.ae_s { border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0);=
+ background-color: rgb(255, 255, 224); }
+
+.cc_i { float: left; margin-left: 10px; }
+
+.cc_xx { clear: both; margin-right: 30px; padding-top: 5px; }
+
+.cc_trg { padding-left: 5px; padding-right: 5px; vertical-align: baseline; =
+}
+
+#floatMsg { text-align: right; background-color: rgb(255, 221, 102); color:=
+ black; padding: 4px 20px; font-family: Arial; font-weight: bold; font-size=
+: 12px; display: none; }
+
+.floatMsg { text-align: right; background-color: rgb(255, 221, 102); color:=
+ black; padding: 4px 20px; font-family: Arial; font-weight: bold; font-size=
+: 12px; display: none; }
+
+.tr_button { width: 100px; }
+
+a img { border: none; }
+
+h3 { border-bottom: 1px dotted rgb(0, 0, 0); }
+
+dt { font-weight: bold; font-size: medium; }
+
+.tr_row_odd { background-color: rgb(247, 247, 247); color: rgb(0, 0, 0); }
+
+.tr_row_even { background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); }
+
+.bz_row_header { background-color: rgb(231, 233, 231); font-weight: bolder;=
+ }
+
+.bz_row_data { padding-bottom: 5px; }
+
+.img_button_16x { background-repeat: no-repeat; }
+
+.plan_archived { background: url("../../Testopia/img/archived.png") no-repe=
+at; width: 120px; height: 32px; }
+
+.x-progress-bar-red { height: 18px; float: left; width: 0px; background: ur=
+l("../../Testopia/img/red_bar.gif") left center repeat-x rgb(156, 191, 238)=
+; border-top: 1px solid rgb(209, 228, 253); border-bottom: 1px solid rgb(12=
+7, 169, 228); }
+
+.x-progress-bar-green { height: 18px; float: left; width: 0px; background: =
+url("../../Testopia/img/green_bar.gif") left center repeat-x rgb(156, 191, =
+238); border-top: 1px solid rgb(209, 228, 253); border-bottom: 1px solid rg=
+b(127, 169, 228); }
+
+.x-progress-bar-orange { height: 18px; float: left; width: 0px; background:=
+ url("../../Testopia/img/orange_bar.gif") left center repeat-x rgb(156, 191=
+, 238); border-top: 1px solid rgb(209, 228, 253); border-bottom: 1px solid =
+rgb(127, 169, 228); }
+
+.x-progress-text-main { font-size: 11px; font-weight: bold; color: rgb(255,=
+ 255, 255); padding: 3px 5px; overflow: hidden; position: absolute; left: 0=
+px; text-align: center; }
+
+.x-progress-text-back-main { color: rgb(0, 0, 0); line-height: 16px; font-w=
+eight: bold; }
+
+.x-hidden { position: absolute; left: -1000px; top: -100px; }
+
+.t1 { background-color: rgb(255, 255, 255); }
+
+.t2 { background-color: rgb(223, 239, 255); }
+
+.t3 { background-color: rgb(221, 221, 221); }
+
+.t4 { background-color: rgb(195, 211, 237); }
+
+.ttotal { background-color: rgb(207, 255, 223); }
+
+.msg .x-box-mc { font-size: 14px; }
+
+#msg-div { position: absolute; left: 35%; top: 10px; width: 250px; z-index:=
+ 20000; }
+------MultipartBoundary--4BJhA9q9l85YvQxnzV0UJalukumw6mIAf4s4QvUStD----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://localhost/extensions/Testopia/extjs/examples/ux/css/RowEditor.css
+
+@charset "utf-8";
+
+.ext-ie .x-row-editor .x-form-text { margin: 0px !important; }
+
+.x-row-editor-header { height: 2px; overflow: hidden; background: url("../i=
+mages/row-editor-bg.gif") 0px 0px repeat-x transparent; }
+
+.x-row-editor-footer { height: 2px; overflow: hidden; background: url("../i=
+mages/row-editor-bg.gif") 0px -2px repeat-x transparent; }
+
+.ext-ie .x-row-editor-footer { margin-top: -1px; }
+
+.x-row-editor-body { overflow: hidden; zoom: 1; background: rgb(235, 242, 2=
+51); padding-top: 2px; }
+
+.x-row-editor .x-btns { position: absolute; top: 28px; left: 20px; padding-=
+left: 5px; background: url("../images/row-editor-btns.gif") 0px 0px no-repe=
+at transparent; }
+
+.x-row-editor .x-btns .x-plain-bwrap { padding-right: 5px; background: url(=
+"../images/row-editor-btns.gif") right -31px no-repeat transparent; }
+
+.x-row-editor .x-btns .x-plain-body { background: url("../images/row-editor=
+-btns.gif") 0px -62px repeat-x transparent; height: 31px; }
+
+.x-row-editor .x-btns .x-table-layout-cell { padding: 3px; }
+
+.ext-ie6 .x-row-editor .x-form-field-wrap .x-form-trigger, .ext-ie7 .x-row-=
+editor .x-form-field-wrap .x-form-trigger { top: 1px; }
+
+.ext-ie6 .x-row-editor .x-form-field-trigger-wrap, .ext-ie7 .x-row-editor .=
+x-form-field-trigger-wrap { margin-top: -1px; }
+
+.errorTip .x-tip-body ul { list-style-type: disc; margin-left: 15px; }
+------MultipartBoundary--4BJhA9q9l85YvQxnzV0UJalukumw6mIAf4s4QvUStD------

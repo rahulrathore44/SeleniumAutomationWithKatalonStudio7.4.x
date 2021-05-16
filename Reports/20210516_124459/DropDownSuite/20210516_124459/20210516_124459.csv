@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DropDownSuite,,,,2021-05-16 12:45:08,2021-05-16 12:49:02,3m - 54.007s,FAILED
+,,,,,,,
+Test Cases/DropDown/DropdownFunctionScriptMode,,DropdownFunctionScriptMode,DropDown,2021-05-16 12:46:08,2021-05-16 12:47:28,1m - 20.278s,FAILED
+openBrowser(ApplicationUrl),,,,2021-05-16 12:46:08,2021-05-16 12:47:28,1m - 20.126s,FAILED
+,,,,,,,
+Test Cases/DropDown/DropDownManualMode,,DropDownManualMode,DropDown,2021-05-16 12:47:28,2021-05-16 12:49:02,1m - 34.429s,FAILED
+openBrowser(ApplicationUrl),,,,2021-05-16 12:47:28,2021-05-16 12:49:02,1m - 34.252s,FAILED

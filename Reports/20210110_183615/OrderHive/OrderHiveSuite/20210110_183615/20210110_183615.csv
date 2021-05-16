@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+OrderHiveSuite,Chrome 87.0.4280.88,,,2021-01-10 18:36:24,2021-01-10 18:36:48,24.979s,PASSED
+,,,,,,,
+Test Cases/Question/TC - OrderHive_Dropdown,Chrome 87.0.4280.88,,,2021-01-10 18:36:33,2021-01-10 18:36:48,15.824s,PASSED
+"openBrowser("""")",Chrome 87.0.4280.88,,,2021-01-10 18:36:33,2021-01-10 18:36:37,3.794s,PASSED
+maximizeWindow(),Chrome 87.0.4280.88,,,2021-01-10 18:36:37,2021-01-10 18:36:39,2.174s,PASSED
+"navigateToUrl(""https://my.orderhive.com/signup"")",Chrome 87.0.4280.88,,,2021-01-10 18:36:39,2021-01-10 18:36:45,6.407s,PASSED
+waitForPageLoad(60),Chrome 87.0.4280.88,,,2021-01-10 18:36:45,2021-01-10 18:36:45,0.026s,PASSED
+"click(findTestObject(""Object Repository/OrderHive/country_drop_down""))",Chrome 87.0.4280.88,,,2021-01-10 18:36:45,2021-01-10 18:36:45,0.159s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/OrderHive/option_us""), 10)",Chrome 87.0.4280.88,,,2021-01-10 18:36:45,2021-01-10 18:36:46,0.248s,PASSED
+"click(findTestObject(""Object Repository/OrderHive/option_us""))",Chrome 87.0.4280.88,,,2021-01-10 18:36:46,2021-01-10 18:36:46,0.117s,PASSED
+delay(2),Chrome 87.0.4280.88,,,2021-01-10 18:36:46,2021-01-10 18:36:48,2.024s,PASSED
+closeBrowser(),Chrome 87.0.4280.88,,,2021-01-10 18:36:48,2021-01-10 18:36:48,0.700s,PASSED

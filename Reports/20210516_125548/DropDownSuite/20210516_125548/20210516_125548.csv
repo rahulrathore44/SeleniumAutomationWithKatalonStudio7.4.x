@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DropDownSuite,Chrome 90.0.4430.212,,,2021-05-16 12:55:58,2021-05-16 12:56:04,6.329s,FAILED
+,,,,,,,
+Test Cases/DropDown/DropdownFunctionScriptMode,Chrome 90.0.4430.212,DropdownFunctionScriptMode,DropDown,2021-05-16 12:56:03,2021-05-16 12:56:03,0.865s,FAILED
+openBrowser(ApplicationUrl),Chrome 90.0.4430.212,,,2021-05-16 12:56:03,2021-05-16 12:56:03,0.702s,FAILED
+,,,,,,,
+Test Cases/DropDown/DropDownManualMode,Chrome 90.0.4430.212,DropDownManualMode,DropDown,2021-05-16 12:56:03,2021-05-16 12:56:04,0.746s,FAILED
+openBrowser(ApplicationUrl),Chrome 90.0.4430.212,,,2021-05-16 12:56:04,2021-05-16 12:56:04,0.559s,FAILED
