@@ -15,7 +15,7 @@
       <guid>88bcce12-4fec-407b-8a19-2f937d62ac91</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Alert/TC-HandleAlert - Copy</testCaseId>
+      <testCaseId>Test Cases/Alert/TC-HandleAlert - Multiple</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>113949be-9c34-494f-94fe-e8d838508446</guid>

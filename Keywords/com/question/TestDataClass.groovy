@@ -26,7 +26,6 @@ import WSBuiltInKeywords as WS
 import WebUiBuiltInKeywords as WebUI
 
 public class TestDataClass {
-	
-	public static String testData = "";
 
+	public static String testData = "";
 }

@@ -26,21 +26,21 @@ import WSBuiltInKeywords as WS
 import WebUiBuiltInKeywords as WebUI
 
 public class CustomBrowser {
-	
+
 	@Keyword
 	public void openBrowser(){
 		WebUI.openBrowser("https://www.w3schools.com/html/")
 		WebUI.waitForPageLoad(GlobalVariable.TimeOut)
 		WebUI.maximizeWindow()
 	}
-	
+
 	@Keyword
 	public void openBrowserWithUrl(String url){
 		WebUI.openBrowser(url)
 		WebUI.waitForPageLoad(GlobalVariable.TimeOut)
 		WebUI.maximizeWindow()
 	}
-	
+
 	@Keyword
 	public void closeBrowser(){
 		/**
@@ -53,5 +53,4 @@ public class CustomBrowser {
 		WebUI.switchToWindowIndex(0)
 		WebUI.closeBrowser()
 	}
-
 }

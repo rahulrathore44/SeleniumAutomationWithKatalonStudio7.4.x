@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+VerificationTestSuite,Chrome 90.0.4430.212,,,2021-05-22 10:54:27,2021-05-22 10:55:06,38.188s,FAILED
+,,,,,,,
+Test Cases/Verification/TC-VerifyElementText,Chrome 90.0.4430.212,,,2021-05-22 10:54:32,2021-05-22 10:54:43,10.121s,FAILED
+Start setup action : Initialize,Chrome 90.0.4430.212,,,2021-05-22 10:54:32,2021-05-22 10:54:39,6.923s,PASSED
+com.helper.login.LoginHelper.loginIntoApplicationWith(),Chrome 90.0.4430.212,,,2021-05-22 10:54:39,2021-05-22 10:54:39,0.001s,NOT_RUN
+"waitForElementVisible(findTestObject(""Bugzilla/EnterBug/TestngProductLink""), TimeOut)",Chrome 90.0.4430.212,,,2021-05-22 10:54:39,2021-05-22 10:54:39,0.067s,PASSED
+"verifyElementText(findTestObject(""Bugzilla/EnterBug/TestngProductLink""), ""Testng"")",Chrome 90.0.4430.212,,,2021-05-22 10:54:39,2021-05-22 10:54:39,0.058s,PASSED
+"click(findTestObject(""Bugzilla/EnterBug/TestngProductLink""))",Chrome 90.0.4430.212,,,2021-05-22 10:54:39,2021-05-22 10:54:41,1.047s,PASSED
+"waitForElementVisible(findTestObject(""Bugzilla/EnterBugDetailScreen/Component""), TimeOut)",Chrome 90.0.4430.212,,,2021-05-22 10:54:41,2021-05-22 10:54:41,0.076s,PASSED
+"selectOptionByValue(findTestObject(""Bugzilla/EnterBugDetailScreen/Component""), ""Groups of groups"", false)",Chrome 90.0.4430.212,,,2021-05-22 10:54:41,2021-05-22 10:54:41,0.218s,FAILED
+Start tear down : TearDown,Chrome 90.0.4430.212,,,2021-05-22 10:54:41,2021-05-22 10:54:43,1.710s,PASSED
+,,,,,,,
+Test Cases/Verification/TC-VerifySaveButton,Chrome 90.0.4430.212,,,2021-05-22 10:54:43,2021-05-22 10:54:49,6.634s,FAILED
+com.helper.login.LoginHelper.loginIntoApplicationWith(),Chrome 90.0.4430.212,,,2021-05-22 10:54:43,2021-05-22 10:54:48,5.336s,PASSED
+"waitForElementVisible(findTestObject(""Bugzilla/EnterBug/TestngProductLink""), TimeOut)",Chrome 90.0.4430.212,,,2021-05-22 10:54:48,2021-05-22 10:54:48,0.070s,PASSED
+"click(findTestObject(""Bugzilla/EnterBug/TestngProductLink""))",Chrome 90.0.4430.212,,,2021-05-22 10:54:48,2021-05-22 10:54:49,0.899s,PASSED
+"waitForElementVisible(findTestObject(""Bugzilla/EnterBugDetailScreen/Component""), TimeOut)",Chrome 90.0.4430.212,,,2021-05-22 10:54:49,2021-05-22 10:54:49,0.067s,PASSED
+"selectOptionByValue(findTestObject(""Bugzilla/EnterBugDetailScreen/Component""), ""Logging Listeners"", false)",Chrome 90.0.4430.212,,,2021-05-22 10:54:49,2021-05-22 10:54:49,0.146s,FAILED
+,,,,,,,
+Test Cases/Verification/TC-VerifyTextPresent,Chrome 90.0.4430.212,Test case for text verification,Verification,2021-05-22 10:54:49,2021-05-22 10:54:59,9.507s,PASSED
+com.helper.login.LoginHelper.loginIntoApplicationWith(),Chrome 90.0.4430.212,,,2021-05-22 10:54:49,2021-05-22 10:54:55,5.806s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Bugzilla/EnterBug/TestngProductLink""), TimeOut)",Chrome 90.0.4430.212,,,2021-05-22 10:54:55,2021-05-22 10:54:55,0.070s,PASSED
+"verifyTextPresent(""TestProduct"", false)",Chrome 90.0.4430.212,,,2021-05-22 10:54:55,2021-05-22 10:54:55,0.071s,PASSED
+delay(2),Chrome 90.0.4430.212,,,2021-05-22 10:54:55,2021-05-22 10:54:57,2.006s,PASSED
+com.helper.login.LoginHelper.logoutFromApplication(),Chrome 90.0.4430.212,,,2021-05-22 10:54:57,2021-05-22 10:54:59,1.437s,PASSED
+,,,,,,,
+Test Cases/Verification/TC-VerifySaveButtonScriptMode,Chrome 90.0.4430.212,,,2021-05-22 10:54:59,2021-05-22 10:55:06,6.962s,FAILED
+com.helper.login.LoginHelper.loginIntoApplicationWith(),Chrome 90.0.4430.212,,,2021-05-22 10:54:59,2021-05-22 10:55:04,5.618s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Bugzilla/EnterBug/TestngProductLink""), TimeOut)",Chrome 90.0.4430.212,,,2021-05-22 10:55:04,2021-05-22 10:55:05,0.071s,PASSED
+"click(findTestObject(""Object Repository/Bugzilla/EnterBug/TestngProductLink""))",Chrome 90.0.4430.212,,,2021-05-22 10:55:05,2021-05-22 10:55:05,0.924s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Bugzilla/EnterBugDetailScreen/Component""), TimeOut)",Chrome 90.0.4430.212,,,2021-05-22 10:55:05,2021-05-22 10:55:06,0.075s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Bugzilla/EnterBugDetailScreen/Component""), ""Logging Listeners"", false)",Chrome 90.0.4430.212,,,2021-05-22 10:55:06,2021-05-22 10:55:06,0.144s,FAILED

@@ -36,7 +36,7 @@ import WSBuiltInKeywords as WS
 import WebUiBuiltInKeywords as WebUI
 
 public class VerifyAllElements {
-	
+
 	public static String getAbsoluteXPath(WebDriver driver,WebElement element) {
 		return (String) ((JavascriptExecutor) driver).executeScript(
 				"function absoluteXPath(element) {"+
@@ -95,13 +95,13 @@ public class VerifyAllElements {
 
 				"} return absoluteXPath(arguments[0]);", element);
 	}
-	
+
 	private TestObject getTestObject(String objectId,String locator,ConditionType type,String locatorValue){
 		TestObject table = new TestObject(objectId)
 		table.addProperty(locator, type, locatorValue,true)
 		return table
 	}
-	
+
 	private void verify(TestObject testObject){
 		if(WebUI.waitForElementPresent(testObject, 5)){
 			WebUI.scrollToElement(testObject, 5)
@@ -111,20 +111,17 @@ public class VerifyAllElements {
 			KeywordUtil.markWarning("Test Object not Found : " + testObject.toString())
 		}
 	}
-	
+
 	@Keyword
 	public void scrollAndVerfiyElement(String tagName){
 		WebDriver driver =  DriverFactory.getWebDriver();
-		
+
 		List<WebElement> elements = driver.findElements(By.tagName(tagName))
-		
+
 		for(WebElement element : elements){
 			String xpath = getAbsoluteXPath(driver,element)
 			println xpath
 			TestObject testObject = getTestObject("Item", "xpath", ConditionType.EQUALS, xpath)
-			
 		}
-		
 	}
-
 }

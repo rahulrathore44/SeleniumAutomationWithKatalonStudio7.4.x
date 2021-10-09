@@ -43,12 +43,11 @@ import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
 
 class VerifyMultipleElement {
-	
+
 	@Keyword
 	def verifyElement(String... testObject) {
 		for(int i = 0; i < testObject.length; i++){
 			WebUI.verifyElementVisible(findTestObject(testObject[i]), FailureHandling.STOP_ON_FAILURE)
 		}
-		
 	}
 }

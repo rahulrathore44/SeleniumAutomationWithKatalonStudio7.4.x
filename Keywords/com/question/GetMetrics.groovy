@@ -26,12 +26,11 @@ import WSBuiltInKeywords as WS
 import WebUiBuiltInKeywords as WebUI
 
 public class GetMetrics {
-	
+
 	@Keyword
 	public ArrayList<String> getAlarmsCountfromGA() {
 		ClickAnyLink objectOne = new ClickAnyLink()
 		objectOne.clickALink("adasda")
 		return null;
 	}
-
 }

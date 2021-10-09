@@ -155,6 +155,7 @@
 	<classpathentry kind="lib" path="C:/Data/GitHub/SeleniumAutomationWithKatalonStudio7.4.x/Drivers/json-simple-1.1.1.jar"/>
 	<classpathentry kind="lib" path="C:/Data/GitHub/SeleniumAutomationWithKatalonStudio7.4.x/Drivers/junit-4.12.jar"/>
 	<classpathentry kind="lib" path="C:/Data/GitHub/SeleniumAutomationWithKatalonStudio7.4.x/Drivers/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Data/GitHub/SeleniumAutomationWithKatalonStudio7.4.x/Drivers/mongo-java-driver-3.12.8.jar"/>
 	<classpathentry kind="lib" path="C:/Data/GitHub/SeleniumAutomationWithKatalonStudio7.4.x/Drivers/poi-examples-3.17.jar"/>
 	<classpathentry kind="lib" path="C:/Data/GitHub/SeleniumAutomationWithKatalonStudio7.4.x/Drivers/poi-excelant-3.17.jar"/>
 	<classpathentry kind="lib" path="C:/Data/GitHub/SeleniumAutomationWithKatalonStudio7.4.x/Drivers/poi-scratchpad-3.17.jar"/>

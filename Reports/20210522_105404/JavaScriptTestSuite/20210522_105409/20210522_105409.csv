@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+JavaScriptTestSuite,Chrome 90.0.4430.212,Test suite for java script popup,,2021-05-22 10:54:27,2021-05-22 10:54:37,9.490s,FAILED
+,,,,,,,
+Test Cases/JavaScriptPopup/TC-HandlingJavaScriptAlertScriptMode,Chrome 90.0.4430.212,,,2021-05-22 10:54:32,2021-05-22 10:54:34,1.695s,FAILED
+"openBrowser(""https://www.w3schools.com/js/js_popup.asp"")",Chrome 90.0.4430.212,,,2021-05-22 10:54:32,2021-05-22 10:54:32,0.002s,NOT_RUN
+waitForPageLoad(TimeOut),Chrome 90.0.4430.212,,,2021-05-22 10:54:32,2021-05-22 10:54:32,0.001s,NOT_RUN
+maximizeWindow(),Chrome 90.0.4430.212,,,2021-05-22 10:54:32,2021-05-22 10:54:32,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/W3School/TryItBtn""))",Chrome 90.0.4430.212,,,2021-05-22 10:54:32,2021-05-22 10:54:34,1.382s,FAILED
+,,,,,,,
+Test Cases/JavaScriptPopup/TC-HandlingJavaScriptAlertScriptMode,Chrome 90.0.4430.212,,,2021-05-22 10:54:34,2021-05-22 10:54:35,1.237s,FAILED
+"openBrowser(""https://www.w3schools.com/js/js_popup.asp"")",Chrome 90.0.4430.212,,,2021-05-22 10:54:34,2021-05-22 10:54:34,0.000s,NOT_RUN
+waitForPageLoad(TimeOut),Chrome 90.0.4430.212,,,2021-05-22 10:54:34,2021-05-22 10:54:34,0.001s,NOT_RUN
+maximizeWindow(),Chrome 90.0.4430.212,,,2021-05-22 10:54:34,2021-05-22 10:54:34,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/W3School/TryItBtn""))",Chrome 90.0.4430.212,,,2021-05-22 10:54:34,2021-05-22 10:54:35,1.225s,FAILED
+,,,,,,,
+Test Cases/JavaScriptPopup/TC-HandlingJavaScriptConfirmation,Chrome 90.0.4430.212,,,2021-05-22 10:54:35,2021-05-22 10:54:37,1.560s,FAILED
+"openBrowser(""https://www.w3schools.com/js/js_popup.asp"")",Chrome 90.0.4430.212,,,2021-05-22 10:54:35,2021-05-22 10:54:35,0.001s,NOT_RUN
+waitForPageLoad(TimeOut),Chrome 90.0.4430.212,,,2021-05-22 10:54:35,2021-05-22 10:54:35,0.001s,NOT_RUN
+maximizeWindow(),Chrome 90.0.4430.212,,,2021-05-22 10:54:35,2021-05-22 10:54:35,0.001s,NOT_RUN
+"click(findTestObject(""W3School/ConfirmationPopup""))",Chrome 90.0.4430.212,,,2021-05-22 10:54:35,2021-05-22 10:54:37,1.376s,FAILED

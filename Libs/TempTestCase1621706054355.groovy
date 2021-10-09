@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\RATHR1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Alert\\TC-HandleAlert - Copy\\20210516_130618\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\RATHR1\\AppData\\Local\\Temp\\Katalon\\20210522_105414\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Alert/TC-HandleAlert - Copy', new TestCaseBinding('Test Cases/Alert/TC-HandleAlert - Copy',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('', new TestCaseBinding('',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

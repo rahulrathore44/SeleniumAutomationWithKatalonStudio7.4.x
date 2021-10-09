@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AlertTestSuite" time="50.859" tests="2" failures="0" skips="0" errors="0">
+   <testsuite name="AlertTestSuite" tests="2" failures="0" errors="0" time="50.859" skips="0" timestamp="2021-05-22 10:40:32" hostname="rathr1 - L41992WUS.rpega.com" id="Test Suites/AlertTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Data\\GitHub\\SeleniumAutomationWithKatalonStudio7.4.x\\Reports\\20210522_104025\\AlertTestSuite\\20210522_104025"/>
+         <property name="logFiles" value="C:\\Data\\GitHub\\SeleniumAutomationWithKatalonStudio7.4.x\\Reports\\20210522_104025\\AlertTestSuite\\20210522_104025\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rathr1 - L41992WUS.rpega.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.0.208"/>
+         <property name="browser" value="Chrome 90.0.4430.212"/>
+         <property name="hostAddress" value="55.55.55.1"/>
+         <property name="sessionId" value="176955ffdcfd76ab96cc78253888ce00"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Alert/TC-HandleAlert - Multiple" time="38.447" classname="Test Cases/Alert/TC-HandleAlert - Multiple" status="PASSED">
+         <system-out><![CDATA[2021-05-22 10:40:37 - [TEST_CASE][PASSED] - Test Cases/Alert/TC-HandleAlert - Multiple: Test Cases/Alert/TC-HandleAlert - Multiple
+
+2021-05-22 10:40:37 - [TEST_STEP][PASSED] - openBrowser("https://www.w3schools.com/js/js_popup.asp"): Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2021-05-22 10:40:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-05-22 10:40:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-22 10:40:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-22 10:40:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2021-05-22 10:40:40 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-05-22 10:40:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-05-22 10:40:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-22 10:40:41 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-22 10:40:41 - [TEST_STEP][PASSED] - click(findTestObject("W3School/TryItBtn")): Object: 'Object Repository/W3School/TryItBtn' is clicked on
+
+2021-05-22 10:40:41 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryItBtn' is clicked on
+
+2021-05-22 10:40:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-05-22 10:40:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-05-22 10:40:42 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2021-05-22 10:40:42 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2021-05-22 10:40:42 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("W3School/TryItButtonFrame"), TimeOut): null
+
+2021-05-22 10:40:42 - [TEST_STEP][PASSED] - click(findTestObject("W3School/TryButton")): Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2021-05-22 10:40:42 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2021-05-22 10:40:42 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2021-05-22 10:40:42 - [MESSAGE][PASSED] - Alert accepted
+
+2021-05-22 10:40:42 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2021-05-22 10:40:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-22 10:40:43 - [MESSAGE][PASSED] - Browser is closed
+
+2021-05-22 10:40:43 - [TEST_STEP][PASSED] - openBrowser("https://www.w3schools.com/js/js_popup.asp"): Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2021-05-22 10:40:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-22 10:40:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-22 10:40:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2021-05-22 10:40:46 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-05-22 10:40:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-05-22 10:40:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-22 10:40:46 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-22 10:40:46 - [TEST_STEP][PASSED] - click(findTestObject("W3School/TryItBtn")): Object: 'Object Repository/W3School/TryItBtn' is clicked on
+
+2021-05-22 10:40:46 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryItBtn' is clicked on
+
+2021-05-22 10:40:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-05-22 10:40:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-05-22 10:40:47 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2021-05-22 10:40:47 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2021-05-22 10:40:47 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("W3School/TryItButtonFrame"), TimeOut): null
+
+2021-05-22 10:40:47 - [TEST_STEP][PASSED] - click(findTestObject("W3School/TryButton")): Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2021-05-22 10:40:47 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2021-05-22 10:40:47 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2021-05-22 10:40:47 - [MESSAGE][PASSED] - Alert accepted
+
+2021-05-22 10:40:47 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2021-05-22 10:40:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-22 10:40:48 - [MESSAGE][PASSED] - Browser is closed
+
+2021-05-22 10:40:48 - [TEST_STEP][PASSED] - openBrowser("https://www.w3schools.com/js/js_popup.asp"): Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2021-05-22 10:40:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-22 10:40:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-22 10:40:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2021-05-22 10:40:50 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-05-22 10:40:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-05-22 10:40:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-22 10:40:50 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-22 10:40:50 - [TEST_STEP][PASSED] - click(findTestObject("W3School/TryItBtn")): Object: 'Object Repository/W3School/TryItBtn' is clicked on
+
+2021-05-22 10:40:50 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryItBtn' is clicked on
+
+2021-05-22 10:40:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-05-22 10:40:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-05-22 10:40:51 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2021-05-22 10:40:51 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2021-05-22 10:40:51 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("W3School/TryItButtonFrame"), TimeOut): null
+
+2021-05-22 10:40:51 - [TEST_STEP][PASSED] - click(findTestObject("W3School/TryButton")): Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2021-05-22 10:40:51 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2021-05-22 10:40:51 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2021-05-22 10:40:51 - [MESSAGE][PASSED] - Alert accepted
+
+2021-05-22 10:40:51 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2021-05-22 10:40:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-22 10:40:52 - [MESSAGE][PASSED] - Browser is closed
+
+2021-05-22 10:40:52 - [TEST_STEP][PASSED] - openBrowser("https://www.w3schools.com/js/js_popup.asp"): Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2021-05-22 10:40:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-22 10:40:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-22 10:40:54 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2021-05-22 10:40:54 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-05-22 10:40:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-05-22 10:40:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-22 10:40:54 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-22 10:40:54 - [TEST_STEP][PASSED] - click(findTestObject("W3School/TryItBtn")): Object: 'Object Repository/W3School/TryItBtn' is clicked on
+
+2021-05-22 10:40:54 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryItBtn' is clicked on
+
+2021-05-22 10:40:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-05-22 10:40:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-05-22 10:40:55 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2021-05-22 10:40:56 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2021-05-22 10:40:56 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("W3School/TryItButtonFrame"), TimeOut): null
+
+2021-05-22 10:40:56 - [TEST_STEP][PASSED] - click(findTestObject("W3School/TryButton")): Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2021-05-22 10:40:56 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2021-05-22 10:40:56 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2021-05-22 10:40:56 - [MESSAGE][PASSED] - Alert accepted
+
+2021-05-22 10:40:56 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2021-05-22 10:40:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-22 10:40:57 - [MESSAGE][PASSED] - Browser is closed
+
+2021-05-22 10:40:57 - [TEST_STEP][PASSED] - openBrowser("https://www.w3schools.com/js/js_popup.asp"): Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2021-05-22 10:40:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-22 10:40:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-22 10:40:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2021-05-22 10:40:59 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-05-22 10:40:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-05-22 10:40:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-22 10:40:59 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-22 10:40:59 - [TEST_STEP][PASSED] - click(findTestObject("W3School/TryItBtn")): Object: 'Object Repository/W3School/TryItBtn' is clicked on
+
+2021-05-22 10:40:59 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryItBtn' is clicked on
+
+2021-05-22 10:40:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-05-22 10:41:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-05-22 10:41:00 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2021-05-22 10:41:00 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2021-05-22 10:41:00 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("W3School/TryItButtonFrame"), TimeOut): null
+
+2021-05-22 10:41:01 - [TEST_STEP][PASSED] - click(findTestObject("W3School/TryButton")): Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2021-05-22 10:41:01 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2021-05-22 10:41:01 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2021-05-22 10:41:01 - [MESSAGE][PASSED] - Alert accepted
+
+2021-05-22 10:41:01 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2021-05-22 10:41:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-22 10:41:01 - [MESSAGE][PASSED] - Browser is closed
+
+2021-05-22 10:41:01 - [TEST_STEP][PASSED] - openBrowser("https://www.w3schools.com/js/js_popup.asp"): Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2021-05-22 10:41:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-22 10:41:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-22 10:41:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2021-05-22 10:41:04 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-05-22 10:41:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-05-22 10:41:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-22 10:41:04 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-22 10:41:04 - [TEST_STEP][PASSED] - click(findTestObject("W3School/TryItBtn")): Object: 'Object Repository/W3School/TryItBtn' is clicked on
+
+2021-05-22 10:41:04 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryItBtn' is clicked on
+
+2021-05-22 10:41:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-05-22 10:41:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-05-22 10:41:05 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2021-05-22 10:41:05 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2021-05-22 10:41:05 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("W3School/TryItButtonFrame"), TimeOut): null
+
+2021-05-22 10:41:05 - [TEST_STEP][PASSED] - click(findTestObject("W3School/TryButton")): Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2021-05-22 10:41:05 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2021-05-22 10:41:05 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2021-05-22 10:41:05 - [MESSAGE][PASSED] - Alert accepted
+
+2021-05-22 10:41:05 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2021-05-22 10:41:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-22 10:41:06 - [MESSAGE][PASSED] - Browser is closed
+
+2021-05-22 10:41:06 - [TEST_STEP][PASSED] - openBrowser("https://www.w3schools.com/js/js_popup.asp"): Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2021-05-22 10:41:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-22 10:41:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-22 10:41:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2021-05-22 10:41:08 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-05-22 10:41:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-05-22 10:41:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-22 10:41:08 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-22 10:41:08 - [TEST_STEP][PASSED] - click(findTestObject("W3School/TryItBtn")): Object: 'Object Repository/W3School/TryItBtn' is clicked on
+
+2021-05-22 10:41:08 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryItBtn' is clicked on
+
+2021-05-22 10:41:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-05-22 10:41:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-05-22 10:41:09 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2021-05-22 10:41:09 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2021-05-22 10:41:09 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("W3School/TryItButtonFrame"), TimeOut): null
+
+2021-05-22 10:41:09 - [TEST_STEP][PASSED] - click(findTestObject("W3School/TryButton")): Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2021-05-22 10:41:10 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2021-05-22 10:41:10 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2021-05-22 10:41:10 - [MESSAGE][PASSED] - Alert accepted
+
+2021-05-22 10:41:10 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2021-05-22 10:41:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-22 10:41:11 - [MESSAGE][PASSED] - Browser is closed
+
+2021-05-22 10:41:11 - [TEST_STEP][PASSED] - openBrowser("https://www.w3schools.com/js/js_popup.asp"): Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2021-05-22 10:41:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-22 10:41:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-22 10:41:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2021-05-22 10:41:13 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-05-22 10:41:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-05-22 10:41:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-22 10:41:13 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-22 10:41:13 - [TEST_STEP][PASSED] - click(findTestObject("W3School/TryItBtn")): Object: 'Object Repository/W3School/TryItBtn' is clicked on
+
+2021-05-22 10:41:13 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryItBtn' is clicked on
+
+2021-05-22 10:41:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-05-22 10:41:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-05-22 10:41:14 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2021-05-22 10:41:14 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2021-05-22 10:41:14 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("W3School/TryItButtonFrame"), TimeOut): null
+
+2021-05-22 10:41:15 - [TEST_STEP][PASSED] - click(findTestObject("W3School/TryButton")): Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2021-05-22 10:41:15 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2021-05-22 10:41:15 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2021-05-22 10:41:15 - [MESSAGE][PASSED] - Alert accepted
+
+2021-05-22 10:41:15 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2021-05-22 10:41:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-22 10:41:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert/TC-HandleAlert" time="7.45" classname="Test Cases/Alert/TC-HandleAlert" status="PASSED">
+         <system-out><![CDATA[2021-05-22 10:41:15 - [TEST_CASE][PASSED] - Test Cases/Alert/TC-HandleAlert: Test Cases/Alert/TC-HandleAlert
+
+2021-05-22 10:41:16 - [TEST_STEP][PASSED] - openBrowser(null): Browser is opened with url: 'null'
+
+2021-05-22 10:41:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-22 10:41:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-22 10:41:17 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+2021-05-22 10:41:17 - [TEST_STEP][PASSED] - navigateToUrl("https://www.w3schools.com/js/js_popup.asp"): Navigate to 'https://www.w3schools.com/js/js_popup.asp' successfully
+
+2021-05-22 10:41:18 - [MESSAGE][PASSED] - Navigate to 'https://www.w3schools.com/js/js_popup.asp' successfully
+
+2021-05-22 10:41:18 - [TEST_STEP][PASSED] - obj = new com.kms.katalon.core.testobject.TestObject(test): null
+
+2021-05-22 10:41:18 - [TEST_STEP][PASSED] - obj.addProperty("xpath", EQUALS, "//table[@id='nav']//tr//td[3]//a"): null
+
+2021-05-22 10:41:18 - [TEST_STEP][PASSED] - j = 4: null
+
+2021-05-22 10:41:18 - [TEST_STEP][PASSED] - while (waitForElementPresent(obj, 1)): Object 'test' is not present after 1 second(s)
+
+2021-05-22 10:41:20 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //table[@id='nav']//tr//td[3]//a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-05-22 10:41:20 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'test'. Try using Self-healing.
+
+2021-05-22 10:41:20 - [MESSAGE][WARNING] - [SELF-HEALING] Index: 0, Size: 0
+
+2021-05-22 10:41:20 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2021-05-22 10:41:20 - [MESSAGE][WARNING] - Object 'test' is not present after 1 second(s)
+
+2021-05-22 10:41:20 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-05-22 10:41:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-05-22 10:41:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-22 10:41:20 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-22 10:41:20 - [TEST_STEP][PASSED] - click(findTestObject("W3School/TryItBtn")): Object: 'Object Repository/W3School/TryItBtn' is clicked on
+
+2021-05-22 10:41:21 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryItBtn' is clicked on
+
+2021-05-22 10:41:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-05-22 10:41:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-05-22 10:41:22 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2021-05-22 10:41:22 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2021-05-22 10:41:22 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("W3School/TryItButtonFrame"), TimeOut): null
+
+2021-05-22 10:41:22 - [TEST_STEP][PASSED] - click(findTestObject("W3School/TryButton")): Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2021-05-22 10:41:22 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2021-05-22 10:41:22 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2021-05-22 10:41:22 - [MESSAGE][PASSED] - Alert accepted
+
+2021-05-22 10:41:22 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2021-05-22 10:41:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-22 10:41:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-05-22 10:40:32 - [TEST_SUITE][INCOMPLETE] - AlertTestSuite: null]]></system-out>
+      <system-err><![CDATA[2021-05-22 10:40:32 - [TEST_SUITE][INCOMPLETE] - AlertTestSuite: null]]></system-err>
+   </testsuite>
+</testsuites>
