@@ -5,7 +5,7 @@
 	<classpathentry kind="src" output="bin/listener" path="Test Listeners"/>
 	<classpathentry kind="src" output="bin/lib" path="Libs"/>
 	<classpathentry kind="src" output="bin/groovy" path="Include/scripts/groovy"/>
-	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/plugins/com.kms.katalon.core_1.0.0.202011250709.jar" sourcepath="C:/Data/Katalon_Studio_Windows_64-7.8.0/configuration/resources/source/com.kms.katalon.core/com.kms.katalon.core-sources.jar">
+	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/plugins/com.kms.katalon.core_1.0.0.202011250709.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="file:/C:/Data/Katalon_Studio_Windows_64-7.8.0/configuration/resources/apidocs/com.kms.katalon.core/"/>
 		</attributes>
@@ -105,7 +105,7 @@
 	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/plugins/com.kms.katalon.core.appium_1.0.0.202011250709.jar"/>
 	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/plugins/com.kms.katalon.logging_1.0.0.202011250709.jar"/>
 	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/plugins/org.eclipse.equinox.common_3.8.0.v20160509-1230.jar"/>
-	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/plugins/com.kms.katalon.core.webui_1.0.0.202011250709.jar" sourcepath="C:/Data/Katalon_Studio_Windows_64-7.8.0/configuration/resources/source/com.kms.katalon.core.webui/com.kms.katalon.core.webui-sources.jar">
+	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/plugins/com.kms.katalon.core.webui_1.0.0.202011250709.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="file:/C:/Data/Katalon_Studio_Windows_64-7.8.0/configuration/resources/apidocs/com.kms.katalon.core.webui/"/>
 		</attributes>
@@ -113,13 +113,13 @@
 	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/plugins/org.json_20140107.0.0.jar"/>
 	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/plugins/org.eclipse.e4.core.contexts_1.5.1.v20170203-1100.jar"/>
 	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/plugins/org.eclipse.e4.core.services_2.0.100.v20160509-1032.jar"/>
-	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/plugins/com.kms.katalon.core.mobile_1.0.0.202011250709.jar" sourcepath="C:/Data/Katalon_Studio_Windows_64-7.8.0/configuration/resources/source/com.kms.katalon.core.mobile/com.kms.katalon.core.mobile-sources.jar">
+	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/plugins/com.kms.katalon.core.mobile_1.0.0.202011250709.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="file:/C:/Data/Katalon_Studio_Windows_64-7.8.0/configuration/resources/apidocs/com.kms.katalon.core.mobile/"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/plugins/org.apache.commons.commons-validator_1.7.0.jar"/>
-	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/plugins/com.kms.katalon.core.cucumber_1.0.0.202011250709.jar" sourcepath="C:/Data/Katalon_Studio_Windows_64-7.8.0/configuration/resources/source/com.kms.katalon.core.cucumber/com.kms.katalon.core.cucumber-sources.jar">
+	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/plugins/com.kms.katalon.core.cucumber_1.0.0.202011250709.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="file:/C:/Data/Katalon_Studio_Windows_64-7.8.0/configuration/resources/apidocs/com.kms.katalon.core.cucumber/"/>
 		</attributes>
@@ -133,7 +133,7 @@
 	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/plugins/io.cucumber.java_3.0.2.jar"/>
 	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/plugins/io.cucumber.tag-expressions_1.1.1.jar"/>
 	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/plugins/io.cucumber.junit_3.0.2.jar"/>
-	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/plugins/com.kms.katalon.core.webservice_1.0.0.202011250709.jar" sourcepath="C:/Data/Katalon_Studio_Windows_64-7.8.0/configuration/resources/source/com.kms.katalon.core.webservice/com.kms.katalon.core.webservice-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/plugins/com.kms.katalon.core.webservice_1.0.0.202011250709.jar"/>
 	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/plugins/wsdl4j_1.6.2.jar"/>
 	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/plugins/com.google.oauth-client.google-oauth-client_1.22.0.jar"/>
 	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/plugins/com.google.http-client.google-http-client_1.22.0.jar"/>
@@ -141,26 +141,33 @@
 	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/plugins/com.kms.katalon.preferences_1.0.0.202011250709.jar"/>
 	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/plugins/org.apache.log4j_1.2.15.v201012070815.jar"/>
 	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/plugins/com.kms.katalon.entity_1.0.0.202011250709.jar"/>
-	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/plugins/com.kms.katalon.core.windows_1.0.0.202011250709.jar" sourcepath="C:/Data/Katalon_Studio_Windows_64-7.8.0/configuration/resources/source/com.kms.katalon.core.windows/com.kms.katalon.core.windows-sources.jar">
+	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/plugins/com.kms.katalon.core.windows_1.0.0.202011250709.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="file:/C:/Data/Katalon_Studio_Windows_64-7.8.0/configuration/resources/apidocs/com.kms.katalon.core.windows/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/plugins/com.kms.katalon.core.testng_1.0.0.202011250709.jar" sourcepath="C:/Data/Katalon_Studio_Windows_64-7.8.0/configuration/resources/source/com.kms.katalon.core.testng/com.kms.katalon.core.testng-sources.jar">
+	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/plugins/com.kms.katalon.core.testng_1.0.0.202011250709.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="file:/C:/Data/Katalon_Studio_Windows_64-7.8.0/configuration/resources/apidocs/com.kms.katalon.core.testng/"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Data/GitHub/SeleniumAutomationWithKatalonStudio7.4.x/Drivers/commons-lang3-3.12.0.jar"/>
 	<classpathentry kind="lib" path="C:/Data/GitHub/SeleniumAutomationWithKatalonStudio7.4.x/Drivers/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Data/GitHub/SeleniumAutomationWithKatalonStudio7.4.x/Drivers/commons-vfs2-2.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Data/GitHub/SeleniumAutomationWithKatalonStudio7.4.x/Drivers/hadoop-hdfs-client-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Data/GitHub/SeleniumAutomationWithKatalonStudio7.4.x/Drivers/jackson-annotations-2.10.3.jar"/>
+	<classpathentry kind="lib" path="C:/Data/GitHub/SeleniumAutomationWithKatalonStudio7.4.x/Drivers/jackson-core-2.10.3.jar"/>
+	<classpathentry kind="lib" path="C:/Data/GitHub/SeleniumAutomationWithKatalonStudio7.4.x/Drivers/jackson-databind-2.10.3.jar"/>
+	<classpathentry kind="lib" path="C:/Data/GitHub/SeleniumAutomationWithKatalonStudio7.4.x/Drivers/jsch-0.1.55.jar"/>
 	<classpathentry kind="lib" path="C:/Data/GitHub/SeleniumAutomationWithKatalonStudio7.4.x/Drivers/json-simple-1.1.1.jar"/>
 	<classpathentry kind="lib" path="C:/Data/GitHub/SeleniumAutomationWithKatalonStudio7.4.x/Drivers/junit-4.12.jar"/>
 	<classpathentry kind="lib" path="C:/Data/GitHub/SeleniumAutomationWithKatalonStudio7.4.x/Drivers/log4j-1.2.17.jar"/>
 	<classpathentry kind="lib" path="C:/Data/GitHub/SeleniumAutomationWithKatalonStudio7.4.x/Drivers/mongo-java-driver-3.12.8.jar"/>
+	<classpathentry kind="lib" path="C:/Data/GitHub/SeleniumAutomationWithKatalonStudio7.4.x/Drivers/okhttp-2.7.5.jar"/>
 	<classpathentry kind="lib" path="C:/Data/GitHub/SeleniumAutomationWithKatalonStudio7.4.x/Drivers/poi-examples-3.17.jar"/>
 	<classpathentry kind="lib" path="C:/Data/GitHub/SeleniumAutomationWithKatalonStudio7.4.x/Drivers/poi-excelant-3.17.jar"/>
 	<classpathentry kind="lib" path="C:/Data/GitHub/SeleniumAutomationWithKatalonStudio7.4.x/Drivers/poi-scratchpad-3.17.jar"/>
 	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/configuration/org.eclipse.osgi/26/0/.cp/resources/basic-report/katalon-studio-report-plugin.jar"/>
-	<classpathentry kind="lib" path="C:/Data/Katalon_Studio_Windows_64-7.8.0/configuration/org.eclipse.osgi/26/0/.cp/resources/applitools/katalon-studio-applitools-plugin.jar"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

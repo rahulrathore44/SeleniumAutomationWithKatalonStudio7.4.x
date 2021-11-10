@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\RATHR1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Question\\CSS - Color\\TC - Get Button Color\\20211009_093013\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\RATHR1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\FileUpload\\TC - SftpFileUploadDownload\\20211030_151403\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Question/CSS - Color/TC - Get Button Color', new TestCaseBinding('Test Cases/Question/CSS - Color/TC - Get Button Color',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/FileUpload/TC - SftpFileUploadDownload', new TestCaseBinding('Test Cases/FileUpload/TC - SftpFileUploadDownload',[:]), FailureHandling.STOP_ON_FAILURE , true, true)
     

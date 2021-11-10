@@ -59,6 +59,26 @@ Profile Stage : Explicit Wait Timeout</p>
     /**
      * <p></p>
      */
+    public static Object sftplocation
+     
+    /**
+     * <p></p>
+     */
+    public static Object sftpusername
+     
+    /**
+     * <p></p>
+     */
+    public static Object sftppassword
+     
+    /**
+     * <p></p>
+     */
+    public static Object DataList
+     
+    /**
+     * <p></p>
+     */
     public static Object StageTimeOut
      
 
@@ -77,6 +97,10 @@ Profile Stage : Explicit Wait Timeout</p>
             Name = selectedVariables['Name']
             NewProperty = selectedVariables['NewProperty']
             datafile = selectedVariables['datafile']
+            sftplocation = selectedVariables['sftplocation']
+            sftpusername = selectedVariables['sftpusername']
+            sftppassword = selectedVariables['sftppassword']
+            DataList = selectedVariables['DataList']
             StageTimeOut = selectedVariables['StageTimeOut']
             
         } catch (Exception e) {

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - SftpFileUploadDownload</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f1b53f70-8548-46eb-873b-3fa451e22aa7</testCaseGuid>
+</TestCaseEntity>
