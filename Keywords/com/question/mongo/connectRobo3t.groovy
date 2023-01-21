@@ -45,14 +45,13 @@ import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
 
 class connectRobo3t {
-	
+
 	private MongoClientURI mongoURI = null;
 	private MongoClient client = null;
-	
+
 	@Keyword
 	public connection(String url) {
 		mongoURI = new MongoClient(url);
 		client = new MongoClient(mongoURI);
 	}
-	
 }

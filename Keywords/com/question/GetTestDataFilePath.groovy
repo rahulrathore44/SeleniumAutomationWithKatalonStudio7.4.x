@@ -1,5 +1,4 @@
 package com.question
-
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -8,12 +7,11 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.checkpoint.CheckpointFactory
-import com.kms.katalon.core.db.DatabaseConnection
+import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.testcase.TestCase
 import com.kms.katalon.core.testcase.TestCaseFactory
-import com.kms.katalon.core.testdata.DBData
 import com.kms.katalon.core.testdata.TestData
 import com.kms.katalon.core.testdata.TestDataFactory
 import com.kms.katalon.core.testobject.ObjectRepository
@@ -23,24 +21,35 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
 
 import internal.GlobalVariable
 
-import MobileBuiltInKeywords as Mobile
-import WSBuiltInKeywords as WS
-import WebUiBuiltInKeywords as WebUI
+import org.openqa.selenium.WebElement
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.By
 
-public class CustomDatabase extends DBData {
-	public CustomDatabase(String connectionUrl,String query){
-		super(new DatabaseConnection(connectionUrl),query)
-	}
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
+import com.kms.katalon.core.webui.driver.DriverFactory
 
-	@Override
-	public List<List<Object>> getAllData(){
-	}
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.testobject.ResponseObject
+import com.kms.katalon.core.testobject.ConditionType
+import com.kms.katalon.core.testobject.TestObjectProperty
 
-	// @Override others methods
+import com.kms.katalon.core.mobile.helper.MobileElementCommonHelper
+import com.kms.katalon.core.util.KeywordUtil
 
-	@Keyword // --> This will be in different class
-	public DBData executeQuery(String connectionUrl,String query){
-		CustomDatabase database = new CustomDatabase(connectionUrl,query);
-		return database
+import com.kms.katalon.core.webui.exception.WebElementNotFoundException
+
+
+class GetTestDataFilePath {
+
+	/**
+	 * 
+	 * @param FileNameWithFolder - example /Data File/Sample_Data/Sample.txt
+	 * @return
+	 */
+	@Keyword
+	def String getAbsolutePath(String FileNameWithFolder) {
+		String completePath = RunConfiguration.getProjectDir().concat(FileNameWithFolder)
+		KeywordUtil.logInfo("Test Data File Path: " + completePath)
+		return completePath
 	}
 }
