@@ -123,7 +123,11 @@ def static "com.helper.sftp.SftpKeyword.sftpDownloadUpload"(
          , 	updateContent)
 }
 
-
+ /**
+	 * 
+	 * @param FileNameWithFolder - example /Data File/Sample_Data/Sample.txt
+	 * @return
+	 */ 
 def static "com.question.GetTestDataFilePath.getAbsolutePath"(
     	String FileNameWithFolder	) {
     (new com.question.GetTestDataFilePath()).getAbsolutePath(

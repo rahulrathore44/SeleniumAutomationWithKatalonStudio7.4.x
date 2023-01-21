@@ -49,7 +49,7 @@ class GetTestDataFilePath {
 	@Keyword
 	def String getAbsolutePath(String FileNameWithFolder) {
 		String completePath = RunConfiguration.getProjectDir().concat(FileNameWithFolder)
-		KeywordUtil.logInfo("Test Data File Path: " + completePath)
+		KeywordUtil.markWarning("Test Data File Path: " + completePath)
 		return completePath
 	}
 }
