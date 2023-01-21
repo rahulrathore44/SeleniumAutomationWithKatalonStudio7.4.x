@@ -86,7 +86,7 @@ Profile Stage : Explicit Wait Timeout</p>
         try {
             def selectedVariables = TestCaseMain.getGlobalVariables("default")
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
-            selectedVariables += RunConfiguration.getOverridingParameters()
+            selectedVariables += TestCaseMain.getParsedValues(RunConfiguration.getOverridingParameters())
     
             ApplicationUrl = selectedVariables['ApplicationUrl']
             Username = selectedVariables['Username']
